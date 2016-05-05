@@ -1,6 +1,6 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#000000" CREATED="1461835534960" ID="ID_1113400321" MODIFIED="1462382884172" TEXT="meteor 1_3">
+<node COLOR="#000000" CREATED="1461835534960" ID="ID_1113400321" MODIFIED="1462451762318" TEXT="meteor 1_3">
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
 <node COLOR="#0033ff" CREATED="1461837714354" ID="ID_1255850192" MODIFIED="1462312589951" POSITION="right" TEXT="introduction">
@@ -382,7 +382,7 @@
 <node COLOR="#111111" CREATED="1461863341369" ID="ID_223618661" MODIFIED="1462205785978" TEXT="tests"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1461863601425" FOLDED="true" ID="ID_1548015980" MODIFIED="1462372361828" TEXT="splitting into multiple aps">
+<node COLOR="#00b439" CREATED="1461863601425" FOLDED="true" ID="ID_1548015980" MODIFIED="1462450582508" TEXT="splitting into multiple aps">
 <edge STYLE="bezier" WIDTH="thin"/>
 <cloud/>
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
@@ -2421,8 +2421,7 @@
       meteor add accounts-meteor-developer
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#990000" CREATED="1462312903507" ID="ID_1967224508" MODIFIED="1462312912204" TEXT="customizable UI">
@@ -2496,8 +2495,7 @@
       });
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#111111" CREATED="1462370238861" ID="ID_117366394" MODIFIED="1462370258162" TEXT="supports multiple emails via accounts-password">
 <node COLOR="#111111" CREATED="1462370268952" ID="ID_1519916169" MODIFIED="1462370277557" TEXT="set a `primary` email address"/>
@@ -2524,8 +2522,7 @@
       a new password for their account. Very similar to password reset.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="full-2"/>
 </node>
 <node COLOR="#111111" CREATED="1462370472217" ID="ID_1106505477" MODIFIED="1462372148406" TEXT="email verification">
@@ -2538,8 +2535,7 @@
       When the user clicks the link in their email, the application records that this email does indeed belong to the correct user.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="full-3"/>
 </node>
 <node COLOR="#111111" CREATED="1462370436071" ID="ID_1200661541" MODIFIED="1462372111190" TEXT="password reset">
@@ -2560,8 +2556,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="full-1"/>
 </node>
 <node COLOR="#111111" CREATED="1462370573976" ID="ID_1597902223" MODIFIED="1462370577786" TEXT="build yourself">
@@ -2679,8 +2674,7 @@
       account flows.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="full-3"/>
 <node COLOR="#111111" CREATED="1462371940489" ID="ID_897956429" LINK="http://docs.meteor.com/#/full/accounts_resetpassword" MODIFIED="1462372005377" TEXT="Accounts.resetPassword ">
 <richcontent TYPE="NOTE"><html>
@@ -2733,8 +2727,7 @@
       &#160;&#160;&#160;&#160;Meteor Developer Accounts with accounts-meteor-developer
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1462373624722" ID="ID_521211984" MODIFIED="1462382884167" TEXT="loggin in">
 <richcontent TYPE="NOTE"><html>
@@ -2776,8 +2769,7 @@
       });
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node COLOR="#111111" CREATED="1462373799122" ID="ID_1883292857" MODIFIED="1462382884167" TEXT="client ID &amp; secret">
 <icon BUILTIN="full-1"/>
 </node>
@@ -2802,8 +2794,7 @@
       const fbAccessToken = user.services.facebook.accessToken;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#111111" CREATED="1462373984650" ID="ID_1451999071" MODIFIED="1462382884168" TEXT="use http package"/>
 <node COLOR="#111111" CREATED="1462374069850" ID="ID_1093307741" MODIFIED="1462382884168" TEXT="use atmosphere package">
@@ -2923,8 +2914,7 @@
       });
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#111111" CREATED="1462378799948" ID="ID_1062336077" MODIFIED="1462382884169" TEXT="client">
@@ -2999,8 +2989,7 @@
       });
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#111111" CREATED="1462379800564" ID="ID_1620302877" MODIFIED="1462382884171" TEXT="adding fields on user registration">
 <node COLOR="#111111" CREATED="1462381549933" ID="ID_795745629" MODIFIED="1462382884171" TEXT="Accounts.onCreateUser">
@@ -3088,8 +3077,7 @@
       });
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#111111" CREATED="1462379812643" ID="ID_570501619" MODIFIED="1462382884171" TEXT="don&apos;t user profile">
@@ -3113,8 +3101,7 @@
       });
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#111111" CREATED="1462382444605" ID="ID_1524749078" MODIFIED="1462382884171" TEXT="beware">
 <richcontent TYPE="NOTE"><html>
@@ -3135,8 +3122,7 @@
       a good idea to flatten out your objects into many top-level fields on the document.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="messagebox_warning"/>
 </node>
 </node>
@@ -3163,8 +3149,7 @@
       one field.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node BACKGROUND_COLOR="#faff00" COLOR="#111111" CREATED="1462382709517" ID="ID_1624467768" MODIFIED="1462382884172" TEXT="fields: { initials: 1 }"/>
 </node>
@@ -3197,8 +3182,7 @@
       Roles.addUsersToRoles(bobsUserId, 'moderator', categoryId);
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#111111" CREATED="1462384253942" ID="ID_1311314719" MODIFIED="1462384268215" TEXT="checking">
 <richcontent TYPE="NOTE"><html>
@@ -3240,8 +3224,7 @@
       Posts.remove(postId);
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -3287,8 +3270,7 @@
       });
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#111111" CREATED="1462384600966" ID="ID_1573541340" MODIFIED="1462384619837" TEXT="using ">
 <richcontent TYPE="NOTE"><html>
@@ -3315,8 +3297,7 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -3326,6 +3307,396 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <cloud/>
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1462450641528" ID="ID_948931342" MODIFIED="1462450644639" TEXT="benefits">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1462450648201" ID="ID_794935935" MODIFIED="1462450657265" TEXT="ensure applications works the way you think"/>
+<node COLOR="#111111" CREATED="1462450661888" ID="ID_739723613" MODIFIED="1462450668940" TEXT="refactor with confidence"/>
+<node COLOR="#111111" CREATED="1462450675544" ID="ID_930743734" MODIFIED="1462450684081" TEXT="concrete form of documentation"/>
+<node COLOR="#111111" CREATED="1462450697545" ID="ID_784254913" MODIFIED="1462450707474" TEXT="automated testing is critial"/>
+</node>
+<node COLOR="#990000" CREATED="1462450716153" ID="ID_1215241400" MODIFIED="1462450718330" TEXT="types">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1462450724097" ID="ID_287372127" MODIFIED="1462450727257" TEXT="unit">
+<node COLOR="#111111" CREATED="1462450766801" ID="ID_303862044" MODIFIED="1462450773071" TEXT="module level test"/>
+</node>
+<node COLOR="#111111" CREATED="1462450727960" ID="ID_1434130589" MODIFIED="1462451777868" TEXT="integration">
+<node COLOR="#111111" CREATED="1462450784889" HGAP="27" ID="ID_1447305610" MODIFIED="1462451803003" TEXT="testing that multiple modules work in concert" VSHIFT="20"/>
+</node>
+<node COLOR="#111111" CREATED="1462450731113" ID="ID_1576156990" MODIFIED="1462450733130" TEXT="acceptance">
+<node COLOR="#111111" CREATED="1462450807271" ID="ID_940688500" MODIFIED="1462450838928" TEXT="run against any version of app"/>
+<node COLOR="#111111" CREATED="1462450839737" ID="ID_1337417191" MODIFIED="1462450871371" TEXT="testing at the browser level"/>
+</node>
+<node COLOR="#111111" CREATED="1462450737608" ID="ID_876166318" MODIFIED="1462450741283" TEXT="load test">
+<node COLOR="#111111" CREATED="1462450882809" ID="ID_1116712043" MODIFIED="1462450896412" TEXT="how much load app takes before a crash"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1462451678272" ID="ID_462818932" MODIFIED="1462451681402" TEXT="challenges">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1462451683121" ID="ID_42252918" MODIFIED="1462451689614" TEXT="client/server data"/>
+<node COLOR="#111111" CREATED="1462451700057" ID="ID_247649694" MODIFIED="1462451777867" TEXT="easy in full app test mode">
+<arrowlink DESTINATION="ID_1434130589" ENDARROW="Default" ENDINCLINATION="481;0;" ID="Arrow_ID_112760028" STARTARROW="None" STARTINCLINATION="486;-22;"/>
+</node>
+<node COLOR="#111111" CREATED="1462451842489" ID="ID_830136648" MODIFIED="1462451864828" TEXT="reactivity can alter test data">
+<node COLOR="#111111" CREATED="1462451865665" ID="ID_1765203204" MODIFIED="1462451887451" TEXT="remedies possible e.g Tracker.afterFlush()"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1462451899569" ID="ID_772799022" MODIFIED="1462451908925" TEXT="`meteor test`">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1462451918785" ID="ID_1199020580" MODIFIED="1462451922714" TEXT="special test mode">
+<node COLOR="#111111" CREATED="1462451923993" ID="ID_1538189069" MODIFIED="1462452189036" TEXT="doesn&apos;t eagerly load application code">
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#111111" CREATED="1462451943825" ID="ID_538763911" MODIFIED="1462452190115" TEXT="eagerly loads *.test or *.specs files">
+<icon BUILTIN="full-2"/>
+</node>
+<node COLOR="#111111" CREATED="1462451987769" ID="ID_997574577" MODIFIED="1462452191107" TEXT="sets Meteor.isTest flag to be true">
+<icon BUILTIN="full-3"/>
+</node>
+<node COLOR="#111111" CREATED="1462452177297" ID="ID_55585044" MODIFIED="1462452191739" TEXT="starts test driver package">
+<icon BUILTIN="full-4"/>
+</node>
+<node COLOR="#111111" CREATED="1462452239521" ID="ID_368344438" MODIFIED="1462452254305" TEXT="ignores files in tests/ directory">
+<node COLOR="#111111" CREATED="1462452259537" ID="ID_649380907" MODIFIED="1462452265386" TEXT="meant for external test runner"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1462453816034" ID="ID_1783281493" MODIFIED="1462453828691" TEXT="`--full-app` test mode">
+<node COLOR="#111111" CREATED="1462453831538" ID="ID_1477480149" MODIFIED="1462453838371" TEXT="similar to test mode"/>
+<node COLOR="#111111" CREATED="1462453842498" ID="ID_941973086" MODIFIED="1462454046852" TEXT="loads files matching *.app-test[s] &amp; *.app-spec[s]">
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#111111" CREATED="1462453879778" ID="ID_1406230599" MODIFIED="1462454048028" TEXT="eagerly loads application code ">
+<icon BUILTIN="full-2"/>
+</node>
+<node COLOR="#111111" CREATED="1462454001050" ID="ID_1432734719" MODIFIED="1462454012108" TEXT="application will run as normal"/>
+<node COLOR="#111111" CREATED="1462454014018" ID="ID_1126034705" MODIFIED="1462454032285" TEXT="can write more complext integration tests">
+<node COLOR="#111111" CREATED="1462454033122" ID="ID_25333474" MODIFIED="1462454039473" TEXT="plus files for acceptance tests"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1462454068410" ID="ID_207608475" MODIFIED="1462454072875" TEXT="driver packages">
+<node COLOR="#111111" CREATED="1462454143802" ID="ID_995525832" MODIFIED="1462454156270" TEXT="`meteor test --driver-package`"/>
+<node COLOR="#111111" CREATED="1462454159802" ID="ID_113774678" MODIFIED="1462454164054" TEXT="two kinds">
+<node COLOR="#111111" CREATED="1462454165354" ID="ID_1300350759" MODIFIED="1462454186260" TEXT="web reporters">
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#111111" CREATED="1462454177738" ID="ID_1539238332" MODIFIED="1462454187236" TEXT="console reporters">
+<icon BUILTIN="full-2"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1462454229426" ID="ID_1127021809" MODIFIED="1462454234874" TEXT="recommended">
+<node COLOR="#111111" CREATED="1462454193842" ID="ID_1303449700" LINK="https://mochajs.org/" MODIFIED="1462454243840" TEXT="Mocha">
+<node COLOR="#111111" CREATED="1462454277194" ID="ID_975628496" LINK="https://atmospherejs.com/practicalmeteor/mocha" MODIFIED="1462454295132" TEXT="practicalmeteor:mocha ">
+<icon BUILTIN="password"/>
+</node>
+<node COLOR="#111111" CREATED="1462454307594" ID="ID_111266385" MODIFIED="1462454315580" TEXT="only runs in test mode"/>
+<node COLOR="#111111" CREATED="1462454320162" ID="ID_967389107" MODIFIED="1462454400920" TEXT="executes code on client and server">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      // Note: Arrow function use with Mocha is discouraged.
+    </p>
+    <p>
+      // (see http://mochajs.org/#arrow-functions)
+    </p>
+    <p>
+      describe('my module', function () {
+    </p>
+    <p>
+      &#160;&#160;it('does something that should be tested', function () {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;// This code will be executed by the test driver when the app is started
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;// in the correct mode
+    </p>
+    <p>
+      &#160;&#160;})
+    </p>
+    <p>
+      })
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1462454244682" ID="ID_1125364435" LINK="http://chaijs.com/" MODIFIED="1462454263449" TEXT="Chai asseration library"/>
+</node>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1462454409970" ID="ID_900921219" MODIFIED="1462454412774" TEXT="test data">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1462454445922" ID="ID_1160684526" MODIFIED="1462454460884" TEXT="test mode initialized with a clean test database">
+<node COLOR="#111111" CREATED="1462454588562" ID="ID_362671369" MODIFIED="1462454609763" TEXT="you must specify you own test content"/>
+<node COLOR="#111111" CREATED="1462454612498" ID="ID_890784479" LINK="https://atmospherejs.com/xolvio/cleaner" MODIFIED="1462454742682" TEXT="xolvio:cleaner">
+<node COLOR="#111111" CREATED="1462454747263" ID="ID_704921378" MODIFIED="1462454759926" TEXT="on server">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      import { resetDatabase } from 'meteor/xolvio:cleaner';
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      describe('my module', function () {
+    </p>
+    <p>
+      &#160;&#160;beforeEach(function () {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;resetDatabase();
+    </p>
+    <p>
+      &#160;&#160;});
+    </p>
+    <p>
+      });
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#111111" CREATED="1462454761215" ID="ID_141516452" MODIFIED="1462454765853" TEXT="on client">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      import { resetDatabase } from 'meteor/xolvio:cleaner';
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      // NOTE: Before writing a method like this you'll want to double check
+    </p>
+    <p>
+      // that this file is only going to be loaded in test mode!!
+    </p>
+    <p>
+      Meteor.methods({
+    </p>
+    <p>
+      &#160;&#160;'test.resetDatabase': () =&gt; resetDatabase();
+    </p>
+    <p>
+      });
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      describe('my module', function (done) {
+    </p>
+    <p>
+      &#160;&#160;beforeEach(function (done) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;// We need to wait until the method call is done before moving on, so we
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;// use Mocha's async mechanism (calling a done callback)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;Meteor.call('test.resetDatabase', done);
+    </p>
+    <p>
+      &#160;&#160;});
+    </p>
+    <p>
+      });
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1462454885376" ID="ID_339412676" MODIFIED="1462454889216" TEXT="generating data">
+<node COLOR="#111111" CREATED="1462454918311" ID="ID_1717501257" MODIFIED="1462454927906" TEXT="better">
+<node COLOR="#111111" CREATED="1462454928903" ID="ID_1630111563" LINK="https://atmospherejs.com/dburles/factory" MODIFIED="1462458237330" TEXT="dburles:factory">
+<icon BUILTIN="password"/>
+</node>
+<node COLOR="#111111" CREATED="1462454970527" ID="ID_1960344240" LINK="https://www.npmjs.com/package/faker" MODIFIED="1462455018493" TEXT="faker package">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      import faker from 'faker';
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Factory.define('todo', Todos, {
+    </p>
+    <p>
+      &#160;&#160;listId: () =&gt; Factory.get('list'),
+    </p>
+    <p>
+      &#160;&#160;text: () =&gt; faker.lorem.sentence(),
+    </p>
+    <p>
+      &#160;&#160;createdAt: () =&gt; new Date(),
+    </p>
+    <p>
+      });
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      To use the factory in a test, we simply call Factory.create:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      // This creates a todo and a list in the database and returns the todo.
+    </p>
+    <p>
+      const todo = Factory.create('todo');
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      // If we have a list already, we can pass in the id and avoid creating another:
+    </p>
+    <p>
+      const list = Factory.create('list');
+    </p>
+    <p>
+      const todoInList = Factory.create('todo', { listId: list._id });
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1462455045943" ID="ID_1540478023" MODIFIED="1462455051023" TEXT="mocking the database">
+<node COLOR="#111111" CREATED="1462455191423" ID="ID_975601909" MODIFIED="1462455207874" TEXT="problem using faker on client"/>
+<node COLOR="#111111" CREATED="1462455234799" ID="ID_351139337" MODIFIED="1462455244657" TEXT="solution">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      import { StubCollections } from 'meteor/stub-collections';
+    </p>
+    <p>
+      import { Todos } from 'path/to/todos.js';
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      StubCollections.stub(Todos);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      // Now Todos is stubbed to a simple local collection mock,
+    </p>
+    <p>
+      //&#160;&#160;&#160;so for instance on the client we can do:
+    </p>
+    <p>
+      Todos.insert({ a: 'document' });
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      // Restore the `Todos` collection
+    </p>
+    <p>
+      StubCollections.restore();
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      //In a Mocha test, it makes sense to use stub-collections in a beforeEach/afterEach block.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1462457155432" ID="ID_833303290" MODIFIED="1462457169386" TEXT="unit testing">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-1"/>
+<node COLOR="#111111" CREATED="1462457199848" ID="ID_1707160932" MODIFIED="1462457208714" TEXT="testing isolated sections of code"/>
+<node COLOR="#111111" CREATED="1462457245520" ID="ID_1041532708" MODIFIED="1462457251938" TEXT="can write fast &amp; accurate tests"/>
+<node COLOR="#111111" CREATED="1462457255808" ID="ID_1604273269" MODIFIED="1462457262739" TEXT="incomplete tests can hide bugs"/>
+<node COLOR="#111111" CREATED="1462457268336" ID="ID_395441213" MODIFIED="1462457278111" TEXT="combine with integration and acceptance tests"/>
+<node COLOR="#111111" CREATED="1462457324888" ID="ID_1395603500" MODIFIED="1462457345032" TEXT="test reusable components"/>
+<node COLOR="#111111" CREATED="1462457359032" ID="ID_1985093770" LINK="https://facebook.github.io/react/docs/test-utils.html" MODIFIED="1462457381778" TEXT="React test utils">
+<icon BUILTIN="password"/>
+</node>
+<node COLOR="#111111" CREATED="1462457517712" ID="ID_134726567" MODIFIED="1462457526826" TEXT="note">
+<icon BUILTIN="yes"/>
+<node COLOR="#111111" CREATED="1462457530864" ID="ID_1680698946" MODIFIED="1462457534389" TEXT="importing"/>
+<node COLOR="#111111" CREATED="1462457534896" ID="ID_124102093" MODIFIED="1462457537505" TEXT="stubbing"/>
+<node COLOR="#111111" CREATED="1462457540880" ID="ID_740978665" MODIFIED="1462457545010" TEXT="creating data"/>
+<node COLOR="#111111" CREATED="1462457565192" ID="ID_1707077983" MODIFIED="1462457566701" TEXT="testing">
+<node COLOR="#111111" CREATED="1462457577240" ID="ID_165713076" MODIFIED="1462457686572" TEXT="`meteor test --driver-package practicalmeteor:mocha --port 3100`"/>
+<node COLOR="#111111" CREATED="1462457638808" ID="ID_1593689461" LINK="http://localhost:3000/" MODIFIED="1462457695501" TEXT="http://localhost:3100/"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1462457726896" ID="ID_1424335829" MODIFIED="1462457734323" TEXT="isolation techniques">
+<node COLOR="#111111" CREATED="1462457769696" ID="ID_1588012703" MODIFIED="1462457772187" TEXT="stubbing">
+<node COLOR="#111111" CREATED="1462457780752" ID="ID_804253167" LINK="https://atmospherejs.com/velocity/meteor-stubs" MODIFIED="1462457878370" TEXT="velocity:meteor-stubs">
+<icon BUILTIN="password"/>
+</node>
+<node COLOR="#111111" CREATED="1462457801993" ID="ID_1095397279" LINK="http://sinonjs.org/" MODIFIED="1462457811678" TEXT="Sinon"/>
+<node COLOR="#111111" CREATED="1462457821623" ID="ID_75761189" LINK="https://atmospherejs.com/hwillson/stub-collections" MODIFIED="1462457873226" TEXT="stub-collections">
+<icon BUILTIN="password"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1462457852592" ID="ID_1584534179" MODIFIED="1462457859961" TEXT="isolate a publication">
+<node COLOR="#111111" CREATED="1462457905184" ID="ID_309771837" LINK="https://atmospherejs.com/bayes/publication-collector" MODIFIED="1462457918346" TEXT="bayes:publication-collector">
+<icon BUILTIN="password"/>
+</node>
+</node>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1462457092488" ID="ID_1761007868" MODIFIED="1462457170418" TEXT="integration testing">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-2"/>
+<node COLOR="#111111" CREATED="1462457948128" ID="ID_843901987" MODIFIED="1462457954527" TEXT="crosses module boundaries">
+<node COLOR="#111111" CREATED="1462458018944" ID="ID_679900921" MODIFIED="1462458047294" TEXT="server only">
+<node COLOR="#111111" CREATED="1462458048536" ID="ID_1980334627" MODIFIED="1462458051995" TEXT="test as unit test"/>
+</node>
+<node COLOR="#111111" CREATED="1462458053552" ID="ID_1568217211" MODIFIED="1462458064303" TEXT="crosses client-server boundary">
+<node COLOR="#111111" CREATED="1462458077744" ID="ID_1887499923" MODIFIED="1462458090224" TEXT="via full app testing mode"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1462458133632" ID="ID_963624791" MODIFIED="1462458139482" TEXT="better for smart components"/>
+</node>
+<node COLOR="#990000" CREATED="1462457105993" ID="ID_119130232" MODIFIED="1462457171082" TEXT="acceptance testing">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-3"/>
+</node>
+<node COLOR="#990000" CREATED="1462457113312" ID="ID_1910443203" MODIFIED="1462457171674" TEXT="continuous integration">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-4"/>
+</node>
 </node>
 </node>
 </node>
