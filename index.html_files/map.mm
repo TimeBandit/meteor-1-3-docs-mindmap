@@ -3303,7 +3303,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1461874259717" FOLDED="true" ID="ID_728577062" MODIFIED="1462458340632" STYLE="fork" TEXT="testing">
+<node COLOR="#00b439" CREATED="1461874259717" FOLDED="true" ID="ID_728577062" MODIFIED="1462460081821" STYLE="fork" TEXT="testing">
 <edge STYLE="bezier" WIDTH="thin"/>
 <cloud/>
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
@@ -3697,6 +3697,280 @@
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-4"/>
 </node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1462460093065" ID="ID_295307950" MODIFIED="1462460102681" POSITION="right" TEXT="view">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1462460113761" FOLDED="true" ID="ID_1396453637" MODIFIED="1462467629293" TEXT="URLs &amp; routing">
+<edge STYLE="bezier" WIDTH="thin"/>
+<cloud/>
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1462460282505" ID="ID_986278693" MODIFIED="1462460286305" TEXT="client side">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1462460338417" ID="ID_1067899414" MODIFIED="1462460341756" TEXT="functions">
+<node COLOR="#111111" CREATED="1462460343129" ID="ID_1028518562" MODIFIED="1462460505867" TEXT="bookmarking">
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#111111" CREATED="1462460356041" ID="ID_1787759885" MODIFIED="1462460507475" TEXT="sharing">
+<icon BUILTIN="full-2"/>
+</node>
+<node COLOR="#111111" CREATED="1462460359465" ID="ID_522333159" MODIFIED="1462460508779" TEXT="navigation">
+<icon BUILTIN="full-3"/>
+</node>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1462460549249" ID="ID_1441822994" MODIFIED="1462460704061" TEXT="flow router">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1462460554897" ID="ID_1717540460" LINK="https://atmospherejs.com/kadira/flow-router" MODIFIED="1462460575529" TEXT="kadira:flow-router"/>
+</node>
+<node COLOR="#990000" CREATED="1462460705929" ID="ID_62495089" MODIFIED="1462463313767" TEXT="defining">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      When the route is matched, the action method executes, and you can perform
+    </p>
+    <p>
+      any actions you need to. The name property of the route is optional, but will let
+    </p>
+    <p>
+      us refer to this route more conveniently later on.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      FlowRouter.route('/lists/:_id', {
+    </p>
+    <p>
+      &#160;&#160;name: 'Lists.show',
+    </p>
+    <p>
+      &#160;&#160;action(params, queryParams) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;console.log(&quot;Looking at a list?&quot;);
+    </p>
+    <p>
+      &#160;&#160;}
+    </p>
+    <p>
+      });
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1462460715289" ID="ID_1257661764" LINK="http://guide.meteor.com/routing.html#url-pattern-matching" MODIFIED="1462460739489" TEXT="pattern matching">
+<node BACKGROUND_COLOR="#fffd00" COLOR="#111111" CREATED="1462460761625" ID="ID_751446687" MODIFIED="1462460775829" TEXT="&apos;/lists/:_id&apos;"/>
+<node COLOR="#111111" CREATED="1462460820984" ID="ID_373142950" MODIFIED="1462460821779" TEXT="params"/>
+<node COLOR="#111111" CREATED="1462460826490" ID="ID_1229464177" MODIFIED="1462460827384" TEXT="queryParams"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1462460864737" ID="ID_1576128177" MODIFIED="1462463322781" TEXT="accessing route information">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1462463424994" ID="ID_1485044093" MODIFIED="1462463438613" TEXT="functions on the global singleton"/>
+<node COLOR="#111111" CREATED="1462463474690" ID="ID_525993973" MODIFIED="1462463490978" TEXT="limit access">
+<node COLOR="#111111" CREATED="1462463492242" ID="ID_577543042" MODIFIED="1462463509855" TEXT="top of component heirachy"/>
+<node COLOR="#111111" CREATED="1462463510314" ID="ID_1182005225" MODIFIED="1462463518815" TEXT="page OR layout"/>
+</node>
+<node COLOR="#111111" CREATED="1462463532098" ID="ID_1950247927" MODIFIED="1462463701245" TEXT="reactive functions">
+<icon BUILTIN="yes"/>
+<node BACKGROUND_COLOR="#fffd00" COLOR="#111111" CREATED="1462463538290" ID="ID_490677029" MODIFIED="1462463627645">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      FlowRouter.getRouteName()
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node BACKGROUND_COLOR="#fffd00" COLOR="#111111" CREATED="1462463566298" ID="ID_1948547193" MODIFIED="1462463642157" TEXT="FlowRouter.getParam(paramName)"/>
+<node BACKGROUND_COLOR="#fffd00" COLOR="#111111" CREATED="1462463573513" ID="ID_1064818183" MODIFIED="1462463648485" TEXT="FlowRouter.getQueryParam(paramName)"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1462463740433" ID="ID_1328017281" MODIFIED="1462463749751" TEXT="highlight active route">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1462463759529" ID="ID_1834404361" LINK="https://atmospherejs.com/zimme/active-route" MODIFIED="1462463776493" TEXT="zimme:active-route">
+<icon BUILTIN="password"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1462463916682" ID="ID_1870265441" MODIFIED="1462463921670" TEXT="rendering based on route">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1462464398251" ID="ID_1091429656" MODIFIED="1462464404372" TEXT="componenets as pages"/>
+<node COLOR="#111111" CREATED="1462464434082" ID="ID_779387072" MODIFIED="1462464462127" TEXT="top-level component collects data for children">
+<node COLOR="#111111" CREATED="1462464468627" ID="ID_970648840" MODIFIED="1462464520181" TEXT="collection information">
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#111111" CREATED="1462464475674" ID="ID_16798082" MODIFIED="1462464521165" TEXT="subscribe to publications">
+<icon BUILTIN="full-2"/>
+</node>
+<node COLOR="#111111" CREATED="1462464500019" ID="ID_503612018" MODIFIED="1462464521949" TEXT="pass the data into sub-component">
+<icon BUILTIN="full-3"/>
+</node>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1462464563819" ID="ID_1244706342" MODIFIED="1462464643977" TEXT="changing page when logged out">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      It&#8217;s best to keep all logic around what to render in the component hierarchy
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1462464646090" ID="ID_1885922312" MODIFIED="1462464651581" TEXT="changing routes">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1462464671491" ID="ID_950185856" MODIFIED="1462464678607" TEXT="&lt;a&gt; tag"/>
+<node COLOR="#111111" CREATED="1462464682667" ID="ID_1258215325" MODIFIED="1462464690940" TEXT="FlowRouter.pathFor">
+<node COLOR="#111111" CREATED="1462464698147" ID="ID_511026418" LINK="https://github.com/arillo/meteor-flow-router-helpers/" MODIFIED="1462464741773" TEXT="arillo:flow-router-helpers">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &lt;a href=&quot;{{pathFor 'Lists.show' _id=list._id}}&quot; title=&quot;{{list.name}}&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;class=&quot;list-todo {{activeListClass list}}&quot;&gt;
+    </p>
+  </body>
+</html>
+</richcontent>
+<icon BUILTIN="password"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1462464755457" ID="ID_384372633" MODIFIED="1462464768515" TEXT="routing programmatically">
+<node BACKGROUND_COLOR="#fffd00" COLOR="#111111" CREATED="1462464798339" ID="ID_1065810451" MODIFIED="1462465904526" TEXT="FlowRouter.go()"/>
+<node BACKGROUND_COLOR="#fffd00" COLOR="#111111" CREATED="1462465890051" ID="ID_1629855056" MODIFIED="1462465908942" TEXT="FlowRouter.setParams()"/>
+<node BACKGROUND_COLOR="#fffd00" COLOR="#111111" CREATED="1462465898386" ID="ID_1982897126" MODIFIED="1462465913182" TEXT="FlowRouter.setQueryParams()"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1462465934715" ID="ID_845792868" MODIFIED="1462465939548" TEXT="storing data in URL">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1462465994859" ID="ID_1791234143" MODIFIED="1462466044646" TEXT="encodeURIComponent(EJSON.stringify(data)">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      FlowRouter.setQueryParams({data: encodeURIComponent(EJSON.stringify(data))});
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#111111" CREATED="1462466046026" ID="ID_1948952911" MODIFIED="1462466054421" TEXT="EJSON.parse()">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      const data = EJSON.parse(FlowRouter.getQueryParam('data'));
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1462466178763" ID="ID_165807003" MODIFIED="1462466182288" TEXT="redirecting">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1462466185275" ID="ID_751188162" MODIFIED="1462466190534" TEXT="dynamically">
+<node COLOR="#111111" CREATED="1462466789091" ID="ID_761217886" MODIFIED="1462466800691" TEXT="render part of component heirachy"/>
+<node COLOR="#111111" CREATED="1462466802595" ID="ID_1354839880" MODIFIED="1462466815652" TEXT="load some data to know where to redirect"/>
+<node COLOR="#111111" CREATED="1462466831547" ID="ID_256641039" MODIFIED="1462466834079" TEXT="`App_rootRedirector`">
+<node COLOR="#111111" CREATED="1462466923827" ID="ID_1568615198" MODIFIED="1462466949273" TEXT="subscribe to data">
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#111111" CREATED="1462466935788" ID="ID_940244062" MODIFIED="1462466950118" TEXT="redirect to intended route">
+<icon BUILTIN="full-2"/>
+</node>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1462466191131" ID="ID_1894620374" MODIFIED="1462467048744" TEXT="after user action">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Often, you just want to go to a new route programmatically when a user has
+    </p>
+    <p>
+      completed a certain action. Above we saw a case (creating a new list) when we
+    </p>
+    <p>
+      wanted to do it optimistically&#8212;i.e. before we hear back from the server that the
+    </p>
+    <p>
+      Method succeeded. We can do this because we reasonably expect that the Method
+    </p>
+    <p>
+      will succeed in almost all cases (see the UI/UX article for further discussion of this).
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      However, if we wanted to wait for the method to return from the server, we can
+    </p>
+    <p>
+      put the redirection in the callback of the method:
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1462467307524" ID="ID_1898229626" MODIFIED="1462467311424" TEXT="advanved routing">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1462467313892" ID="ID_1022929892" MODIFIED="1462467317717" TEXT="missing pages">
+<node COLOR="#111111" CREATED="1462467385828" ID="ID_191995769" MODIFIED="1462467391050" TEXT="no such route">
+<node BACKGROUND_COLOR="#fffd00" COLOR="#111111" CREATED="1462467341132" ID="ID_762333424" MODIFIED="1462467348806" TEXT="FlowRouter.notFound()"/>
+</node>
+<node COLOR="#111111" CREATED="1462467403556" ID="ID_706031533" MODIFIED="1462467414766" TEXT="route valid but no data">
+<node COLOR="#111111" CREATED="1462467448244" ID="ID_763036464" MODIFIED="1462467455470" TEXT="render not found template"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1462467318132" ID="ID_1559451714" MODIFIED="1462467322975" TEXT="analytics"/>
+<node COLOR="#111111" CREATED="1462467323467" ID="ID_61612471" MODIFIED="1462467327244" TEXT="SSR">
+<node COLOR="#111111" CREATED="1462467530236" ID="ID_1350982454" MODIFIED="1462467535062" TEXT="API access">
+<node COLOR="#111111" CREATED="1462467536012" ID="ID_1840490742" LINK="http://atmospherejs.com/simple/rest" MODIFIED="1462467551854" TEXT="simple:rest">
+<icon BUILTIN="password"/>
+</node>
+<node COLOR="#111111" CREATED="1462467558556" ID="ID_1148653802" LINK="https://atmospherejs.com/nimble/restivus" MODIFIED="1462467572366" TEXT="nimble:restivus">
+<icon BUILTIN="password"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1462467581308" ID="ID_1294796811" MODIFIED="1462467585389" TEXT="server rendering">
+<node COLOR="#111111" CREATED="1462467599067" ID="ID_1199949808" MODIFIED="1462467605054" TEXT="only in React rendering"/>
+</node>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1462460134561" ID="ID_1748676970" MODIFIED="1462460305499" TEXT="user interfaces">
+<edge STYLE="bezier" WIDTH="thin"/>
+<cloud/>
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1462460126161" ID="ID_507744727" MODIFIED="1462460308755" TEXT="react">
+<edge STYLE="bezier" WIDTH="thin"/>
+<cloud/>
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
 </node>
