@@ -4199,7 +4199,7 @@
 <node COLOR="#0033ff" CREATED="1462460093065" ID="ID_295307950" MODIFIED="1462460102681" POSITION="right" TEXT="view">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1462460113761" FOLDED="true" ID="ID_1396453637" MODIFIED="1462625637128" TEXT="URLs &amp; routing">
+<node COLOR="#00b439" CREATED="1462460113761" FOLDED="true" ID="ID_1396453637" MODIFIED="1462629673170" TEXT="URLs &amp; routing">
 <edge STYLE="bezier" WIDTH="thin"/>
 <cloud/>
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
@@ -4453,7 +4453,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1462460134561" FOLDED="true" ID="ID_1748676970" MODIFIED="1462628262216" TEXT="user interfaces">
+<node COLOR="#00b439" CREATED="1462460134561" FOLDED="true" ID="ID_1748676970" MODIFIED="1462629705241" TEXT="user interfaces">
 <edge STYLE="bezier" WIDTH="thin"/>
 <cloud/>
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
@@ -4738,10 +4738,230 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1462460126161" ID="ID_507744727" MODIFIED="1462460308755" TEXT="react">
+<node COLOR="#00b439" CREATED="1462460126161" ID="ID_507744727" MODIFIED="1462628712179" TEXT="react">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      import React from 'react';
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      export default class HelloWorld extends React.Component {
+    </p>
+    <p>
+      &#160;&#160;render() {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;return (
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&lt;h1&gt;Hello World&lt;/h1&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;);
+    </p>
+    <p>
+      &#160;&#160;}
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      ///////////////////////////
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      import { Meteor } from 'meteor/meteor';
+    </p>
+    <p>
+      import { render } from 'react-dom';
+    </p>
+    <p>
+      import HelloWorld from './HelloWorld.js';
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Meteor.startup(() =&gt; {
+    </p>
+    <p>
+      &#160;&#160;render(&lt;HelloWorld/&gt;, document.getElementById('app'));
+    </p>
+    <p>
+      });
+    </p>
+  </body>
+</html>
+</richcontent>
 <edge STYLE="bezier" WIDTH="thin"/>
 <cloud/>
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1462628511777" ID="ID_1374391463" MODIFIED="1462628514616" TEXT="learn">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1462628516553" ID="ID_1630901815" LINK="https://facebook.github.io/react/docs/getting-started.html" MODIFIED="1462628547598" STYLE="fork" TEXT="react documentation"/>
+<node COLOR="#111111" CREATED="1462628531041" ID="ID_1523114444" LINK="https://facebook.github.io/react/docs/thinking-in-react.html" MODIFIED="1462628556111" TEXT="thinking in react"/>
+<node COLOR="#111111" CREATED="1462628568057" ID="ID_494849656" LINK="https://www.meteor.com/tutorials/react/creating-an-app" MODIFIED="1462628583547" TEXT="meteor react tutorial"/>
+<node COLOR="#111111" CREATED="1462628594769" ID="ID_127065247" LINK="https://github.com/meteor/todos/tree/react" MODIFIED="1462628602802" TEXT="todos example react branch"/>
+</node>
+<node COLOR="#990000" CREATED="1462628745649" ID="ID_1892599244" MODIFIED="1462628753183" TEXT="installing">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1462628631097" ID="ID_267424148" MODIFIED="1462629019755" TEXT="npm install --save react react-dom">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1462628760321" ID="ID_1357585865" LINK="http://react-components.com/" MODIFIED="1462628784746" TEXT="react componenets site"/>
+<node COLOR="#111111" CREATED="1462628971904" ID="ID_1380006930" LINK="http://npmjs.com/" MODIFIED="1462628989538" TEXT="npm"/>
+<node COLOR="#111111" CREATED="1462629009791" ID="ID_1413923392" MODIFIED="1462629022891" TEXT="npm install --save griddle-react">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1462629074745" ID="ID_436240331" MODIFIED="1462629080509" TEXT="react components in blaze">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1462629083545" ID="ID_764141592" MODIFIED="1462629088473" TEXT="blaze templates in react">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1462629783873" ID="ID_929986142" MODIFIED="1462629788442" TEXT="meteors data system">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1462638269627" ID="ID_799416090" MODIFIED="1462638290934" TEXT="react-meteor-data">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Allows React components to respond to data changes via Meteor&#8217;s Tracker
+    </p>
+    <p>
+      reactivity system.
+    </p>
+  </body>
+</html>
+</richcontent>
+<icon BUILTIN="password"/>
+</node>
+<node COLOR="#111111" CREATED="1462638323940" ID="ID_1526343862" MODIFIED="1462638359774" TEXT="createContainer">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Allows you to create a container component which provides data to your
+    </p>
+    <p>
+      presentational components.
+    </p>
+  </body>
+</html>
+</richcontent>
+<node COLOR="#111111" CREATED="1462638304306" ID="ID_435852514" MODIFIED="1462638306187" TEXT="meteor add react-meteor-data">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1462641331453" ID="ID_1465867843" MODIFIED="1462641347466" TEXT="parameters passedin via router / props">
+<node COLOR="#111111" CREATED="1462641400237" ID="ID_1085316224" MODIFIED="1462641415670" TEXT="then passed to presentational componenets"/>
+<node COLOR="#111111" CREATED="1462641427892" ID="ID_1467444072" MODIFIED="1462641459494" TEXT="control re-renders">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1462641462285" ID="ID_1176664320" MODIFIED="1462641465493" TEXT="shouldComponentUpdate ">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1462629103649" ID="ID_1717952375" MODIFIED="1462629108265" TEXT="routing">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1462629120847" ID="ID_1606356742" LINK="https://atmospherejs.com/kadira/flow-router" MODIFIED="1462629145563" TEXT="kadira:flow-router">
+<node COLOR="#111111" CREATED="1462629189289" ID="ID_1873977393" MODIFIED="1462641329693" TEXT="mounting compenets with a layout">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      import React from 'react';
+    </p>
+    <p>
+      import { FlowRouter } from 'meteor/kadira:flow-router';
+    </p>
+    <p>
+      import { mount } from 'react-mounter';
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      import AppContainer from '../../ui/containers/AppContainer.js';
+    </p>
+    <p>
+      import ListContainer from '../../ui/containers/ListContainer.js';
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      FlowRouter.route('/lists/:_id', {
+    </p>
+    <p>
+      &#160;&#160;name: 'Lists.show',
+    </p>
+    <p>
+      &#160;&#160;action() {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;mount(AppContainer, {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;main: &lt;ListContainer/&gt;,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;});
+    </p>
+    <p>
+      &#160;&#160;},
+    </p>
+    <p>
+      });
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      ///////////////////////////////////
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      React-mounter automatically mounts the layout component on a #react-root node,
+    </p>
+    <p>
+      which you can change by using the withOptions() function.
+    </p>
+  </body>
+</html>
+</richcontent>
+<node COLOR="#111111" CREATED="1462629304817" ID="ID_1537131817" LINK="https://www.npmjs.com/package/react-mounter" MODIFIED="1462629314185" TEXT="react-mounter"/>
+<node COLOR="#111111" CREATED="1462629320783" ID="ID_1751857419" MODIFIED="1462629323697" TEXT="npm install --save react-mounter">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1462629129649" ID="ID_1179896827" LINK="https://www.npmjs.com/package/react-router" MODIFIED="1462629153559" TEXT="react-router"/>
+</node>
 </node>
 </node>
 </node>
