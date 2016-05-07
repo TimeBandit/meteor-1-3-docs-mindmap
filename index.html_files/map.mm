@@ -7,7 +7,7 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <icon BUILTIN="full-1"/>
-<node COLOR="#00b439" CREATED="1461837837624" FOLDED="true" ID="ID_1853826901" MODIFIED="1462205785969" TEXT="benefits">
+<node COLOR="#00b439" CREATED="1461837837624" FOLDED="true" ID="ID_1853826901" MODIFIED="1462614566607" TEXT="benefits">
 <edge STYLE="bezier" WIDTH="thin"/>
 <cloud COLOR="#f0f0f0"/>
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
@@ -24,7 +24,7 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1461837895432" FOLDED="true" ID="ID_1540253830" MODIFIED="1462205785970" TEXT="resources">
+<node COLOR="#00b439" CREATED="1461837895432" FOLDED="true" ID="ID_1540253830" MODIFIED="1462614601447" TEXT="resources">
 <edge STYLE="bezier" WIDTH="thin"/>
 <cloud/>
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
@@ -55,7 +55,7 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <icon BUILTIN="full-2"/>
-<node COLOR="#00b439" CREATED="1461838292472" FOLDED="true" ID="ID_1935250550" MODIFIED="1462205811477" TEXT="benefits">
+<node COLOR="#00b439" CREATED="1461838292472" FOLDED="true" ID="ID_1935250550" MODIFIED="1462614607846" TEXT="benefits">
 <edge STYLE="bezier" WIDTH="thin"/>
 <cloud/>
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
@@ -69,31 +69,487 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1461838394808" FOLDED="true" ID="ID_170558294" MODIFIED="1462205957566" TEXT="javascript style guide">
+<node COLOR="#00b439" CREATED="1461838394808" FOLDED="true" ID="ID_170558294" MODIFIED="1462615280088" TEXT="javascript style guide">
 <edge STYLE="bezier" WIDTH="thin"/>
 <cloud/>
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1461838476368" ID="ID_1053299358" MODIFIED="1462205785972" TEXT="use the ecmascript package">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1461838526584" ID="ID_1826248870" MODIFIED="1462205785972" TEXT="included by defaul in 1_3 apps"/>
-<node COLOR="#111111" CREATED="1461838953384" FOLDED="true" ID="ID_1664093544" LINK="https://docs.meteor.com/#/full/ecmascript" MODIFIED="1462205853655" TEXT="full list of features">
-<node COLOR="#111111" CREATED="1461840284401" ID="ID_1177775718" MODIFIED="1462205785972" TEXT="es3.propertyLiterals"/>
-<node COLOR="#111111" CREATED="1461840302721" ID="ID_528338016" MODIFIED="1462205785972" TEXT="es3.memberExpressionLiterals"/>
-<node COLOR="#111111" CREATED="1461840336417" ID="ID_826359340" MODIFIED="1462205785972" TEXT="es6.arrowFunctions"/>
-<node COLOR="#111111" CREATED="1461840348769" ID="ID_114352054" MODIFIED="1462205785972" TEXT="es6.literals"/>
-<node COLOR="#111111" CREATED="1461840360425" ID="ID_105184988" MODIFIED="1462205785972" TEXT="es6.templateLiterals"/>
-<node COLOR="#111111" CREATED="1461840389657" ID="ID_1041092410" MODIFIED="1462205785973" TEXT="es6.classes"/>
-<node COLOR="#111111" CREATED="1461840406913" ID="ID_1004378368" MODIFIED="1462205785973" TEXT="es6.constants"/>
-<node COLOR="#111111" CREATED="1461840424921" ID="ID_585054990" MODIFIED="1462205785973" TEXT="es6.blockScoping"/>
-<node COLOR="#111111" CREATED="1461840446153" ID="ID_1015601227" MODIFIED="1462205785973" TEXT="es6.properties.shorthand"/>
-<node COLOR="#111111" CREATED="1461840456145" ID="ID_1260242437" MODIFIED="1462205785973" TEXT="es6.properties.computed"/>
-<node COLOR="#111111" CREATED="1461840466209" ID="ID_395911569" MODIFIED="1462205785973" TEXT="es6.parameters"/>
-<node COLOR="#111111" CREATED="1461840472049" ID="ID_1586550253" MODIFIED="1462205785973" TEXT="es6.spread"/>
-<node COLOR="#111111" CREATED="1461840478473" ID="ID_1769349646" MODIFIED="1462205785973" TEXT="es6.forOf"/>
-<node COLOR="#111111" CREATED="1461840483728" ID="ID_571049549" MODIFIED="1462205785973" TEXT="es6.forOf "/>
-<node COLOR="#111111" CREATED="1461840491817" ID="ID_400099537" MODIFIED="1462205785973" TEXT="es7.objectRestSpread"/>
-<node COLOR="#111111" CREATED="1461840500913" ID="ID_698447407" MODIFIED="1462205785973" TEXT="es7.trailingFunctionCommas"/>
-<node COLOR="#111111" CREATED="1461840506913" ID="ID_460544253" MODIFIED="1462205785973" TEXT="flow"/>
+<node COLOR="#111111" CREATED="1461838953384" FOLDED="true" ID="ID_1664093544" LINK="https://docs.meteor.com/#/full/ecmascript" MODIFIED="1462615264911" TEXT="full list of features">
+<node COLOR="#111111" CREATED="1461840284401" ID="ID_1177775718" MODIFIED="1462614770164" TEXT="es3.propertyLiterals">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Makes it safe to use reserved keywords like catch as unquoted keys in object literals.
+    </p>
+    <p>
+      For example, { catch: 123 } is translated to { &quot;catch&quot;: 123 }.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#111111" CREATED="1461840302721" ID="ID_528338016" MODIFIED="1462614783146" TEXT="es3.memberExpressionLiterals">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Makes it safe to use reserved keywords as property names. For example,
+    </p>
+    <p>
+      object.catch is translated to object[&quot;catch&quot;].
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#111111" CREATED="1461840336417" ID="ID_826359340" MODIFIED="1462614805680" TEXT="es6.arrowFunctions">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Provides a shorthand for function expressions.
+    </p>
+    <p>
+      For example, [1, 2, 3].map(x =&gt; x + 1) evaluates to [2, 3, 4].
+    </p>
+    <p>
+      If this is used in the body of the arrow function, it will be automatically bound to
+    </p>
+    <p>
+      the value of this in the enclosing scope.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#111111" CREATED="1461840348769" ID="ID_114352054" MODIFIED="1462614837431" TEXT="es6.literals">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Adds support for binary and octal numeric literals. For example,
+    </p>
+    <p>
+      0b111110111 === 503 and 0o767 === 503.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#111111" CREATED="1461840360425" ID="ID_105184988" MODIFIED="1462614855529" TEXT="es6.templateLiterals">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Enables multi-line strings delimited by backticks instead of quotation marks, with
+    </p>
+    <p>
+      variable interpolation: js
+    </p>
+    <p>
+      var name = &quot;Ben&quot;;
+    </p>
+    <p>
+      var message = `My name is:
+    </p>
+    <p>
+      ${name}`;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#111111" CREATED="1461840389657" ID="ID_1041092410" MODIFIED="1462614866724" TEXT="es6.classes">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Enables class syntax:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      class Base {
+    </p>
+    <p>
+      constructor(a, b) {
+    </p>
+    <p>
+      &#160;&#160;this.value = a * b;
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      }&lt;/p&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &lt;p&gt;class Derived extends Base {
+    </p>
+    <p>
+      constructor(a, b) {
+    </p>
+    <p>
+      &#160;&#160;super(a + 1, b + 1);
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      }&lt;/p&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &lt;p&gt;var d = new Derived(2, 3);
+    </p>
+    <p>
+      d.value; // 12
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#111111" CREATED="1461840406913" ID="ID_1004378368" MODIFIED="1462614886541" TEXT="es6.constants">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Allows defining block-scoped variables that are not allowed to be redefined:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      const GOLDEN_RATIO = (1 + Math.sqrt(5)) / 2;&lt;/p&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &lt;p&gt;// This reassignment will be forbidden by the compiler:
+    </p>
+    <p>
+      GOLDEN_RATIO = &quot;new value&quot;;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#111111" CREATED="1461840424921" ID="ID_585054990" MODIFIED="1462614903853" TEXT="es6.blockScoping">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Enables the let and const keywords as alternatives to var. The key difference is
+    </p>
+    <p>
+      that variables defined using let or const are visible only within the block where they
+    </p>
+    <p>
+      are declared, rather than being visible anywhere in the enclosing function.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#111111" CREATED="1461840446153" ID="ID_1015601227" MODIFIED="1462614930388" TEXT="es6.properties.shorthand">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Allows omitting the value of an object literal property when the desired value is
+    </p>
+    <p>
+      held by a variable that has the same name as the property key. For example,
+    </p>
+    <p>
+      instead of writing { x: x, y: y, z: &quot;asdf&quot; } you can just write { x, y, z: &quot;asdf&quot; }.
+    </p>
+    <p>
+      Methods can also be written without the : function property syntax: js
+    </p>
+    <p>
+      var obj = {
+    </p>
+    <p>
+      oldWay: function (a, b) { ... },
+    </p>
+    <p>
+      newWay(a, b) { ... }
+    </p>
+    <p>
+      };
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#111111" CREATED="1461840456145" ID="ID_1260242437" MODIFIED="1462614990433" TEXT="es6.properties.computed">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Allows object literal properties with dynamically computed keys:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      var counter = 0;
+    </p>
+    <p>
+      function getKeyName() {
+    </p>
+    <p>
+      return &quot;key&quot; + counter++;
+    </p>
+    <p>
+      }&lt;/p&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &lt;p&gt;var obj = {
+    </p>
+    <p>
+      [getKeyName()]: &quot;zero&quot;,
+    </p>
+    <p>
+      [getKeyName()]: &quot;one&quot;,
+    </p>
+    <p>
+      };&lt;/p&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &lt;p&gt;obj.key0; // &quot;zero&quot;
+    </p>
+    <p>
+      obj.key1; // &quot;one&quot;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#111111" CREATED="1461840466209" ID="ID_395911569" MODIFIED="1462615090912" TEXT="es6.parameters">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Default expressions for function parameters, evaluated whenever the parameter
+    </p>
+    <p>
+      is undefined, ...rest parameters for capturing remaining arguments without using
+    </p>
+    <p>
+      the arguments object:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      function add(a = 0, ...rest) {
+    </p>
+    <p>
+      rest.forEach(n =&gt; a += n);
+    </p>
+    <p>
+      return a;
+    </p>
+    <p>
+      }&lt;/p&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &lt;p&gt;add(); // 0
+    </p>
+    <p>
+      add(1, 2, 3); // 6
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#111111" CREATED="1461840472049" ID="ID_1586550253" MODIFIED="1462615109853" TEXT="es6.spread">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Allows an array of arguments to be interpolated into a list of arguments to a
+    </p>
+    <p>
+      function call, new expression, or array literal, without using Function.prototype.apply: js
+    </p>
+    <p>
+      add(1, ...[2, 3, 4], 5); // 15
+    </p>
+    <p>
+      new Node(&quot;name&quot;, ...children);
+    </p>
+    <p>
+      [1, ...[2, 3, 4], 5]; // [1, 2, 3, 4, 5]
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#111111" CREATED="1461840478473" ID="ID_1769349646" MODIFIED="1462615116224" TEXT="es6.forOf">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Provides an easy way to iterate over the elements of a collection: js
+    </p>
+    <p>
+      let sum = 0;
+    </p>
+    <p>
+      for (var x of [1, 2, 3]) {
+    </p>
+    <p>
+      sum += x;
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      x; // 6
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#111111" CREATED="1461840483728" ID="ID_571049549" MODIFIED="1462615214873" TEXT="es6.destructuring">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Destructuring is the technique of using an array or object pattern on the left-hand
+    </p>
+    <p>
+      side of an assignment or declaration, in place of the usual variable or parameter,
+    </p>
+    <p>
+      so that certain sub-properties of the value on the right-hand side will be bound to
+    </p>
+    <p>
+      identifiers that appear within the pattern.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#111111" CREATED="1461840491817" ID="ID_400099537" MODIFIED="1462615230601" TEXT="es7.objectRestSpread">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Supports catch-all ...rest properties in object literal declarations and assignments: js
+    </p>
+    <p>
+      let { x, y, ...rest } = { x: 1, y: 2, a: 3, b: 4 };
+    </p>
+    <p>
+      x; // 1
+    </p>
+    <p>
+      y; // 2
+    </p>
+    <p>
+      rest; // { a: 3, b: 4 }
+    </p>
+    <p>
+      Also enables ...spread properties in object literal expressions: js
+    </p>
+    <p>
+      let n = { x, y, ...rest };
+    </p>
+    <p>
+      n; // { x: 1, y: 2, a: 3, b: 4 }
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#111111" CREATED="1461840500913" ID="ID_698447407" MODIFIED="1462615246351" TEXT="es7.trailingFunctionCommas">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Allows the final parameter of a function to be followed by a comma, provided that
+    </p>
+    <p>
+      parameter is not a ...rest parameter.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#111111" CREATED="1461840506913" ID="ID_460544253" MODIFIED="1462615254994" TEXT="flow">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Permits the use of Flow type annotations. These annotations are simply stripped
+    </p>
+    <p>
+      from the code, so they have no effect on the code's behavior, but you can run the
+    </p>
+    <p>
+      flow tool over your code to check the types if desired.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 <node COLOR="#111111" CREATED="1461840701273" ID="ID_701491320" LINK="http://info.meteor.com/blog/es2015-get-started" MODIFIED="1462205785973" TEXT="ES2015 and meteor"/>
 <node COLOR="#111111" CREATED="1461840717553" ID="ID_243648860" LINK="http://info.meteor.com/blog/set-up-sublime-text-for-meteor-es6-es2015-and-jsx-syntax-and-linting" MODIFIED="1462205785973" TEXT="setup sublime text for ES2015"/>
@@ -108,7 +564,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1461841353233" FOLDED="true" ID="ID_1391524057" MODIFIED="1462206819056" TEXT="meteor code style">
+<node COLOR="#00b439" CREATED="1461841353233" FOLDED="true" ID="ID_1391524057" MODIFIED="1462616103986" TEXT="meteor code style">
 <edge STYLE="bezier" WIDTH="thin"/>
 <cloud/>
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
@@ -143,7 +599,7 @@
 <node COLOR="#990000" CREATED="1461841466394" ID="ID_1208153414" MODIFIED="1462205785975" TEXT="files, exports, packages">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1461843062578" ID="ID_261520551" MODIFIED="1462205785975" TEXT="use import &amp; export"/>
-<node COLOR="#111111" CREATED="1461843116314" ID="ID_1696665023" MODIFIED="1462205785975" TEXT="one class, UI components, collection per file">
+<node COLOR="#111111" CREATED="1461843116314" ID="ID_1696665023" MODIFIED="1462615854063" TEXT="one class / UI components / collection per file">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#111111" CREATED="1461843213946" ID="ID_1098213795" MODIFIED="1462205785975" TEXT="name it same as thing it defines"/>
 <node BACKGROUND_COLOR="#edf00e" COLOR="#111111" CREATED="1461843239882" ID="ID_510046837" MODIFIED="1462205785975" TEXT="export default class ClickCounter { ... }"/>
@@ -162,7 +618,7 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <icon BUILTIN="full-3"/>
-<node COLOR="#00b439" CREATED="1461844430730" FOLDED="true" ID="ID_787226349" MODIFIED="1462312593598" TEXT="universal JS">
+<node COLOR="#00b439" CREATED="1461844430730" FOLDED="true" ID="ID_787226349" MODIFIED="1462616150112" TEXT="universal JS">
 <edge STYLE="bezier" WIDTH="thin"/>
 <cloud/>
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
@@ -220,7 +676,7 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1461844465266" FOLDED="true" ID="ID_101396548" MODIFIED="1462372359972" TEXT="file structure">
+<node COLOR="#00b439" CREATED="1461844465266" FOLDED="true" ID="ID_101396548" MODIFIED="1462617010935" TEXT="file structure">
 <edge STYLE="bezier" WIDTH="thin"/>
 <cloud/>
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
@@ -233,20 +689,20 @@
 <node COLOR="#990000" CREATED="1461844616626" ID="ID_1874916145" MODIFIED="1462205785977" TEXT="main.js file should import startup modules">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#990000" CREATED="1461861139068" ID="ID_893141758" MODIFIED="1462205785977" TEXT="example directory layout">
+<node COLOR="#990000" CREATED="1461861139068" ID="ID_893141758" MODIFIED="1462616878520" TEXT="example directory layout">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      imports/
+      <b><font color="#0162fe" face="Monospaced">imports</font></b>/
     </p>
     <p>
-      &#160;&#160;<b>startup</b>/
+      &#160;&#160;<b><font color="#ff0000">startup</font></b>/
     </p>
     <p>
-      &#160;&#160;&#160;&#160;<font color="#fb0426">client</font>/
+      &#160;&#160;&#160;&#160;<font color="#1eff04">client</font>/
     </p>
     <p>
       &#160;&#160;&#160;&#160;&#160;&#160;index.js&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<font color="#0b0d22"># import client startup&#160;through a single index entry point</font>
@@ -258,7 +714,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;useraccounts-configuration.js # configure login templates
     </p>
     <p>
-      &#160;&#160;&#160;&#160;<font color="#f90935">server</font>/
+      &#160;&#160;&#160;&#160;<font color="#3cf909">server</font>/
     </p>
     <p>
       &#160;&#160;&#160;&#160;&#160;&#160;fixtures.js&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# fill the DB with example data on startup
@@ -270,10 +726,10 @@
       
     </p>
     <p>
-      &#160;&#160;<b>api</b>/
+      &#160;&#160;<b><font color="#ff0000">api</font></b>/
     </p>
     <p>
-      &#160;&#160;&#160;&#160;<font color="#f50e0e">lists</font>/&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# a unit of domain logic
+      &#160;&#160;&#160;&#160;<font color="#0df90f">lists</font>/&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# a unit of domain logic
     </p>
     <p>
       &#160;&#160;&#160;&#160;&#160;&#160;server/
@@ -300,10 +756,10 @@
       
     </p>
     <p>
-      &#160;&#160;<b>ui/</b>
+      &#160;&#160;<b><font color="#ff0000">ui</font>/</b>
     </p>
     <p>
-      &#160;&#160;&#160;&#160;components/&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# all reusable components in the application
+      &#160;&#160;&#160;&#160;<font color="#08eb0e">components</font>/&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# all reusable components in the application
     </p>
     <p>
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# can be split by domain if there are many, include html,css, js for each component
@@ -318,26 +774,27 @@
       
     </p>
     <p>
-      client/
+      <b><font color="#0431f7" face="Monospaced">client</font></b>/
     </p>
     <p>
-      &#160;&#160;<b>main.js</b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# client entry point, imports all client code
+      &#160;&#160;<b><font color="#ff0000">main.js</font></b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# client entry point, imports all client code
     </p>
     <p>
       
     </p>
     <p>
-      server/
+      <b><font color="#0321f5" face="Monospaced">server</font></b>/
     </p>
     <p>
-      &#160;&#160;<b>main.js</b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# server entry point, imports all server code
+      &#160;&#160;<b><font color="#fe0101">main.js</font></b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# server entry point, imports all server code
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1461863199001" FOLDED="true" ID="ID_1128994904" MODIFIED="1462372358614" TEXT="default file load order">
+<node COLOR="#00b439" CREATED="1461863199001" FOLDED="true" ID="ID_1128994904" MODIFIED="1462617029480" TEXT="default file load order">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -382,7 +839,7 @@
 <node COLOR="#111111" CREATED="1461863341369" ID="ID_223618661" MODIFIED="1462205785978" TEXT="tests"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1461863601425" FOLDED="true" ID="ID_1548015980" MODIFIED="1462450582508" TEXT="splitting into multiple aps">
+<node COLOR="#00b439" CREATED="1461863601425" FOLDED="true" ID="ID_1548015980" MODIFIED="1462617031231" TEXT="splitting into multiple aps">
 <edge STYLE="bezier" WIDTH="thin"/>
 <cloud/>
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
@@ -401,7 +858,7 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <icon BUILTIN="full-4"/>
-<node COLOR="#00b439" CREATED="1461874230125" FOLDED="true" ID="ID_585527631" MODIFIED="1462207049740" TEXT="collections &amp; schemas">
+<node COLOR="#00b439" CREATED="1461874230125" FOLDED="true" ID="ID_585527631" MODIFIED="1462617921261" TEXT="collections &amp; schemas">
 <edge STYLE="bezier" WIDTH="thin"/>
 <cloud/>
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
@@ -488,9 +945,9 @@
 <icon BUILTIN="password"/>
 </node>
 <node BACKGROUND_COLOR="#fbe012" COLOR="#111111" CREATED="1461876597022" ID="ID_325607492" MODIFIED="1462205785982" TEXT="Lists.attachSchema(Lists.schema);"/>
-</node>
-<node COLOR="#990000" CREATED="1461877031894" ID="ID_1802412748" MODIFIED="1462205785982" TEXT="default value &amp; data cleaning">
-<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1462617351415" ID="ID_1557526026" MODIFIED="1462617356913" TEXT="benefits">
+<node COLOR="#111111" CREATED="1461877031894" ID="ID_1802412748" MODIFIED="1462617361030" TEXT="default value &amp; data cleaning">
+<font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#111111" CREATED="1461877043574" ID="ID_1976516172" MODIFIED="1462205785982" TEXT="coerces types"/>
 <node COLOR="#111111" CREATED="1461877071142" ID="ID_1956789331" MODIFIED="1462205785982" TEXT="remove attrs not in schema"/>
 <node COLOR="#111111" CREATED="1461877083606" ID="ID_13080277" MODIFIED="1462205785982" TEXT="assigns default values based on schema def"/>
@@ -563,9 +1020,11 @@
   </body>
 </html></richcontent>
 </node>
-<node COLOR="#111111" CREATED="1461877621886" ID="ID_1519306195" MODIFIED="1462205785982" TEXT="can write you own hooks, see docs"/>
+<node COLOR="#111111" CREATED="1461877621886" ID="ID_1519306195" MODIFIED="1462617386772" TEXT="can write your own hooks, see docs"/>
 </node>
-<node COLOR="#990000" CREATED="1461879350399" ID="ID_1324414597" LINK="http://guide.meteor.com/collections.html#abstracting-denormalizers" MODIFIED="1462207028885" TEXT="abstracting denormalizers">
+</node>
+</node>
+<node COLOR="#990000" CREATED="1461879350399" ID="ID_1324414597" LINK="http://guide.meteor.com/collections.html#abstracting-denormalizers" MODIFIED="1462617361020" TEXT="abstracting denormalizers">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -581,7 +1040,8 @@
       MongoDB is a database where denormalizing is encouraged, and thus optimized for this practice.
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1461879384766" ID="ID_1187257330" MODIFIED="1462205785982" TEXT="put code common to multiple collections in one place"/>
 </node>
@@ -735,7 +1195,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1461874239693" FOLDED="true" ID="ID_863857151" MODIFIED="1462372294818" TEXT="publications &amp; data loading">
+<node COLOR="#00b439" CREATED="1461874239693" FOLDED="true" ID="ID_863857151" MODIFIED="1462619184557" TEXT="publications &amp; data loading">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -835,7 +1295,7 @@
   </body>
 </html></richcontent>
 </node>
-<node COLOR="#111111" CREATED="1462183461401" ID="ID_1029741731" MODIFIED="1462205785984" TEXT="can take namded argument">
+<node COLOR="#111111" CREATED="1462183461401" ID="ID_1029741731" MODIFIED="1462617968627" TEXT="can take named argument">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -876,7 +1336,7 @@
 </node>
 <node COLOR="#111111" CREATED="1462184001097" ID="ID_1484896010" MODIFIED="1462205785984" TEXT="put publication in same module ot folder as its view"/>
 </node>
-<node COLOR="#990000" CREATED="1462184408601" ID="ID_823245147" MODIFIED="1462205785984" TEXT="subscrbing">
+<node COLOR="#990000" CREATED="1462184408601" ID="ID_823245147" MODIFIED="1462617993721" TEXT="subscribing">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -945,7 +1405,7 @@
 <node COLOR="#111111" CREATED="1462185993434" ID="ID_891695650" MODIFIED="1462205785985" TEXT="for data you need in every view"/>
 <node COLOR="#111111" CREATED="1462186004842" ID="ID_1808729871" MODIFIED="1462205785985" TEXT="better to subscribe from a layout component"/>
 </node>
-<node COLOR="#990000" CREATED="1462186551674" FOLDED="true" ID="ID_1620786068" MODIFIED="1462307373158" TEXT="data loading patterns">
+<node COLOR="#990000" CREATED="1462186551674" FOLDED="true" ID="ID_1620786068" MODIFIED="1462618145633" TEXT="data loading patterns">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1462186563050" ID="ID_520558025" MODIFIED="1462205785985" TEXT="subscription readiness">
 <richcontent TYPE="NOTE"><html>
@@ -1003,23 +1463,23 @@
 <node COLOR="#111111" CREATED="1462187830378" ID="ID_1632772596" MODIFIED="1462205785985" TEXT="reactive data sources invalidates autorun">
 <icon BUILTIN="full-1"/>
 </node>
-<node COLOR="#111111" CREATED="1462187848643" ID="ID_1644291731" MODIFIED="1462205785985" TEXT="sub marks itself for destruction">
+<node COLOR="#111111" CREATED="1462187848643" ID="ID_1644291731" MODIFIED="1462618045887" TEXT="subscriptions marks itself for destruction">
 <icon BUILTIN="full-2"/>
 </node>
 <node COLOR="#111111" CREATED="1462187864482" ID="ID_576797791" MODIFIED="1462205785985" TEXT="tracker computation reruns">
 <icon BUILTIN="full-3"/>
 </node>
-<node COLOR="#111111" CREATED="1462187889963" ID="ID_1126275385" MODIFIED="1462205785985" TEXT="if subs args are the same, use old subs">
+<node COLOR="#111111" CREATED="1462187889963" ID="ID_1126275385" MODIFIED="1462618057785" TEXT="if subscription args are the same, use old subs">
 <icon BUILTIN="full-4"/>
 </node>
-<node COLOR="#111111" CREATED="1462187923723" ID="ID_1553984514" MODIFIED="1462205785985" TEXT="if new args, create new subs and connect">
+<node COLOR="#111111" CREATED="1462187923723" ID="ID_1553984514" MODIFIED="1462618073077" TEXT="if new args, create new subsscription and connect">
 <icon BUILTIN="full-5"/>
 </node>
-<node COLOR="#111111" CREATED="1462187954315" ID="ID_1995955675" MODIFIED="1462205785985" TEXT="old subs shut down if not used">
+<node COLOR="#111111" CREATED="1462187954315" ID="ID_1995955675" MODIFIED="1462618082813" TEXT="old subscription shut down if not used">
 <icon BUILTIN="full-6"/>
 </node>
 </node>
-<node COLOR="#111111" CREATED="1462186591706" ID="ID_1392108165" MODIFIED="1462205785985" TEXT="pub behaviour on args change">
+<node COLOR="#111111" CREATED="1462186591706" ID="ID_1392108165" MODIFIED="1462618113130" TEXT="publication behaviour on args change">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1173,11 +1633,13 @@
 </node>
 </node>
 </node>
-<node COLOR="#990000" CREATED="1462198586175" FOLDED="true" ID="ID_431029326" MODIFIED="1462307374678" TEXT="client side reactive data stores">
+<node COLOR="#990000" CREATED="1462198586175" FOLDED="true" ID="ID_431029326" MODIFIED="1462618821690" TEXT="client side reactive data stores">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1462306098441" ID="ID_1156404846" MODIFIED="1462306101216" TEXT="reactive">
 <node COLOR="#111111" CREATED="1462198673319" ID="ID_1587810929" MODIFIED="1462205785986" TEXT="reactive-var">
-<node COLOR="#111111" CREATED="1462305774897" ID="ID_1710720022" MODIFIED="1462305781395" TEXT="better for local data"/>
+<node COLOR="#111111" CREATED="1462305774897" ID="ID_1710720022" MODIFIED="1462618808055" TEXT="better for local data">
+<icon BUILTIN="yes"/>
+</node>
 <node COLOR="#111111" CREATED="1462305930217" ID="ID_185085478" MODIFIED="1462305937070" TEXT="single value items only"/>
 <node COLOR="#111111" CREATED="1462305968521" ID="ID_1172893420" MODIFIED="1462305979203" TEXT="meteor add reactive-var">
 <font NAME="SansSerif" SIZE="12"/>
@@ -1240,7 +1702,8 @@
 <node COLOR="#111111" CREATED="1462306117841" ID="ID_414901744" MODIFIED="1462306134619" TEXT="survive refresh but not hot code push"/>
 </node>
 <node COLOR="#111111" CREATED="1462305319753" ID="ID_477295099" MODIFIED="1462305323171" TEXT="session">
-<node COLOR="#111111" CREATED="1462305601545" ID="ID_1117045064" MODIFIED="1462305605225" TEXT="set globally">
+<node COLOR="#111111" CREATED="1462305601545" ID="ID_1117045064" MODIFIED="1462618784223" TEXT="set globally">
+<icon BUILTIN="yes"/>
 <node COLOR="#111111" CREATED="1462305670289" ID="ID_766158819" MODIFIED="1462305683531" TEXT="survives hot code push"/>
 <node COLOR="#111111" CREATED="1462305698049" ID="ID_129500967" MODIFIED="1462305702780" TEXT="resets onrefresh"/>
 </node>
@@ -1253,8 +1716,12 @@
 <node COLOR="#111111" CREATED="1462198772176" ID="ID_1379709099" MODIFIED="1462207245271" TEXT="use local collection for many related items"/>
 <node COLOR="#111111" CREATED="1462198832983" ID="ID_1964229493" MODIFIED="1462205785986" TEXT="centralize your store access"/>
 <node COLOR="#111111" CREATED="1462199609736" ID="ID_1194854409" MODIFIED="1462205785986" TEXT="updating store">
-<node COLOR="#111111" CREATED="1462199615256" ID="ID_1934636174" MODIFIED="1462205785986" TEXT="via method"/>
-<node COLOR="#111111" CREATED="1462199619624" ID="ID_17910120" MODIFIED="1462205785986" TEXT="mutator on store"/>
+<node COLOR="#111111" CREATED="1462199615256" ID="ID_1934636174" MODIFIED="1462618540151" TEXT="via method">
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#111111" CREATED="1462199619624" ID="ID_17910120" MODIFIED="1462618551544" TEXT="via mutator on store">
+<icon BUILTIN="full-2"/>
+</node>
 </node>
 </node>
 <node COLOR="#990000" CREATED="1462199682760" ID="ID_551083177" MODIFIED="1462205785986" TEXT="advanced publications">
@@ -1366,10 +1833,10 @@
 <node COLOR="#111111" CREATED="1462199732480" ID="ID_979965257" MODIFIED="1462205785987" TEXT="sub lifecycle">
 <node BACKGROUND_COLOR="#fcfb11" COLOR="#111111" CREATED="1462202826369" ID="ID_1898993602" MODIFIED="1462205785987" TEXT="Meteor.publish(&apos;Posts.all&apos;, function() {   return Posts.find({}, {limit: 10}); });"/>
 <node COLOR="#111111" CREATED="1462202857769" ID="ID_302190891" MODIFIED="1462205785987" TEXT="on client subscription">
-<node COLOR="#111111" CREATED="1462202869617" ID="ID_1672129915" MODIFIED="1462205785987" TEXT="client sends sub message with name of sub">
+<node COLOR="#111111" CREATED="1462202869617" ID="ID_1672129915" MODIFIED="1462618971695" TEXT="client sends subcribe message with name of subscription">
 <icon BUILTIN="full-1"/>
 </node>
-<node COLOR="#111111" CREATED="1462202892353" ID="ID_153380629" MODIFIED="1462205785987" TEXT="server starts sub with pub handle function">
+<node COLOR="#111111" CREATED="1462202892353" ID="ID_153380629" MODIFIED="1462618989200" TEXT="server starts subscription with publication handle function">
 <icon BUILTIN="full-2"/>
 </node>
 <node COLOR="#111111" CREATED="1462202911585" ID="ID_835064359" MODIFIED="1462205785987" TEXT="handle see the cursor return">
@@ -1388,7 +1855,7 @@
 <icon BUILTIN="full-7"/>
 </node>
 </node>
-<node COLOR="#111111" CREATED="1462203656809" ID="ID_868890532" MODIFIED="1462205785987" TEXT="on sub stoppage">
+<node COLOR="#111111" CREATED="1462203656809" ID="ID_868890532" MODIFIED="1462619048927" TEXT="on subscription stoppage">
 <node COLOR="#111111" CREATED="1462203668265" ID="ID_452868214" MODIFIED="1462205785987" TEXT="client sends unsub message ">
 <icon BUILTIN="full-1"/>
 </node>
@@ -1527,7 +1994,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1461874250509" FOLDED="true" ID="ID_586654330" MODIFIED="1462382951607" TEXT="methods">
+<node COLOR="#00b439" CREATED="1461874250509" FOLDED="true" ID="ID_586654330" MODIFIED="1462621198439" TEXT="methods">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1540,7 +2007,10 @@
       result for Optimistic UI, and again on the server to make the actual change to
     </p>
     <p>
-      the database.
+      the database. If a method unexpectedly fails the optimistic changes will roll back
+    </p>
+    <p>
+      and the Minimongo database will end up in a consistent state.
     </p>
   </body>
 </html></richcontent>
@@ -1613,9 +2083,13 @@
   </body>
 </html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1462285319433" ID="ID_941779356" MODIFIED="1462285327280" TEXT="define in commong code"/>
+<node COLOR="#111111" CREATED="1462285319433" ID="ID_941779356" MODIFIED="1462619201984" TEXT="define in commong code">
+<icon BUILTIN="yes"/>
+</node>
 <node COLOR="#111111" CREATED="1462285338170" ID="ID_1095110697" MODIFIED="1462285345558" TEXT="validate method arguments">
-<node COLOR="#111111" CREATED="1462285358081" ID="ID_1105591466" MODIFIED="1462285359357" TEXT="aldeed:simple-schema"/>
+<node COLOR="#111111" CREATED="1462285358081" ID="ID_1105591466" LINK="https://atmospherejs.com/aldeed/simple-schema" MODIFIED="1462619271901" TEXT="aldeed:simple-schema">
+<icon BUILTIN="password"/>
+</node>
 </node>
 <node COLOR="#111111" CREATED="1462285409553" ID="ID_257375438" MODIFIED="1462285422923" TEXT="for server code you want to call form client"/>
 <node COLOR="#111111" CREATED="1462285436713" ID="ID_1829196085" MODIFIED="1462286283792" TEXT="calling">
@@ -1821,7 +2295,8 @@
 <node COLOR="#111111" CREATED="1462287126466" ID="ID_1189434723" MODIFIED="1462287132527" TEXT="Meteor.Error">
 <node COLOR="#111111" CREATED="1462287133698" ID="ID_1911643164" MODIFIED="1462287140531" TEXT="general runtime errors"/>
 <node COLOR="#111111" CREATED="1462287142274" ID="ID_789682208" MODIFIED="1462287144478" TEXT="args">
-<node COLOR="#111111" CREATED="1462287145689" ID="ID_163314421" MODIFIED="1462287167501" TEXT="error">
+<node COLOR="#111111" CREATED="1462287145689" ID="ID_163314421" MODIFIED="1462621143440" TEXT="error">
+<icon BUILTIN="full-1"/>
 <node COLOR="#111111" CREATED="1462287213250" ID="ID_262442092" MODIFIED="1462287222179" TEXT="short"/>
 <node COLOR="#111111" CREATED="1462287222666" ID="ID_863904863" MODIFIED="1462287276874" TEXT="prefixed with method name">
 <richcontent TYPE="NOTE"><html>
@@ -1836,7 +2311,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#111111" CREATED="1462287168082" ID="ID_782418518" MODIFIED="1462288035276" TEXT="reason">
+<node COLOR="#111111" CREATED="1462287168082" ID="ID_782418518" MODIFIED="1462621145888" TEXT="reason">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1847,8 +2322,9 @@
     </p>
   </body>
 </html></richcontent>
+<icon BUILTIN="full-2"/>
 </node>
-<node COLOR="#111111" CREATED="1462287171754" ID="ID_335621482" MODIFIED="1462288061686" TEXT="details">
+<node COLOR="#111111" CREATED="1462287171754" ID="ID_335621482" MODIFIED="1462621147080" TEXT="details">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1859,6 +2335,7 @@
     </p>
   </body>
 </html></richcontent>
+<icon BUILTIN="full-3"/>
 </node>
 </node>
 </node>
@@ -2347,7 +2824,7 @@
 </node>
 <node COLOR="#111111" CREATED="1462308811338" ID="ID_559722748" MODIFIED="1462308816673" TEXT="benefits">
 <node COLOR="#111111" CREATED="1462311160082" ID="ID_294565236" MODIFIED="1462311190540" TEXT="non-blocking synchronous-style APIs"/>
-<node COLOR="#111111" CREATED="1462311195186" ID="ID_923273346" MODIFIED="1462311205360" TEXT="methods &amp; return in order">
+<node COLOR="#111111" CREATED="1462311195186" ID="ID_923273346" MODIFIED="1462621180121" TEXT="methods return in order">
 <node COLOR="#111111" CREATED="1462311299010" ID="ID_1397815108" MODIFIED="1462311306202" TEXT="this.unblock()"/>
 <node COLOR="#111111" CREATED="1462311308970" ID="ID_1054882218" MODIFIED="1462311314966" TEXT="wait: true"/>
 </node>
@@ -2359,23 +2836,35 @@
 <node COLOR="#111111" CREATED="1462312504802" ID="ID_1131883655" MODIFIED="1462312577612" TEXT="can happen on connection error"/>
 <node COLOR="#111111" CREATED="1462312464491" ID="ID_1687997340" MODIFIED="1462312577612" TEXT="mostly inocuous"/>
 <node COLOR="#111111" CREATED="1462312473898" ID="ID_712186916" MODIFIED="1462312577612" TEXT="affects">
-<node COLOR="#111111" CREATED="1462312478427" ID="ID_1062071170" MODIFIED="1462312577612" TEXT="$inc"/>
-<node COLOR="#111111" CREATED="1462312486898" ID="ID_925566498" MODIFIED="1462312577612" TEXT="$push"/>
-<node COLOR="#111111" CREATED="1462312491411" ID="ID_280638749" MODIFIED="1462312577612" TEXT="calls to external APIs"/>
+<node COLOR="#111111" CREATED="1462312478427" ID="ID_1062071170" MODIFIED="1462621194928" TEXT="$inc">
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#111111" CREATED="1462312486898" ID="ID_925566498" MODIFIED="1462621195968" TEXT="$push">
+<icon BUILTIN="full-2"/>
+</node>
+<node COLOR="#111111" CREATED="1462312491411" ID="ID_280638749" MODIFIED="1462621196824" TEXT="calls to external APIs">
+<icon BUILTIN="full-3"/>
 </node>
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1461874254021" FOLDED="true" ID="ID_1140560101" MODIFIED="1462384625510" TEXT="users &amp; accounts">
+</node>
+<node COLOR="#00b439" CREATED="1461874254021" FOLDED="true" ID="ID_1140560101" MODIFIED="1462624754033" TEXT="users &amp; accounts">
 <edge STYLE="bezier" WIDTH="thin"/>
 <cloud/>
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1462312876699" ID="ID_1068388373" MODIFIED="1462312879756" TEXT="features">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1462365613280" ID="ID_1205938015" MODIFIED="1462365668225" TEXT="this.userId ">
-<node COLOR="#111111" CREATED="1462365671383" ID="ID_1576638710" MODIFIED="1462365679896" TEXT="in methods"/>
-<node COLOR="#111111" CREATED="1462365680463" ID="ID_1348351253" MODIFIED="1462365686479" TEXT="in publications"/>
-<node COLOR="#111111" CREATED="1462365687327" ID="ID_323754656" MODIFIED="1462365689545" TEXT="on client"/>
+<node COLOR="#111111" CREATED="1462365613280" ID="ID_1205938015" MODIFIED="1462621242121" TEXT="this.userId accessable in">
+<node COLOR="#111111" CREATED="1462365671383" ID="ID_1576638710" MODIFIED="1462621246315" TEXT="methods">
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#111111" CREATED="1462365680463" ID="ID_1348351253" MODIFIED="1462621248930" TEXT="publications">
+<icon BUILTIN="full-2"/>
+</node>
+<node COLOR="#111111" CREATED="1462365687327" ID="ID_323754656" MODIFIED="1462621251545" TEXT="client">
+<icon BUILTIN="full-3"/>
+</node>
 </node>
 <node COLOR="#111111" CREATED="1462365636680" ID="ID_1686498819" MODIFIED="1462365643706" TEXT="login state tracked"/>
 <node COLOR="#111111" CREATED="1462365702325" ID="ID_1367226643" MODIFIED="1462365709391" TEXT="accounts-base">
@@ -2505,39 +2994,7 @@
 <node COLOR="#111111" CREATED="1462370383696" ID="ID_1014422231" LINK="http://docs.meteor.com/#/full/Accounts-findUserByEmail" MODIFIED="1462370393618" TEXT="Accounts.findUserByEmail"/>
 </node>
 <node COLOR="#111111" CREATED="1462370428505" ID="ID_1807644132" MODIFIED="1462370434283" TEXT="email flows">
-<node COLOR="#111111" CREATED="1462370530833" ID="ID_565181481" MODIFIED="1462370545540" TEXT="accounts-ui OR useraccounts">
-<node COLOR="#111111" CREATED="1462370460561" ID="ID_1806034410" MODIFIED="1462372159395" TEXT="user enrollment">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      A new user is created by an administrator, but no password is set. When the
-    </p>
-    <p>
-      user clicks the link in their email, they are taken to a page where they can set
-    </p>
-    <p>
-      a new password for their account. Very similar to password reset.
-    </p>
-  </body>
-</html></richcontent>
-<icon BUILTIN="full-2"/>
-</node>
-<node COLOR="#111111" CREATED="1462370472217" ID="ID_1106505477" MODIFIED="1462372148406" TEXT="email verification">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      When the user clicks the link in their email, the application records that this email does indeed belong to the correct user.
-    </p>
-  </body>
-</html></richcontent>
-<icon BUILTIN="full-3"/>
-</node>
+<node COLOR="#111111" CREATED="1462622281325" HGAP="88" ID="ID_712806189" MODIFIED="1462622629913" TEXT="stages of" VSHIFT="13">
 <node COLOR="#111111" CREATED="1462370436071" ID="ID_1200661541" MODIFIED="1462372111190" TEXT="password reset">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -2559,7 +3016,40 @@
 </html></richcontent>
 <icon BUILTIN="full-1"/>
 </node>
-<node COLOR="#111111" CREATED="1462370573976" ID="ID_1597902223" MODIFIED="1462370577786" TEXT="build yourself">
+<node COLOR="#111111" CREATED="1462370460561" ID="ID_1806034410" MODIFIED="1462372159395" TEXT="user enrollment">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      A new user is created by an administrator, but no password is set. When the
+    </p>
+    <p>
+      user clicks the link in their email, they are taken to a page where they can set
+    </p>
+    <p>
+      a new password for their account. Very similar to password reset.
+    </p>
+  </body>
+</html></richcontent>
+<icon BUILTIN="full-2"/>
+</node>
+<node COLOR="#111111" CREATED="1462370472217" ID="ID_1106505477" MODIFIED="1462622291321" TEXT="email verification">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      When the user clicks the link in their email, the application records that this email does indeed belong to the correct user.
+    </p>
+  </body>
+</html></richcontent>
+<icon BUILTIN="full-3"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1462622563990" HGAP="85" ID="ID_1984283712" MODIFIED="1462622622833" TEXT="building it with accounts-password" VSHIFT="31">
 <node COLOR="#111111" CREATED="1462370607777" ID="ID_931516988" MODIFIED="1462372094923" TEXT="sending email">
 <icon BUILTIN="full-1"/>
 <node COLOR="#111111" CREATED="1462370615136" ID="ID_1766525487" LINK="http://docs.meteor.com/#/full/accounts_sendresetpasswordemail" MODIFIED="1462370633638" TEXT="Accounts.sendResetPasswordEmail"/>
@@ -2567,7 +3057,7 @@
 <node COLOR="#111111" CREATED="1462370655673" ID="ID_1245455516" LINK="http://docs.meteor.com/#/full/accounts_sendverificationemail" MODIFIED="1462370674332" TEXT="Accounts.sendVerificationEmail"/>
 <node COLOR="#111111" CREATED="1462370713039" ID="ID_260864192" LINK="http://docs.meteor.com/#/full/accounts_emailtemplates" MODIFIED="1462370727437" TEXT="generated using  Accounts.emailTemplates"/>
 </node>
-<node COLOR="#111111" CREATED="1462370807113" ID="ID_1905343248" MODIFIED="1462372097131" TEXT="identify clicked email link">
+<node COLOR="#111111" CREATED="1462370807113" ID="ID_1905343248" MODIFIED="1462622588948" TEXT="identify clicked email link">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2655,7 +3145,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#111111" CREATED="1462371932602" ID="ID_1684890787" MODIFIED="1462372231566" TEXT="complete process">
+<node COLOR="#111111" CREATED="1462371932602" ID="ID_1684890787" MODIFIED="1462622592343" TEXT="complete process">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2689,7 +3179,6 @@
 </html></richcontent>
 </node>
 <node COLOR="#111111" CREATED="1462371939889" ID="ID_908078334" LINK="http://docs.meteor.com/#/full/accounts_verifyemail" MODIFIED="1462371996241" TEXT="Accounts.verifyEmail"/>
-</node>
 </node>
 </node>
 </node>
@@ -2729,14 +3218,26 @@
   </body>
 </html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1462373624722" ID="ID_521211984" MODIFIED="1462382884167" TEXT="loggin in">
+<node COLOR="#111111" CREATED="1462373624722" ID="ID_521211984" MODIFIED="1462624630496" TEXT="loggin in">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      If you are using an off-the-shelf login UI like accounts-ui or useraccounts, you don&#8217;t need to write any code after adding the relevant package from the list above. If you are building a login experience from scratch, you can log in programmatically using the Meteor.loginWith&lt;Service&gt; function. It looks like this:
+      If you are using an off-the-shelf login UI like accounts-ui or useraccounts, you
+    </p>
+    <p>
+      don&#8217;t need to write any code after adding the relevant package from the list above.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      If you are building a login experience from scratch, you can log in programmatically
+    </p>
+    <p>
+      using the Meteor.loginWith&lt;Service&gt; function. It looks like this:
     </p>
     <p>
       
@@ -2769,7 +3270,8 @@
       });
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node COLOR="#111111" CREATED="1462373799122" ID="ID_1883292857" MODIFIED="1462382884167" TEXT="client ID &amp; secret">
 <icon BUILTIN="full-1"/>
 </node>
@@ -3080,7 +3582,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#111111" CREATED="1462379812643" ID="ID_570501619" MODIFIED="1462382884171" TEXT="don&apos;t user profile">
+<node COLOR="#111111" CREATED="1462379812643" ID="ID_570501619" MODIFIED="1462624691447" TEXT="don&apos;t use profile">
 <node COLOR="#111111" CREATED="1462381982108" ID="ID_70626693" MODIFIED="1462382884171" TEXT="historical mistake"/>
 <node COLOR="#111111" CREATED="1462381997861" ID="ID_1403637243" MODIFIED="1462382884171" TEXT="deny all writes from the client">
 <richcontent TYPE="NOTE"><html>
@@ -3419,8 +3921,7 @@
       })
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#111111" CREATED="1462454244682" ID="ID_1125364435" LINK="http://chaijs.com/" MODIFIED="1462454263449" TEXT="Chai asseration library"/>
@@ -3460,8 +3961,7 @@
       });
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#111111" CREATED="1462454761215" ID="ID_141516452" MODIFIED="1462454765853" TEXT="on client">
 <richcontent TYPE="NOTE"><html>
@@ -3515,8 +4015,7 @@
       });
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -3580,8 +4079,7 @@
       const todoInList = Factory.create('todo', { listId: list._id });
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -3633,8 +4131,7 @@
       //In a Mocha test, it makes sense to use stub-collections in a beforeEach/afterEach block.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -3702,7 +4199,7 @@
 <node COLOR="#0033ff" CREATED="1462460093065" ID="ID_295307950" MODIFIED="1462460102681" POSITION="right" TEXT="view">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1462460113761" FOLDED="true" ID="ID_1396453637" MODIFIED="1462467629293" TEXT="URLs &amp; routing">
+<node COLOR="#00b439" CREATED="1462460113761" FOLDED="true" ID="ID_1396453637" MODIFIED="1462625637128" TEXT="URLs &amp; routing">
 <edge STYLE="bezier" WIDTH="thin"/>
 <cloud/>
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
@@ -3788,8 +4285,7 @@
       FlowRouter.getRouteName()
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node BACKGROUND_COLOR="#fffd00" COLOR="#111111" CREATED="1462463566298" ID="ID_1948547193" MODIFIED="1462463642157" TEXT="FlowRouter.getParam(paramName)"/>
 <node BACKGROUND_COLOR="#fffd00" COLOR="#111111" CREATED="1462463573513" ID="ID_1064818183" MODIFIED="1462463648485" TEXT="FlowRouter.getQueryParam(paramName)"/>
@@ -3826,8 +4322,7 @@
       It&#8217;s best to keep all logic around what to render in the component hierarchy
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 <node COLOR="#990000" CREATED="1462464646090" ID="ID_1885922312" MODIFIED="1462464651581" TEXT="changing routes">
@@ -3847,8 +4342,7 @@
       &#160;&#160;&#160;&#160;class=&quot;list-todo {{activeListClass list}}&quot;&gt;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="password"/>
 </node>
 </node>
@@ -3870,8 +4364,7 @@
       FlowRouter.setQueryParams({data: encodeURIComponent(EJSON.stringify(data))});
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#111111" CREATED="1462466046026" ID="ID_1948952911" MODIFIED="1462466054421" TEXT="EJSON.parse()">
 <richcontent TYPE="NOTE"><html>
@@ -3883,8 +4376,7 @@
       const data = EJSON.parse(FlowRouter.getQueryParam('data'));
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#990000" CREATED="1462466178763" ID="ID_165807003" MODIFIED="1462466182288" TEXT="redirecting">
@@ -3932,8 +4424,7 @@
       put the redirection in the callback of the method:
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#990000" CREATED="1462467307524" ID="ID_1898229626" MODIFIED="1462467311424" TEXT="advanved routing">
@@ -3962,7 +4453,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1462460134561" FOLDED="true" ID="ID_1748676970" MODIFIED="1462487438986" TEXT="user interfaces">
+<node COLOR="#00b439" CREATED="1462460134561" FOLDED="true" ID="ID_1748676970" MODIFIED="1462628262216" TEXT="user interfaces">
 <edge STYLE="bezier" WIDTH="thin"/>
 <cloud/>
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
@@ -3985,7 +4476,7 @@
 <node COLOR="#111111" CREATED="1462480284030" ID="ID_784369250" MODIFIED="1462480826429" TEXT="easy to test">
 <icon BUILTIN="full-2"/>
 </node>
-<node COLOR="#111111" CREATED="1462480811567" ID="ID_1673624528" MODIFIED="1462480827701" TEXT="easy to add to component style  guids">
+<node COLOR="#111111" CREATED="1462480811567" ID="ID_1673624528" MODIFIED="1462628098166" TEXT="easy to add to component style  guides">
 <icon BUILTIN="full-3"/>
 </node>
 <node COLOR="#111111" CREATED="1462480834759" ID="ID_1762586298" MODIFIED="1462480850533" TEXT="dependencies are knowable">
@@ -3996,7 +4487,7 @@
 <node COLOR="#111111" CREATED="1462480887223" ID="ID_591009100" MODIFIED="1462480893639" TEXT="no internal state"/>
 <node COLOR="#111111" CREATED="1462480902183" ID="ID_567567902" MODIFIED="1462480909823" TEXT="prefered over reusable"/>
 </node>
-<node COLOR="#111111" CREATED="1462482596591" ID="ID_546604036" MODIFIED="1462482599730" TEXT="avoid">
+<node COLOR="#111111" CREATED="1462482596591" ID="ID_546604036" MODIFIED="1462628157802" TEXT="avoid using">
 <node COLOR="#111111" CREATED="1462482601575" ID="ID_1122402317" MODIFIED="1462482610432" TEXT="collecions"/>
 <node COLOR="#111111" CREATED="1462482611335" ID="ID_1666600356" MODIFIED="1462482616485" TEXT="accounts information"/>
 <node COLOR="#111111" CREATED="1462482617191" ID="ID_1802259278" MODIFIED="1462482621856" TEXT="current route information"/>
@@ -4066,11 +4557,184 @@
 </node>
 </node>
 <node COLOR="#111111" CREATED="1462487366913" ID="ID_1103118852" MODIFIED="1462487372303" TEXT="UX patterns">
-<node COLOR="#111111" CREATED="1462487375409" ID="ID_1951114236" MODIFIED="1462487381551" TEXT="subscription readiness"/>
-<node COLOR="#111111" CREATED="1462487383337" ID="ID_1948273960" MODIFIED="1462487385799" TEXT="pagination"/>
-<node COLOR="#111111" CREATED="1462487387217" ID="ID_1661836319" MODIFIED="1462487392406" TEXT="optimistic UI"/>
-<node COLOR="#111111" CREATED="1462487395161" ID="ID_177668794" MODIFIED="1462487403772" TEXT="indicating wrties"/>
-<node COLOR="#111111" CREATED="1462487404537" ID="ID_1081915462" MODIFIED="1462487411755" TEXT="unexpected failures"/>
+<node COLOR="#111111" CREATED="1462487375409" ID="ID_1951114236" MODIFIED="1462487381551" TEXT="subscription readiness">
+<node COLOR="#111111" CREATED="1462558776774" ID="ID_329064250" MODIFIED="1462558786044" TEXT="waiting for the data to arrive"/>
+<node COLOR="#111111" CREATED="1462558807843" ID="ID_1281993365" MODIFIED="1462558820019" TEXT="switch out page with a `loading page`"/>
+<node COLOR="#111111" CREATED="1462558851963" ID="ID_290174167" MODIFIED="1462558867309" TEXT="per-component loading state">
+<node COLOR="#111111" CREATED="1462563867773" ID="ID_233480266" MODIFIED="1462563876139" TEXT="show as much page as possible"/>
+<node COLOR="#111111" CREATED="1462563885957" ID="ID_632599140" MODIFIED="1462563902636" TEXT="loading state only per component"/>
+</node>
+<node COLOR="#111111" CREATED="1462564005373" ID="ID_1986089979" MODIFIED="1462564010580" TEXT="showing placeholders">
+<node COLOR="#111111" CREATED="1462564021197" ID="ID_942938185" MODIFIED="1462564040337" TEXT="dimensions = final element dimensions"/>
+</node>
+<node COLOR="#111111" CREATED="1462564079525" ID="ID_1831920996" MODIFIED="1462564091143" TEXT="use style guide to prototype loading state"/>
+</node>
+<node COLOR="#111111" CREATED="1462487383337" ID="ID_1948273960" MODIFIED="1462487385799" TEXT="pagination">
+<node COLOR="#111111" CREATED="1462567113646" ID="ID_447894138" MODIFIED="1462570037245" TEXT="displaying new data">
+<node COLOR="#111111" CREATED="1462567123374" ID="ID_1207130940" MODIFIED="1462567126438" TEXT="animate changes">
+<node COLOR="#111111" CREATED="1462567257758" ID="ID_1128339833" MODIFIED="1462567291825" TEXT="calling out changes without updating"/>
+<node COLOR="#111111" CREATED="1462567345318" ID="ID_1835259239" MODIFIED="1462567396769" TEXT="done in smart component">
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#111111" CREATED="1462567360358" ID="ID_1369062025" MODIFIED="1462567398200" TEXT="use local collection to store rendered data">
+<icon BUILTIN="full-2"/>
+</node>
+<node COLOR="#111111" CREATED="1462567377110" ID="ID_695832464" MODIFIED="1462570073118" TEXT="then push data (smart -&gt; reusable) when user requests">
+<icon BUILTIN="full-3"/>
+</node>
+</node>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1462487387217" ID="ID_1661836319" MODIFIED="1462487392406" TEXT="optimistic UI">
+<node COLOR="#111111" CREATED="1462570148327" ID="ID_1083350150" MODIFIED="1462570201362" TEXT="UI reflects changes assuming db write will succeed">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      So when should you wait for the server and when not? It basically comes down
+    </p>
+    <p>
+      to how optimistic you are; how likely it is that something will go wrong. In the
+    </p>
+    <p>
+      case of a password, you really can&#8217;t tell on the client, so you need to be
+    </p>
+    <p>
+      conservative. In other cases, you can be pretty confident that the Method call
+    </p>
+    <p>
+      will succeed, and so you can move on.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node COLOR="#111111" CREATED="1462573389096" ID="ID_635008888" MODIFIED="1462573430783" TEXT="new inserts simulated in minimongo whilst inserting on server">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      import { insert } from '../../api/lists/methods.js';
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Template.App_body.events({
+    </p>
+    <p>
+      &#160;&#160;'click .js-new-list'() {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;const listId = insert.call((err) =&gt; {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;if (err) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;// At this point, we have already redirected to the new list page, but
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;// for some reason the list didn't get created. This should almost never
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;// happen, but it's good to handle it anyway.
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;FlowRouter.go('App.home');
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;alert('Could not create list.');
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;});
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;FlowRouter.go('Lists.show', { _id: listId });
+    </p>
+    <p>
+      &#160;&#160;}
+    </p>
+    <p>
+      });
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1462487395161" ID="ID_177668794" MODIFIED="1462573444817" TEXT="indicating writes">
+<node COLOR="#111111" CREATED="1462573877534" ID="ID_700869892" MODIFIED="1462573921496" TEXT="modify on client to indicate `pending`">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Messages.methods.insert = new ValidatedMethod({
+    </p>
+    <p>
+      &#160;&#160;name: 'Messages.methods.insert',
+    </p>
+    <p>
+      &#160;&#160;validate: new SimpleSchema({
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;text: {type: String}
+    </p>
+    <p>
+      &#160;&#160;}).validator(),
+    </p>
+    <p>
+      &#160;&#160;run(message) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;// In the simulation (on the client), we add an extra pending field.
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;// It will be removed when the server comes back with the &quot;true&quot; data.
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;if (this.isSimulation) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;message.pending = true;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;Messages.insert(message);
+    </p>
+    <p>
+      &#160;&#160;}
+    </p>
+    <p>
+      })
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1462487404537" ID="ID_1081915462" MODIFIED="1462487411755" TEXT="unexpected failures">
+<node COLOR="#111111" CREATED="1462575119841" ID="ID_889577794" MODIFIED="1462575135814" TEXT="good to notify users e.g flash message"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1462575146402" ID="ID_1733631576" MODIFIED="1462575149376" TEXT="animation">
+<node COLOR="#111111" CREATED="1462575184844" ID="ID_1818741628" MODIFIED="1462575202787" TEXT="animating UI changes smoothly"/>
+<node COLOR="#111111" CREATED="1462575261328" ID="ID_210390408" MODIFIED="1462575272905" TEXT="eases understand of UI changes"/>
+<node COLOR="#111111" CREATED="1462575313961" ID="ID_527359676" MODIFIED="1462575351186" TEXT="animating attribute changes"/>
 </node>
 </node>
 </node>
