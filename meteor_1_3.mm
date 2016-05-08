@@ -858,7 +858,7 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <icon BUILTIN="full-4"/>
-<node COLOR="#00b439" CREATED="1461874230125" FOLDED="true" ID="ID_585527631" MODIFIED="1462617921261" TEXT="collections &amp; schemas">
+<node COLOR="#00b439" CREATED="1461874230125" FOLDED="true" ID="ID_585527631" MODIFIED="1462661369357" TEXT="collections &amp; schemas">
 <edge STYLE="bezier" WIDTH="thin"/>
 <cloud/>
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
@@ -1195,7 +1195,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1461874239693" FOLDED="true" ID="ID_863857151" MODIFIED="1462619184557" TEXT="publications &amp; data loading">
+<node COLOR="#00b439" CREATED="1461874239693" FOLDED="true" ID="ID_863857151" MODIFIED="1462661380285" TEXT="publications &amp; data loading">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1405,7 +1405,7 @@
 <node COLOR="#111111" CREATED="1462185993434" ID="ID_891695650" MODIFIED="1462205785985" TEXT="for data you need in every view"/>
 <node COLOR="#111111" CREATED="1462186004842" ID="ID_1808729871" MODIFIED="1462205785985" TEXT="better to subscribe from a layout component"/>
 </node>
-<node COLOR="#990000" CREATED="1462186551674" FOLDED="true" ID="ID_1620786068" MODIFIED="1462618145633" TEXT="data loading patterns">
+<node COLOR="#990000" CREATED="1462186551674" ID="ID_1620786068" MODIFIED="1462661299356" TEXT="data loading patterns">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1462186563050" ID="ID_520558025" MODIFIED="1462205785985" TEXT="subscription readiness">
 <richcontent TYPE="NOTE"><html>
@@ -1633,7 +1633,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#990000" CREATED="1462198586175" FOLDED="true" ID="ID_431029326" MODIFIED="1462618821690" TEXT="client side reactive data stores">
+<node COLOR="#990000" CREATED="1462198586175" ID="ID_431029326" MODIFIED="1462661301734" TEXT="client side reactive data stores">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1462306098441" ID="ID_1156404846" MODIFIED="1462306101216" TEXT="reactive">
 <node COLOR="#111111" CREATED="1462198673319" ID="ID_1587810929" MODIFIED="1462205785986" TEXT="reactive-var">
@@ -1994,7 +1994,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1461874250509" FOLDED="true" ID="ID_586654330" MODIFIED="1462621198439" TEXT="methods">
+<node COLOR="#00b439" CREATED="1461874250509" ID="ID_586654330" MODIFIED="1462661396384" TEXT="methods">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -4196,9 +4196,10 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1462460093065" ID="ID_295307950" MODIFIED="1462460102681" POSITION="right" TEXT="view">
+<node COLOR="#0033ff" CREATED="1462460093065" ID="ID_295307950" MODIFIED="1462650865857" POSITION="right" TEXT="view">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
+<icon BUILTIN="full-5"/>
 <node COLOR="#00b439" CREATED="1462460113761" FOLDED="true" ID="ID_1396453637" MODIFIED="1462629673170" TEXT="URLs &amp; routing">
 <edge STYLE="bezier" WIDTH="thin"/>
 <cloud/>
@@ -4453,7 +4454,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1462460134561" FOLDED="true" ID="ID_1748676970" MODIFIED="1462629705241" TEXT="user interfaces">
+<node COLOR="#00b439" CREATED="1462460134561" ID="ID_1748676970" MODIFIED="1462661446186" TEXT="user interfaces">
 <edge STYLE="bezier" WIDTH="thin"/>
 <cloud/>
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
@@ -4545,8 +4546,9 @@
 <icon BUILTIN="full-4"/>
 </node>
 </node>
-<node COLOR="#111111" CREATED="1462487028410" ID="ID_1906964108" MODIFIED="1462487031715" TEXT="event handling">
-<node COLOR="#111111" CREATED="1462487102506" ID="ID_742753747" MODIFIED="1462487323274" TEXT="slowing rate of db writes">
+<node COLOR="#111111" CREATED="1462487028410" ID="ID_1906964108" MODIFIED="1462661516828" TEXT="event handling">
+<arrowlink DESTINATION="ID_990004730" ENDARROW="Default" ENDINCLINATION="953;0;" ID="Arrow_ID_651778445" STARTARROW="None" STARTINCLINATION="953;0;"/>
+<node COLOR="#111111" CREATED="1462487102506" FOLDED="true" ID="ID_742753747" MODIFIED="1462661506567" TEXT="slowing rate of db writes">
 <node COLOR="#111111" CREATED="1462487171825" ID="ID_1440645655" LINK="http://underscorejs.org/#throttle" MODIFIED="1462487337755" TEXT=".throttle()"/>
 <node COLOR="#111111" CREATED="1462487181569" ID="ID_1599366161" LINK="http://underscorejs.org/#debounce" MODIFIED="1462487348234" TEXT=".debounce()"/>
 </node>
@@ -4738,7 +4740,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1462460126161" FOLDED="true" ID="ID_507744727" MODIFIED="1462641486763" TEXT="react">
+<node COLOR="#00b439" CREATED="1462460126161" FOLDED="true" ID="ID_507744727" MODIFIED="1462650866974" TEXT="react">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -4962,6 +4964,208 @@
 </node>
 <node COLOR="#111111" CREATED="1462629129649" ID="ID_1179896827" LINK="https://www.npmjs.com/package/react-router" MODIFIED="1462629153559" TEXT="react-router"/>
 </node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1462650874497" ID="ID_1558632357" MODIFIED="1462650881243" POSITION="right" TEXT="production">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<icon BUILTIN="full-6"/>
+<node COLOR="#00b439" CREATED="1462650886666" ID="ID_1105824598" MODIFIED="1462659119107" TEXT="security">
+<edge STYLE="bezier" WIDTH="thin"/>
+<cloud/>
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1462651071481" ID="ID_54355874" MODIFIED="1462651100919" TEXT="concepts">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1462651102705" ID="ID_699143218" MODIFIED="1462651149683" TEXT="server code can be trusted">
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#111111" CREATED="1462651114561" ID="ID_799363339" MODIFIED="1462651151531" TEXT="everything else can&apos;t be trusted">
+<icon BUILTIN="full-2"/>
+</node>
+<node COLOR="#111111" CREATED="1462651155417" ID="ID_1959716889" MODIFIED="1462651186115" TEXT="validate &amp; check all inputs that come from the client">
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#111111" CREATED="1462651172273" ID="ID_354055415" MODIFIED="1462651187867" TEXT="don&apos;t leak any secret information to the client">
+<icon BUILTIN="full-2"/>
+</node>
+<node COLOR="#111111" CREATED="1462651203500" ID="ID_184716629" MODIFIED="1462651209769" TEXT="attack surface">
+<node COLOR="#111111" CREATED="1462651214105" ID="ID_1330600607" MODIFIED="1462659909422" TEXT="methods">
+<arrowlink DESTINATION="ID_1150351362" ENDARROW="Default" ENDINCLINATION="310;0;" ID="Arrow_ID_289289125" STARTARROW="None" STARTINCLINATION="310;0;"/>
+<icon BUILTIN="full-1"/>
+<node COLOR="#111111" CREATED="1462651265209" ID="ID_509676835" MODIFIED="1462651287707" TEXT="validate data in method arguments"/>
+<node COLOR="#111111" CREATED="1462651291345" ID="ID_583814032" MODIFIED="1462651309393" TEXT="methods returns only what user is allowed to see"/>
+</node>
+<node COLOR="#111111" CREATED="1462651217625" ID="ID_1050825735" MODIFIED="1462659879998" TEXT="publications">
+<arrowlink DESTINATION="ID_1062278932" ENDARROW="Default" ENDINCLINATION="350;0;" ID="Arrow_ID_1104933845" STARTARROW="None" STARTINCLINATION="350;0;"/>
+<icon BUILTIN="full-2"/>
+<node COLOR="#111111" CREATED="1462651335121" ID="ID_131285986" MODIFIED="1462651379257" TEXT="validate data coming in through publication arguments"/>
+<node COLOR="#111111" CREATED="1462651385433" ID="ID_262744434" MODIFIED="1462651406338" TEXT="pblications returns only what user is allowed to see"/>
+</node>
+<node COLOR="#111111" CREATED="1462651222617" ID="ID_1203409541" MODIFIED="1462659886138" TEXT="served files">
+<arrowlink DESTINATION="ID_1015288729" ENDARROW="Default" ENDINCLINATION="341;0;" ID="Arrow_ID_1108389534" STARTARROW="None" STARTINCLINATION="341;0;"/>
+<icon BUILTIN="full-3"/>
+<node COLOR="#111111" CREATED="1462651411041" ID="ID_1572169370" MODIFIED="1462651445339" TEXT="no source nor confiduration files served to client have secret data"/>
+</node>
+<node COLOR="#111111" CREATED="1462651495673" ID="ID_1103791883" MODIFIED="1462657827222" TEXT="avoid allow/deny">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Here&#8217;s a code snippet to add to your server code which disables client-side
+    </p>
+    <p>
+      updates on a collection. This will make sure no other part of your app can
+    </p>
+    <p>
+      use allow:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      // Deny all client-side updates on the Lists collection
+    </p>
+    <p>
+      Lists.deny({
+    </p>
+    <p>
+      &#160;&#160;insert() { return true; },
+    </p>
+    <p>
+      &#160;&#160;update() { return true; },
+    </p>
+    <p>
+      &#160;&#160;remove() { return true; },
+    </p>
+    <p>
+      });
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1462657862538" ID="ID_1150351362" MODIFIED="1462661396383" TEXT="methods">
+<arrowlink DESTINATION="ID_586654330" ENDARROW="Default" ENDINCLINATION="747;0;" ID="Arrow_ID_1869259519" STARTARROW="None" STARTINCLINATION="715;0;"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1462657891269" ID="ID_606036845" MODIFIED="1462657897395" TEXT="validate all arguments">
+<node COLOR="#111111" CREATED="1462658137660" ID="ID_1797272432" LINK="https://atmospherejs.com/mdg/validated-method" MODIFIED="1462658178126" TEXT="mdg:validated-method">
+<icon BUILTIN="password"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1462658212131" ID="ID_1347270994" MODIFIED="1462658239082" TEXT="don&apos;t pass userId from client">
+<node COLOR="#111111" CREATED="1462658240716" ID="ID_440224126" MODIFIED="1462658288575" TEXT="use this.userId inside method"/>
+<node COLOR="#111111" CREATED="1462658351115" ID="ID_1654142734" MODIFIED="1462658353539" TEXT="except">
+<node COLOR="#111111" CREATED="1462658355611" ID="ID_1618355657" MODIFIED="1462658415102" TEXT="method only used admin">
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#111111" CREATED="1462658388219" ID="ID_732151790" MODIFIED="1462658416974" TEXT="method that doesn&apos;t modify user, but uses it as target">
+<icon BUILTIN="full-2"/>
+</node>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1462658423323" ID="ID_1986556791" MODIFIED="1462658430826" TEXT="one method per action">
+<node COLOR="#111111" CREATED="1462658636764" ID="ID_185964635" MODIFIED="1462658641900" TEXT="do one thing"/>
+<node COLOR="#111111" CREATED="1462658642771" ID="ID_371358610" MODIFIED="1462658649452" TEXT="specific action"/>
+</node>
+<node COLOR="#111111" CREATED="1462659769644" ID="ID_66316031" MODIFIED="1462659792734" TEXT="refactoring security rules">
+<node COLOR="#111111" CREATED="1462659800828" ID="ID_839970663" MODIFIED="1462659818841" TEXT="many methods having same security checks"/>
+<node COLOR="#111111" CREATED="1462659823485" ID="ID_175574397" MODIFIED="1462659831548" TEXT="factor out into a seperate module"/>
+</node>
+<node COLOR="#111111" CREATED="1462659936276" ID="ID_990004730" MODIFIED="1462661516827" TEXT="rate limiting">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      // Get list of all method names on Lists
+    </p>
+    <p>
+      const LISTS_METHODS = _.pluck([
+    </p>
+    <p>
+      &#160;&#160;insert,
+    </p>
+    <p>
+      &#160;&#160;makePublic,
+    </p>
+    <p>
+      &#160;&#160;makePrivate,
+    </p>
+    <p>
+      &#160;&#160;updateName,
+    </p>
+    <p>
+      &#160;&#160;remove,
+    </p>
+    <p>
+      ], 'name');
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      // Only allow 5 list operations per connection per second
+    </p>
+    <p>
+      DDPRateLimiter.addRule({
+    </p>
+    <p>
+      &#160;&#160;name(name) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;return _.contains(LISTS_METHODS, name);
+    </p>
+    <p>
+      &#160;&#160;},
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;// Rate limit per connection ID
+    </p>
+    <p>
+      &#160;&#160;connectionId() { return true; }
+    </p>
+    <p>
+      }, 5, 1000);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      This will make every Method only callable 5 times per second per connection.
+    </p>
+    <p>
+      This is a rate limit that shouldn&#8217;t be noticeable by the user at all, but will prevent
+    </p>
+    <p>
+      a malicious script from totally flooding the server with requests. You will need to
+    </p>
+    <p>
+      tune the limit parameters to match your app&#8217;s needs.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1462659860637" ID="ID_1062278932" MODIFIED="1462659879997" TEXT="publications">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1462659867077" ID="ID_1015288729" MODIFIED="1462659886138" TEXT="served files">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1462650902625" ID="ID_1621126059" MODIFIED="1462650930797" TEXT="deployment &amp; monitoring">
+<edge STYLE="bezier" WIDTH="thin"/>
+<cloud/>
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
 </node>
