@@ -90,8 +90,7 @@
       For example, { catch: 123 } is translated to { &quot;catch&quot;: 123 }.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#111111" CREATED="1461840302721" ID="ID_528338016" MODIFIED="1462614783146" TEXT="es3.memberExpressionLiterals">
 <richcontent TYPE="NOTE"><html>
@@ -106,8 +105,7 @@
       object.catch is translated to object[&quot;catch&quot;].
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#111111" CREATED="1461840336417" ID="ID_826359340" MODIFIED="1462614805680" TEXT="es6.arrowFunctions">
 <richcontent TYPE="NOTE"><html>
@@ -128,8 +126,7 @@
       the value of this in the enclosing scope.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#111111" CREATED="1461840348769" ID="ID_114352054" MODIFIED="1462614837431" TEXT="es6.literals">
 <richcontent TYPE="NOTE"><html>
@@ -144,8 +141,7 @@
       0b111110111 === 503 and 0o767 === 503.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#111111" CREATED="1461840360425" ID="ID_105184988" MODIFIED="1462614855529" TEXT="es6.templateLiterals">
 <richcontent TYPE="NOTE"><html>
@@ -169,8 +165,7 @@
       ${name}`;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#111111" CREATED="1461840389657" ID="ID_1041092410" MODIFIED="1462614866724" TEXT="es6.classes">
 <richcontent TYPE="NOTE"><html>
@@ -227,8 +222,7 @@
       d.value; // 12
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#111111" CREATED="1461840406913" ID="ID_1004378368" MODIFIED="1462614886541" TEXT="es6.constants">
 <richcontent TYPE="NOTE"><html>
@@ -255,8 +249,7 @@
       GOLDEN_RATIO = &quot;new value&quot;;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#111111" CREATED="1461840424921" ID="ID_585054990" MODIFIED="1462614903853" TEXT="es6.blockScoping">
 <richcontent TYPE="NOTE"><html>
@@ -274,8 +267,7 @@
       are declared, rather than being visible anywhere in the enclosing function.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#111111" CREATED="1461840446153" ID="ID_1015601227" MODIFIED="1462614930388" TEXT="es6.properties.shorthand">
 <richcontent TYPE="NOTE"><html>
@@ -308,8 +300,7 @@
       };
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#111111" CREATED="1461840456145" ID="ID_1260242437" MODIFIED="1462614990433" TEXT="es6.properties.computed">
 <richcontent TYPE="NOTE"><html>
@@ -360,8 +351,7 @@
       obj.key1; // &quot;one&quot;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#111111" CREATED="1461840466209" ID="ID_395911569" MODIFIED="1462615090912" TEXT="es6.parameters">
 <richcontent TYPE="NOTE"><html>
@@ -403,8 +393,7 @@
       add(1, 2, 3); // 6
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#111111" CREATED="1461840472049" ID="ID_1586550253" MODIFIED="1462615109853" TEXT="es6.spread">
 <richcontent TYPE="NOTE"><html>
@@ -428,8 +417,7 @@
       [1, ...[2, 3, 4], 5]; // [1, 2, 3, 4, 5]
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#111111" CREATED="1461840478473" ID="ID_1769349646" MODIFIED="1462615116224" TEXT="es6.forOf">
 <richcontent TYPE="NOTE"><html>
@@ -456,8 +444,7 @@
       x; // 6
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#111111" CREATED="1461840483728" ID="ID_571049549" MODIFIED="1462615214873" TEXT="es6.destructuring">
 <richcontent TYPE="NOTE"><html>
@@ -478,8 +465,7 @@
       identifiers that appear within the pattern.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#111111" CREATED="1461840491817" ID="ID_400099537" MODIFIED="1462615230601" TEXT="es7.objectRestSpread">
 <richcontent TYPE="NOTE"><html>
@@ -512,8 +498,7 @@
       n; // { x: 1, y: 2, a: 3, b: 4 }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#111111" CREATED="1461840500913" ID="ID_698447407" MODIFIED="1462615246351" TEXT="es7.trailingFunctionCommas">
 <richcontent TYPE="NOTE"><html>
@@ -528,8 +513,7 @@
       parameter is not a ...rest parameter.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#111111" CREATED="1461840506913" ID="ID_460544253" MODIFIED="1462615254994" TEXT="flow">
 <richcontent TYPE="NOTE"><html>
@@ -547,8 +531,7 @@
       flow tool over your code to check the types if desired.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#111111" CREATED="1461840701273" ID="ID_701491320" LINK="http://info.meteor.com/blog/es2015-get-started" MODIFIED="1462205785973" TEXT="ES2015 and meteor"/>
@@ -789,8 +772,7 @@
       &#160;&#160;<b><font color="#fe0101">main.js</font></b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# server entry point, imports all server code
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
@@ -858,7 +840,7 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <icon BUILTIN="full-4"/>
-<node COLOR="#00b439" CREATED="1461874230125" FOLDED="true" ID="ID_585527631" MODIFIED="1462661369357" TEXT="collections &amp; schemas">
+<node COLOR="#00b439" CREATED="1461874230125" FOLDED="true" ID="ID_585527631" MODIFIED="1462829332252" TEXT="collections &amp; schemas">
 <edge STYLE="bezier" WIDTH="thin"/>
 <cloud/>
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
@@ -1040,8 +1022,7 @@
       MongoDB is a database where denormalizing is encouraged, and thus optimized for this practice.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1461879384766" ID="ID_1187257330" MODIFIED="1462205785982" TEXT="put code common to multiple collections in one place"/>
 </node>
@@ -1994,7 +1975,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1461874250509" ID="ID_586654330" MODIFIED="1462661396384" TEXT="methods">
+<node COLOR="#00b439" CREATED="1461874250509" FOLDED="true" ID="ID_586654330" MODIFIED="1462812168936" TEXT="methods">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -3270,8 +3251,7 @@
       });
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node COLOR="#111111" CREATED="1462373799122" ID="ID_1883292857" MODIFIED="1462382884167" TEXT="client ID &amp; secret">
 <icon BUILTIN="full-1"/>
 </node>
@@ -4454,7 +4434,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1462460134561" ID="ID_1748676970" MODIFIED="1462661446186" TEXT="user interfaces">
+<node COLOR="#00b439" CREATED="1462460134561" FOLDED="true" ID="ID_1748676970" MODIFIED="1462812171899" TEXT="user interfaces">
 <edge STYLE="bezier" WIDTH="thin"/>
 <cloud/>
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
@@ -4804,8 +4784,7 @@
       });
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge STYLE="bezier" WIDTH="thin"/>
 <cloud/>
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
@@ -4848,8 +4827,7 @@
       reactivity system.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="password"/>
 </node>
 <node COLOR="#111111" CREATED="1462638323940" ID="ID_1526343862" MODIFIED="1462638359774" TEXT="createContainer">
@@ -4865,8 +4843,7 @@
       presentational components.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node COLOR="#111111" CREATED="1462638304306" ID="ID_435852514" MODIFIED="1462638306187" TEXT="meteor add react-meteor-data">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
@@ -4954,8 +4931,7 @@
       which you can change by using the withOptions() function.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node COLOR="#111111" CREATED="1462629304817" ID="ID_1537131817" LINK="https://www.npmjs.com/package/react-mounter" MODIFIED="1462629314185" TEXT="react-mounter"/>
 <node COLOR="#111111" CREATED="1462629320783" ID="ID_1751857419" MODIFIED="1462629323697" TEXT="npm install --save react-mounter">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
@@ -4970,7 +4946,7 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <icon BUILTIN="full-6"/>
-<node COLOR="#00b439" CREATED="1462650886666" ID="ID_1105824598" MODIFIED="1462659119107" TEXT="security">
+<node COLOR="#00b439" CREATED="1462650886666" FOLDED="true" ID="ID_1105824598" MODIFIED="1462829603908" TEXT="security">
 <edge STYLE="bezier" WIDTH="thin"/>
 <cloud/>
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
@@ -5043,8 +5019,7 @@
       });
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -5151,15 +5126,470 @@
       tune the limit parameters to match your app&#8217;s needs.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#990000" CREATED="1462659860637" ID="ID_1062278932" MODIFIED="1462659879997" TEXT="publications">
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1462812601030" ID="ID_1962517025" MODIFIED="1462812609918" TEXT="main issue is filtering the data sent"/>
+<node COLOR="#111111" CREATED="1462812616789" ID="ID_1811872526" MODIFIED="1462812780556" TEXT="with methods make sure users can&apos;t modify the db"/>
+<node COLOR="#111111" CREATED="1462814694319" ID="ID_1699300132" MODIFIED="1462814705507" TEXT="rules same as with methods">
+<node COLOR="#111111" CREATED="1462814706813" ID="ID_1703157593" MODIFIED="1462814791728" TEXT="validate all args using `check` &amp; simple-schema">
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#111111" CREATED="1462814730950" ID="ID_1576981388" MODIFIED="1462814792487" TEXT="never pass current userId as an argument">
+<icon BUILTIN="full-2"/>
+</node>
+<node COLOR="#111111" CREATED="1462814748846" ID="ID_233069785" MODIFIED="1462814793511" TEXT="dont take generic arguments">
+<icon BUILTIN="full-3"/>
+</node>
+<node COLOR="#111111" CREATED="1462814760542" ID="ID_650932124" MODIFIED="1462814794607" TEXT="use rate limiting to stop spamming with subscriptions">
+<icon BUILTIN="full-4"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1462814805998" ID="ID_462668116" MODIFIED="1462814817001" TEXT="always restrict fields">
+<node COLOR="#111111" CREATED="1462814861902" ID="ID_1457603915" MODIFIED="1462814956184" TEXT="use `fields` option from Mongo in pubications">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      // #1: Bad! If we add a secret field to Lists later, the client
+    </p>
+    <p>
+      // will see it
+    </p>
+    <p>
+      Meteor.publish('lists.public', function () {
+    </p>
+    <p>
+      &#160;&#160;return Lists.find({userId: {$exists: false}});
+    </p>
+    <p>
+      });
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      // #2: Good, if we add a secret field to Lists later, the client
+    </p>
+    <p>
+      // will only publish it if we add it to the list of fields
+    </p>
+    <p>
+      Meteor.publish('lists.public', function () {
+    </p>
+    <p>
+      &#160;&#160;return Lists.find({userId: {$exists: false}}, {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;fields: {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;name: 1,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;incompleteCount: 1,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;userId: 1
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      &#160;&#160;});
+    </p>
+    <p>
+      });
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      If you find yourself repeating the fields often, it makes sense to factor out a
+    </p>
+    <p>
+      dictionary of public fields that you can always filter by, like so:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      // In the file where Lists is defined
+    </p>
+    <p>
+      Lists.publicFields = {
+    </p>
+    <p>
+      &#160;&#160;name: 1,
+    </p>
+    <p>
+      &#160;&#160;incompleteCount: 1,
+    </p>
+    <p>
+      &#160;&#160;userId: 1
+    </p>
+    <p>
+      };
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1462814822918" ID="ID_1128361620" MODIFIED="1462814829677" TEXT="publications &amp; userId">
+<node COLOR="#111111" CREATED="1462815584718" ID="ID_349244493" MODIFIED="1462815590288" TEXT="publications not reactive"/>
+<node COLOR="#111111" CREATED="1462815693190" ID="ID_1336905112" MODIFIED="1462815700870" TEXT="can end up sending data to wrong users"/>
+<node COLOR="#111111" CREATED="1462815701460" ID="ID_1541672278" MODIFIED="1462825974460" TEXT="user the userId in the returnd query cursor">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      // #1: Bad! If the owner of the list changes, the old owner will still see it
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Meteor.publish('list', function (listId) {
+    </p>
+    <p>
+      &#160;&#160;check(listId, String);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;const list = Lists.findOne(listId);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;if (! list.userId === this.userId) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;throw new Meteor.Error('list.unauthorized',
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;'This list doesn\'t belong to you.');
+    </p>
+    <p>
+      &#160;&#160;}
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;return Lists.find(listId, {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;fields: {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;name: 1,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;incompleteCount: 1,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;userId: 1
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      &#160;&#160;});
+    </p>
+    <p>
+      });
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      // #2: Good! When the owner of the list changes, the old owner won't see it
+    </p>
+    <p>
+      anymore
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Meteor.publish('list', function (listId) {
+    </p>
+    <p>
+      &#160;&#160;check(listId, String);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;return Lists.find({
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;_id: listId,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;userId: this.userId
+    </p>
+    <p>
+      &#160;&#160;}, {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;fields: {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;name: 1,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;incompleteCount: 1,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;userId: 1
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      &#160;&#160;});
+    </p>
+    <p>
+      });
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#111111" CREATED="1462825975690" ID="ID_1779574603" LINK="https://atmospherejs.com/reywood/publish-composite" MODIFIED="1462826077759" TEXT="reywood:publish-composite">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      or more tips on how to use reywood:publish-composite to handle reactive
+    </p>
+    <p>
+      changes in publications, see the data loading article.
+    </p>
+  </body>
+</html>
+</richcontent>
+<icon BUILTIN="password"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1462814831134" ID="ID_103477061" MODIFIED="1462826499411" TEXT="passing options (pagination example)">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      In summary, you should make sure that any options passed from the client to
+    </p>
+    <p>
+      a publication can only restrict the data being requested, rather than extending it.
+    </p>
+  </body>
+</html>
+</richcontent>
+<node COLOR="#111111" CREATED="1462826092488" ID="ID_1615672856" MODIFIED="1462826121420" TEXT="passing a limit">
+<icon BUILTIN="full-1"/>
+<node COLOR="#111111" CREATED="1462826229538" ID="ID_1858732592" MODIFIED="1462826243847" TEXT="when sending a `limit` option"/>
+<node COLOR="#111111" CREATED="1462826244586" ID="ID_1159821058" MODIFIED="1462826258744" TEXT="set a MAX_LIMIT in the server code"/>
+</node>
+<node COLOR="#111111" CREATED="1462826101777" ID="ID_61304514" MODIFIED="1462826122564" TEXT="passing in a filter">
+<icon BUILTIN="full-2"/>
+<node COLOR="#111111" CREATED="1462826294450" ID="ID_1505911979" MODIFIED="1462826309642" TEXT="if passing a filter"/>
+<node COLOR="#111111" CREATED="1462826311154" ID="ID_334699231" MODIFIED="1462826346296" TEXT="use mogodb `$and` to intersect with data client is allowed to see"/>
+<node COLOR="#111111" CREATED="1462826356754" ID="ID_284146756" MODIFIED="1462826384924" TEXT="whitlist the keys that client can use to filter so they dont filter for secret data"/>
+</node>
+<node COLOR="#111111" CREATED="1462826107898" ID="ID_1149612235" MODIFIED="1462826123316" TEXT="passing in fields">
+<icon BUILTIN="full-3"/>
+<node COLOR="#111111" CREATED="1462826452314" ID="ID_1214965945" MODIFIED="1462826465466" TEXT="client can decide which field they can see"/>
+<node COLOR="#111111" CREATED="1462826467458" ID="ID_1611169445" MODIFIED="1462826482984" TEXT="on server insect with fields client is allowed to see"/>
+</node>
+</node>
 </node>
 <node COLOR="#990000" CREATED="1462659867077" ID="ID_1015288729" MODIFIED="1462659886138" TEXT="served files">
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1462826684322" ID="ID_1236430673" MODIFIED="1462826690107" TEXT="types of sensitive data">
+<node COLOR="#111111" CREATED="1462826691178" ID="ID_867015679" MODIFIED="1462826714404" TEXT="business logic">
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#111111" CREATED="1462826698738" ID="ID_125785644" MODIFIED="1462826715444" TEXT="secret algorithms">
+<icon BUILTIN="full-2"/>
+<node COLOR="#111111" CREATED="1462826825802" ID="ID_1460857955" MODIFIED="1462828330663" TEXT="can keep method code in a folder named `server`"/>
+<node COLOR="#111111" CREATED="1462828296755" ID="ID_763274988" MODIFIED="1462828321897" TEXT="better to split the method code">
+<node COLOR="#111111" CREATED="1462828304194" ID="ID_1094036926" MODIFIED="1462828359556" TEXT="keep secret code on the server">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      // In a server-only file
+    </p>
+    <p>
+      MMR = {
+    </p>
+    <p>
+      &#160;&#160;updateWithSecretAlgorithm(userId) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;// your secret code here
+    </p>
+    <p>
+      &#160;&#160;}
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      ////////////////////////
+    </p>
+    <p>
+      // In a file loaded on client and server
+    </p>
+    <p>
+      const Meteor.users.methods.updateMMR = new ValidatedMethod({
+    </p>
+    <p>
+      &#160;&#160;name: 'Meteor.users.methods.updateMMR',
+    </p>
+    <p>
+      &#160;&#160;validate: null,
+    </p>
+    <p>
+      &#160;&#160;run() {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;if (this.isSimulation) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;// Simulation code for the client (optional)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;} else {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;MMR.updateWithSecretAlgorithm(this.userId);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      &#160;&#160;}
+    </p>
+    <p>
+      });
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node COLOR="#111111" CREATED="1462828370683" ID="ID_1612318889" MODIFIED="1462828522082" TEXT="code in (Meteor.isServer) still sent to client DONT DO">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Keep in mind that code inside if (Meteor.isServer) blocks is still sent to the client,
+    </p>
+    <p>
+      it is just not executed. So don&#8217;t put any secret code in there.
+    </p>
+    <p>
+      Secret API keys should never be stored in your source code at all, the next
+    </p>
+    <p>
+      section will talk about how to handle them.
+    </p>
+  </body>
+</html></richcontent>
+<icon BUILTIN="stop-sign"/>
+</node>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1462826704706" ID="ID_1500651777" MODIFIED="1462826716092" TEXT="secret API keys">
+<icon BUILTIN="full-3"/>
+</node>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1462828933843" ID="ID_50876703" MODIFIED="1462828940042" TEXT="securing API keys">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1462828568779" ID="ID_1846615334" MODIFIED="1462828570804" TEXT="types">
+<node COLOR="#111111" CREATED="1462828572363" ID="ID_743418459" MODIFIED="1462828593220" TEXT="database password">
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#111111" CREATED="1462828580138" ID="ID_235430772" MODIFIED="1462828594236" TEXT="API keys for external APIs">
+<icon BUILTIN="full-2"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1462828628731" ID="ID_1893826581" MODIFIED="1462828631571" TEXT="solution">
+<node COLOR="#111111" CREATED="1462828632435" ID="ID_1230440141" MODIFIED="1462828641160" TEXT="JSON settings file">
+<node COLOR="#111111" CREATED="1462828643971" ID="ID_633241715" MODIFIED="1462828652343" TEXT="most app settings should be here"/>
+<node COLOR="#111111" CREATED="1462828663291" ID="ID_341045605" MODIFIED="1462828665411" TEXT="meteor --settings development.json"/>
+</node>
+<node COLOR="#111111" CREATED="1462828814747" ID="ID_770094318" MODIFIED="1462828818860" TEXT="setting on client">
+<node COLOR="#111111" CREATED="1462828756995" ID="ID_1238440332" MODIFIED="1462828768623" TEXT="public settings available on client"/>
+<node COLOR="#111111" CREATED="1462828770283" ID="ID_1792832080" MODIFIED="1462828777492" TEXT="Meteor.settings.public"/>
+</node>
+<node COLOR="#111111" CREATED="1462828830707" ID="ID_522000299" MODIFIED="1462828842654" TEXT="api keys for OAuth">
+<node COLOR="#111111" CREATED="1462828870771" ID="ID_1766326471" MODIFIED="1462828895645" TEXT="add keys to service-configuration collection in db"/>
+</node>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1462829010867" ID="ID_1966677004" MODIFIED="1462829012917" TEXT="SSL">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1462829018787" ID="ID_106042297" MODIFIED="1462829035624" TEXT="every app with user data should run with SSL"/>
+<node COLOR="#111111" CREATED="1462829078555" ID="ID_520882360" MODIFIED="1462829107988" TEXT="HTTP requests over HTTPS"/>
+<node COLOR="#111111" CREATED="1462829089371" ID="ID_1447675679" MODIFIED="1462829103468" TEXT="websocket requests over WSS"/>
+</node>
+<node COLOR="#990000" CREATED="1462829194155" ID="ID_1469444429" MODIFIED="1462829198883" TEXT="security checklist">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1462829223539" ID="ID_1830645523" MODIFIED="1462829581429" TEXT="no insecure or autopublish packages">
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#111111" CREATED="1462829240563" ID="ID_501865819" MODIFIED="1462829582293" TEXT="validate all moethod &amp; publication arguments">
+<icon BUILTIN="full-2"/>
+<node COLOR="#111111" CREATED="1462829304338" ID="ID_321014516" LINK="https://atmospherejs.com/meteor/audit-argument-checks" MODIFIED="1462829320893" TEXT="audit-argument-checks">
+<icon BUILTIN="password"/>
+</node>
+<node COLOR="#111111" CREATED="1462829358363" ID="ID_1346711947" MODIFIED="1462829365612" TEXT="checks this automatically"/>
+</node>
+<node COLOR="#111111" CREATED="1462829369179" ID="ID_1926343577" MODIFIED="1462829583093" TEXT="deny write to the `profile` field on user documents">
+<icon BUILTIN="full-3"/>
+</node>
+<node COLOR="#111111" CREATED="1462829393859" ID="ID_679255860" MODIFIED="1462829584149" TEXT="only use methods to work with data">
+<icon BUILTIN="full-4"/>
+</node>
+<node COLOR="#111111" CREATED="1462829431931" ID="ID_1101566437" MODIFIED="1462829585125" TEXT="use specific selectors and filter fields on publications">
+<icon BUILTIN="full-5"/>
+</node>
+<node COLOR="#111111" CREATED="1462829461259" ID="ID_1041260059" MODIFIED="1462829586989" TEXT="dont use raw HTML in blaze">
+<icon BUILTIN="full-6"/>
+</node>
+<node COLOR="#111111" CREATED="1462829475659" ID="ID_1456697289" MODIFIED="1462829588653" TEXT="make sure secret API keys and passwords aren&apos;t in your source code">
+<icon BUILTIN="full-7"/>
+</node>
+<node COLOR="#111111" CREATED="1462829518739" ID="ID_263382314" MODIFIED="1462829589901" TEXT="secure the data not the UI">
+<icon BUILTIN="full-8"/>
+</node>
+<node COLOR="#111111" CREATED="1462829532355" ID="ID_1565873577" MODIFIED="1462829592229" TEXT="only trust `this.userId` inside methods and publications">
+<icon BUILTIN="full-9"/>
+</node>
+<node COLOR="#111111" CREATED="1462829564259" ID="ID_1362730527" MODIFIED="1462829595205" TEXT="setup browser policy">
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="full-0"/>
+</node>
 </node>
 </node>
 <node COLOR="#00b439" CREATED="1462650902625" ID="ID_1621126059" MODIFIED="1462650930797" TEXT="deployment &amp; monitoring">
