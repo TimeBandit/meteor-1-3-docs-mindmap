@@ -3,844 +3,11 @@
 <node COLOR="#000000" CREATED="1461835534960" ID="ID_1113400321" MODIFIED="1462451762318" TEXT="meteor 1_3">
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
-<node COLOR="#0033ff" CREATED="1461837714354" ID="ID_1255850192" MODIFIED="1462312589951" POSITION="right" TEXT="introduction">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<icon BUILTIN="full-1"/>
-<node COLOR="#00b439" CREATED="1461837837624" FOLDED="true" ID="ID_1853826901" MODIFIED="1462614566607" TEXT="benefits">
-<edge STYLE="bezier" WIDTH="thin"/>
-<cloud COLOR="#f0f0f0"/>
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1461837847248" ID="ID_1759763269" MODIFIED="1462205785969" TEXT="one language">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1461837852968" ID="ID_1868169407" MODIFIED="1462205785970" TEXT="data on the wire">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1461837866008" ID="ID_1844896882" MODIFIED="1462205785970" TEXT="embraces the ecosystem">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1461837874688" ID="ID_4048265" MODIFIED="1462205785970" TEXT="full stack reacivity">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
-<node COLOR="#00b439" CREATED="1461837895432" FOLDED="true" ID="ID_1540253830" MODIFIED="1462614601447" TEXT="resources">
-<edge STYLE="bezier" WIDTH="thin"/>
-<cloud/>
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1461837904336" ID="ID_1265927724" LINK="https://www.meteor.com/tutorials/react/creating-an-app" MODIFIED="1462205785970" TEXT="official tutorial">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1461838012584" ID="ID_814543749" LINK="https://stackoverflow.com/questions/tagged/meteor" MODIFIED="1462205785970" TEXT="stackoverflow">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1461837913073" ID="ID_1548115977" LINK="https://forums.meteor.com/" MODIFIED="1462205785970" TEXT="meteor forum">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1461837923776" ID="ID_1107099384" LINK="http://docs.meteor.com/#/full/" MODIFIED="1462205785970" TEXT="meteor docs">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1461837927064" ID="ID_1290217373" LINK="https://atmospherejs.com/" MODIFIED="1462205785970" TEXT="atmosphere">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1461837933136" ID="ID_445279249" LINK="https://www.meteor.com/projects" MODIFIED="1462205785970" TEXT="projects">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1461968399377" ID="ID_1879094973" LINK="https://themeteorchef.com/" MODIFIED="1462205785970" TEXT="themeteorchef">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1461838245392" ID="ID_1604941673" MODIFIED="1462205785971" POSITION="right" TEXT="code style">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<icon BUILTIN="full-2"/>
-<node COLOR="#00b439" CREATED="1461838292472" FOLDED="true" ID="ID_1935250550" MODIFIED="1462614607846" TEXT="benefits">
-<edge STYLE="bezier" WIDTH="thin"/>
-<cloud/>
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1461838299448" ID="ID_143709678" MODIFIED="1462205785971" TEXT="easy to read code">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1461838318104" ID="ID_1406297949" MODIFIED="1462205785971" TEXT="automatic error checking">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1461838380097" ID="ID_1673624093" MODIFIED="1462205785972" TEXT="deeper understanding">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
-<node COLOR="#00b439" CREATED="1461838394808" FOLDED="true" ID="ID_170558294" MODIFIED="1462615280088" TEXT="javascript style guide">
-<edge STYLE="bezier" WIDTH="thin"/>
-<cloud/>
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1461838476368" ID="ID_1053299358" MODIFIED="1462205785972" TEXT="use the ecmascript package">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1461838526584" ID="ID_1826248870" MODIFIED="1462205785972" TEXT="included by defaul in 1_3 apps"/>
-<node COLOR="#111111" CREATED="1461838953384" FOLDED="true" ID="ID_1664093544" LINK="https://docs.meteor.com/#/full/ecmascript" MODIFIED="1462615264911" TEXT="full list of features">
-<node COLOR="#111111" CREATED="1461840284401" ID="ID_1177775718" MODIFIED="1462614770164" TEXT="es3.propertyLiterals">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Makes it safe to use reserved keywords like catch as unquoted keys in object literals.
-    </p>
-    <p>
-      For example, { catch: 123 } is translated to { &quot;catch&quot;: 123 }.
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node COLOR="#111111" CREATED="1461840302721" ID="ID_528338016" MODIFIED="1462614783146" TEXT="es3.memberExpressionLiterals">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Makes it safe to use reserved keywords as property names. For example,
-    </p>
-    <p>
-      object.catch is translated to object[&quot;catch&quot;].
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node COLOR="#111111" CREATED="1461840336417" ID="ID_826359340" MODIFIED="1462614805680" TEXT="es6.arrowFunctions">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Provides a shorthand for function expressions.
-    </p>
-    <p>
-      For example, [1, 2, 3].map(x =&gt; x + 1) evaluates to [2, 3, 4].
-    </p>
-    <p>
-      If this is used in the body of the arrow function, it will be automatically bound to
-    </p>
-    <p>
-      the value of this in the enclosing scope.
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node COLOR="#111111" CREATED="1461840348769" ID="ID_114352054" MODIFIED="1462614837431" TEXT="es6.literals">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Adds support for binary and octal numeric literals. For example,
-    </p>
-    <p>
-      0b111110111 === 503 and 0o767 === 503.
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node COLOR="#111111" CREATED="1461840360425" ID="ID_105184988" MODIFIED="1462614855529" TEXT="es6.templateLiterals">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Enables multi-line strings delimited by backticks instead of quotation marks, with
-    </p>
-    <p>
-      variable interpolation: js
-    </p>
-    <p>
-      var name = &quot;Ben&quot;;
-    </p>
-    <p>
-      var message = `My name is:
-    </p>
-    <p>
-      ${name}`;
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node COLOR="#111111" CREATED="1461840389657" ID="ID_1041092410" MODIFIED="1462614866724" TEXT="es6.classes">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Enables class syntax:
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      class Base {
-    </p>
-    <p>
-      constructor(a, b) {
-    </p>
-    <p>
-      &#160;&#160;this.value = a * b;
-    </p>
-    <p>
-      }
-    </p>
-    <p>
-      }&lt;/p&gt;
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &lt;p&gt;class Derived extends Base {
-    </p>
-    <p>
-      constructor(a, b) {
-    </p>
-    <p>
-      &#160;&#160;super(a + 1, b + 1);
-    </p>
-    <p>
-      }
-    </p>
-    <p>
-      }&lt;/p&gt;
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &lt;p&gt;var d = new Derived(2, 3);
-    </p>
-    <p>
-      d.value; // 12
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node COLOR="#111111" CREATED="1461840406913" ID="ID_1004378368" MODIFIED="1462614886541" TEXT="es6.constants">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Allows defining block-scoped variables that are not allowed to be redefined:
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      const GOLDEN_RATIO = (1 + Math.sqrt(5)) / 2;&lt;/p&gt;
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &lt;p&gt;// This reassignment will be forbidden by the compiler:
-    </p>
-    <p>
-      GOLDEN_RATIO = &quot;new value&quot;;
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node COLOR="#111111" CREATED="1461840424921" ID="ID_585054990" MODIFIED="1462614903853" TEXT="es6.blockScoping">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Enables the let and const keywords as alternatives to var. The key difference is
-    </p>
-    <p>
-      that variables defined using let or const are visible only within the block where they
-    </p>
-    <p>
-      are declared, rather than being visible anywhere in the enclosing function.
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node COLOR="#111111" CREATED="1461840446153" ID="ID_1015601227" MODIFIED="1462614930388" TEXT="es6.properties.shorthand">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Allows omitting the value of an object literal property when the desired value is
-    </p>
-    <p>
-      held by a variable that has the same name as the property key. For example,
-    </p>
-    <p>
-      instead of writing { x: x, y: y, z: &quot;asdf&quot; } you can just write { x, y, z: &quot;asdf&quot; }.
-    </p>
-    <p>
-      Methods can also be written without the : function property syntax: js
-    </p>
-    <p>
-      var obj = {
-    </p>
-    <p>
-      oldWay: function (a, b) { ... },
-    </p>
-    <p>
-      newWay(a, b) { ... }
-    </p>
-    <p>
-      };
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node COLOR="#111111" CREATED="1461840456145" ID="ID_1260242437" MODIFIED="1462614990433" TEXT="es6.properties.computed">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Allows object literal properties with dynamically computed keys:
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      var counter = 0;
-    </p>
-    <p>
-      function getKeyName() {
-    </p>
-    <p>
-      return &quot;key&quot; + counter++;
-    </p>
-    <p>
-      }&lt;/p&gt;
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &lt;p&gt;var obj = {
-    </p>
-    <p>
-      [getKeyName()]: &quot;zero&quot;,
-    </p>
-    <p>
-      [getKeyName()]: &quot;one&quot;,
-    </p>
-    <p>
-      };&lt;/p&gt;
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &lt;p&gt;obj.key0; // &quot;zero&quot;
-    </p>
-    <p>
-      obj.key1; // &quot;one&quot;
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node COLOR="#111111" CREATED="1461840466209" ID="ID_395911569" MODIFIED="1462615090912" TEXT="es6.parameters">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Default expressions for function parameters, evaluated whenever the parameter
-    </p>
-    <p>
-      is undefined, ...rest parameters for capturing remaining arguments without using
-    </p>
-    <p>
-      the arguments object:
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      function add(a = 0, ...rest) {
-    </p>
-    <p>
-      rest.forEach(n =&gt; a += n);
-    </p>
-    <p>
-      return a;
-    </p>
-    <p>
-      }&lt;/p&gt;
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &lt;p&gt;add(); // 0
-    </p>
-    <p>
-      add(1, 2, 3); // 6
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node COLOR="#111111" CREATED="1461840472049" ID="ID_1586550253" MODIFIED="1462615109853" TEXT="es6.spread">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Allows an array of arguments to be interpolated into a list of arguments to a
-    </p>
-    <p>
-      function call, new expression, or array literal, without using Function.prototype.apply: js
-    </p>
-    <p>
-      add(1, ...[2, 3, 4], 5); // 15
-    </p>
-    <p>
-      new Node(&quot;name&quot;, ...children);
-    </p>
-    <p>
-      [1, ...[2, 3, 4], 5]; // [1, 2, 3, 4, 5]
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node COLOR="#111111" CREATED="1461840478473" ID="ID_1769349646" MODIFIED="1462615116224" TEXT="es6.forOf">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Provides an easy way to iterate over the elements of a collection: js
-    </p>
-    <p>
-      let sum = 0;
-    </p>
-    <p>
-      for (var x of [1, 2, 3]) {
-    </p>
-    <p>
-      sum += x;
-    </p>
-    <p>
-      }
-    </p>
-    <p>
-      x; // 6
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node COLOR="#111111" CREATED="1461840483728" ID="ID_571049549" MODIFIED="1462615214873" TEXT="es6.destructuring">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Destructuring is the technique of using an array or object pattern on the left-hand
-    </p>
-    <p>
-      side of an assignment or declaration, in place of the usual variable or parameter,
-    </p>
-    <p>
-      so that certain sub-properties of the value on the right-hand side will be bound to
-    </p>
-    <p>
-      identifiers that appear within the pattern.
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node COLOR="#111111" CREATED="1461840491817" ID="ID_400099537" MODIFIED="1462615230601" TEXT="es7.objectRestSpread">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Supports catch-all ...rest properties in object literal declarations and assignments: js
-    </p>
-    <p>
-      let { x, y, ...rest } = { x: 1, y: 2, a: 3, b: 4 };
-    </p>
-    <p>
-      x; // 1
-    </p>
-    <p>
-      y; // 2
-    </p>
-    <p>
-      rest; // { a: 3, b: 4 }
-    </p>
-    <p>
-      Also enables ...spread properties in object literal expressions: js
-    </p>
-    <p>
-      let n = { x, y, ...rest };
-    </p>
-    <p>
-      n; // { x: 1, y: 2, a: 3, b: 4 }
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node COLOR="#111111" CREATED="1461840500913" ID="ID_698447407" MODIFIED="1462615246351" TEXT="es7.trailingFunctionCommas">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Allows the final parameter of a function to be followed by a comma, provided that
-    </p>
-    <p>
-      parameter is not a ...rest parameter.
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node COLOR="#111111" CREATED="1461840506913" ID="ID_460544253" MODIFIED="1462615254994" TEXT="flow">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Permits the use of Flow type annotations. These annotations are simply stripped
-    </p>
-    <p>
-      from the code, so they have no effect on the code's behavior, but you can run the
-    </p>
-    <p>
-      flow tool over your code to check the types if desired.
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node COLOR="#111111" CREATED="1461840701273" ID="ID_701491320" LINK="http://info.meteor.com/blog/es2015-get-started" MODIFIED="1462205785973" TEXT="ES2015 and meteor"/>
-<node COLOR="#111111" CREATED="1461840717553" ID="ID_243648860" LINK="http://info.meteor.com/blog/set-up-sublime-text-for-meteor-es6-es2015-and-jsx-syntax-and-linting" MODIFIED="1462205785973" TEXT="setup sublime text for ES2015"/>
-</node>
-<node COLOR="#990000" CREATED="1461840817761" ID="ID_1675647432" LINK="https://github.com/airbnb/javascript" MODIFIED="1462205785973" TEXT="use the Airbnb style guide">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1461840859137" ID="ID_1052779234" LINK="https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb" MODIFIED="1462205785973" TEXT="Airbnb eslint configuration"/>
-<node COLOR="#111111" CREATED="1461841274217" ID="ID_1932708143" MODIFIED="1462205785974" TEXT="sublime text packages">
-<node COLOR="#111111" CREATED="1461841282937" ID="ID_1127574223" LINK="https://github.com/babel/babel-sublime#installation" MODIFIED="1462205785974" TEXT="babel"/>
-<node COLOR="#111111" CREATED="1461841290833" ID="ID_1339447602" LINK="http://sublimelinter.readthedocs.org/en/latest/installation.html" MODIFIED="1462205785974" TEXT="sublinter"/>
-<node COLOR="#111111" CREATED="1461841296385" ID="ID_154353959" LINK="https://github.com/roadhump/SublimeLinter-eslint#plugin-installation" MODIFIED="1462205785974" TEXT="sublinter-contrib-eslint"/>
-</node>
-</node>
-</node>
-<node COLOR="#00b439" CREATED="1461841353233" FOLDED="true" ID="ID_1391524057" MODIFIED="1462616103986" TEXT="meteor code style">
-<edge STYLE="bezier" WIDTH="thin"/>
-<cloud/>
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1461841446668" ID="ID_1848788470" MODIFIED="1462205785974" TEXT="collections">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Collections should be named as a plural noun, in PascalCase.
-    </p>
-    <p>
-      The name of the collection in the database (the first argument to the collection constructor)<br />should be the same as the name of the JavaScript symbol.
-    </p>
-  </body>
-</html></richcontent>
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1461841674826" ID="ID_950325075" MODIFIED="1462205785974" TEXT="PascalCase names"/>
-<node BACKGROUND_COLOR="#edf00e" COLOR="#111111" CREATED="1461841565266" ID="ID_1187644534" MODIFIED="1462205785974" TEXT="Lists = new Mongo.Collection(&apos;Lists&apos;);">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node COLOR="#111111" CREATED="1461841696802" ID="ID_160741466" MODIFIED="1462205785974" TEXT="camelCased for fields in database"/>
-<node BACKGROUND_COLOR="#edf00e" COLOR="#111111" CREATED="1461841727922" ID="ID_1776431393" MODIFIED="1462205785974" TEXT="Widgets.insert({   myFieldName: &apos;Hello, world!&apos;,   otherFieldName: &apos;Goodbye.&apos; });"/>
-</node>
-<node COLOR="#990000" CREATED="1461841459082" ID="ID_582275509" MODIFIED="1462205785975" TEXT="methods &amp; publications">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1461841791010" ID="ID_730003147" MODIFIED="1462205785975" TEXT="camelCased and namspaced to module"/>
-<node BACKGROUND_COLOR="#edf00e" COLOR="#111111" CREATED="1461841814369" ID="ID_141097685" MODIFIED="1462205785975" TEXT="updateText = new ValidatedMethod({   name: &apos;todos.updateText&apos;,   // ... });"/>
-<node BACKGROUND_COLOR="#edf00e" COLOR="#111111" CREATED="1461841887058" ID="ID_1706284092" MODIFIED="1462205785975" TEXT="Meteor.publish(&apos;lists.public&apos;, function listsPublic() {   // ... });"/>
-</node>
-<node COLOR="#990000" CREATED="1461841466394" ID="ID_1208153414" MODIFIED="1462205785975" TEXT="files, exports, packages">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1461843062578" ID="ID_261520551" MODIFIED="1462205785975" TEXT="use import &amp; export"/>
-<node COLOR="#111111" CREATED="1461843116314" ID="ID_1696665023" MODIFIED="1462615854063" TEXT="one class / UI components / collection per file">
-<font NAME="SansSerif" SIZE="12"/>
-<node COLOR="#111111" CREATED="1461843213946" ID="ID_1098213795" MODIFIED="1462205785975" TEXT="name it same as thing it defines"/>
-<node BACKGROUND_COLOR="#edf00e" COLOR="#111111" CREATED="1461843239882" ID="ID_510046837" MODIFIED="1462205785975" TEXT="export default class ClickCounter { ... }"/>
-<node BACKGROUND_COLOR="#edf00e" COLOR="#111111" CREATED="1461843246058" ID="ID_1997012411" MODIFIED="1462205785975" TEXT="import ClickCounter from &apos;./ClickCounter.js&apos;;"/>
-<node COLOR="#111111" CREATED="1461843444482" ID="ID_1479625421" MODIFIED="1462205785975" TEXT="decontruct for pre 1_3 packages">
-<node BACKGROUND_COLOR="#edf00e" COLOR="#111111" CREATED="1461843467314" ID="ID_1055861128" MODIFIED="1462205785975" TEXT="import { Meteor } from &apos;meteor/meteor&apos;;"/>
-</node>
-</node>
-</node>
-<node COLOR="#990000" CREATED="1461841477226" ID="ID_610692514" MODIFIED="1462205785975" TEXT="templates &amp; componenets">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1461843599250" ID="ID_25430103" MODIFIED="1462312592159" POSITION="right" TEXT="application structure">
-<edge STYLE="sharp_bezier" WIDTH="8"/>
-<font NAME="SansSerif" SIZE="18"/>
-<icon BUILTIN="full-3"/>
-<node COLOR="#00b439" CREATED="1461844430730" FOLDED="true" ID="ID_787226349" MODIFIED="1462616150112" TEXT="universal JS">
-<edge STYLE="bezier" WIDTH="thin"/>
-<cloud/>
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1461844002996" ID="ID_1075136270" MODIFIED="1462205785977" TEXT="use import to include CSS, HTML and JS files">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      export const listRenderHold = LaunchScreen.hold();&#160;&#160;// named export
-    </p>
-    <p>
-      export { Todos };&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;// named export
-    </p>
-    <p>
-      export default Lists;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;// default export
-    </p>
-    <p>
-      export default new Collection('lists');&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;// default export
-    </p>
-  </body>
-</html></richcontent>
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1461844349802" ID="ID_942013283" MODIFIED="1462205785977" TEXT="ok to use &apos;require&apos; in common code ">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      if (Meteor.isClient) {
-    </p>
-    <p>
-      &#160;&#160;require('./client-only-file.js');
-    </p>
-    <p>
-      }
-    </p>
-  </body>
-</html></richcontent>
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node BACKGROUND_COLOR="#edf00e" COLOR="#990000" CREATED="1461844029320" ID="ID_74511390" MODIFIED="1462205785977" TEXT="import moment from &apos;moment&apos;;          // default import from npm">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node BACKGROUND_COLOR="#edf00e" COLOR="#990000" CREATED="1461844299291" ID="ID_663016000" MODIFIED="1462205785977" TEXT="import { HTTP } from &apos;meteor/http&apos;;   // named import from Atmosphere">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node BACKGROUND_COLOR="#e0f806" COLOR="#990000" CREATED="1461863124945" ID="ID_524998441" MODIFIED="1462205785977" TEXT="import { Meteor } from &apos;meteor/meteor&apos;;">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node BACKGROUND_COLOR="#e0f806" COLOR="#990000" CREATED="1461863134369" ID="ID_280377713" MODIFIED="1462205785977" TEXT="import { EJSON } from &apos;meteor/ejson&apos;;">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
-<node COLOR="#00b439" CREATED="1461844465266" FOLDED="true" ID="ID_101396548" MODIFIED="1462617010935" TEXT="file structure">
-<edge STYLE="bezier" WIDTH="thin"/>
-<cloud/>
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1461844501531" ID="ID_457337133" MODIFIED="1462205785977" TEXT="place all code inside /imports directory">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1461844537355" ID="ID_442574400" MODIFIED="1462205785977" TEXT="create clients/main.js &amp; server/main.js for entry points">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1461844616626" ID="ID_1874916145" MODIFIED="1462205785977" TEXT="main.js file should import startup modules">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1461861139068" ID="ID_893141758" MODIFIED="1462616878520" TEXT="example directory layout">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <b><font color="#0162fe" face="Monospaced">imports</font></b>/
-    </p>
-    <p>
-      &#160;&#160;<b><font color="#ff0000">startup</font></b>/
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;<font color="#1eff04">client</font>/
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;index.js&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<font color="#0b0d22"># import client startup&#160;through a single index entry point</font>
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;routes.js&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# set up all routes in the app
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;useraccounts-configuration.js # configure login templates
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;<font color="#3cf909">server</font>/
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;fixtures.js&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# fill the DB with example data on startup
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;index.js&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# import server startup through a single index entry point
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &#160;&#160;<b><font color="#ff0000">api</font></b>/
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;<font color="#0df90f">lists</font>/&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# a unit of domain logic
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;server/
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;publications.js&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# all list-related publications
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;publications.tests.js&#160;&#160;# tests for the list publications
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;lists.js&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# definition of the Lists collection
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;lists.tests.js&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# tests for the behavior of that collection
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;methods.js&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# methods related to lists
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;methods.tests.js&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# tests for those methods
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &#160;&#160;<b><font color="#ff0000">ui</font>/</b>
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;<font color="#08eb0e">components</font>/&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# all reusable components in the application
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# can be split by domain if there are many, include html,css, js for each component
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;layouts/&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# wrapper components for behaviour and visuals
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;pages/&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# entry points for rendering used by the router
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <b><font color="#0431f7" face="Monospaced">client</font></b>/
-    </p>
-    <p>
-      &#160;&#160;<b><font color="#ff0000">main.js</font></b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# client entry point, imports all client code
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <b><font color="#0321f5" face="Monospaced">server</font></b>/
-    </p>
-    <p>
-      &#160;&#160;<b><font color="#fe0101">main.js</font></b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# server entry point, imports all server code
-    </p>
-  </body>
-</html></richcontent>
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
-<node COLOR="#00b439" CREATED="1461863199001" FOLDED="true" ID="ID_1128994904" MODIFIED="1462617029480" TEXT="default file load order">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      
-    </p>
-    <ol>
-      <li>
-        &#160;&#160;&#160;&#160;HTML template files are always loaded before everything else
-      </li>
-      <li>
-        &#160;&#160;&#160;&#160;Files beginning with main. are loaded last
-      </li>
-      <li>
-        &#160;&#160;&#160;&#160;Files inside any lib/ directory are loaded next
-      </li>
-      <li>
-        &#160;&#160;&#160;&#160;Files with deeper paths are loaded next
-      </li>
-      <li>
-        &#160;&#160;&#160;&#160;Files are then loaded in alphabetical order of the entire path
-      </li>
-    </ol>
-  </body>
-</html></richcontent>
-<edge STYLE="bezier" WIDTH="thin"/>
-<cloud/>
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1461863268233" ID="ID_1853335563" MODIFIED="1462205785978" TEXT="special directories">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1461863280817" ID="ID_1547058398" MODIFIED="1462205785978" TEXT="imports"/>
-<node COLOR="#111111" CREATED="1461863300880" ID="ID_1853550561" MODIFIED="1462205785978" TEXT="node_modules"/>
-<node COLOR="#111111" CREATED="1461863307945" ID="ID_1671298158" MODIFIED="1462205785978" TEXT="client"/>
-<node COLOR="#111111" CREATED="1461863311129" ID="ID_161760457" MODIFIED="1462205785978" TEXT="server"/>
-<node COLOR="#111111" CREATED="1461863319041" ID="ID_1301267977" MODIFIED="1462205785978" TEXT="public"/>
-<node COLOR="#111111" CREATED="1461863522049" ID="ID_871761774" MODIFIED="1462205785978" TEXT="private">
-<node COLOR="#111111" CREATED="1461863534585" ID="ID_1764146825" LINK="http://docs.meteor.com/#/full/assets_getText" MODIFIED="1462205785978" TEXT="Assets API"/>
-</node>
-<node COLOR="#111111" CREATED="1461863321201" ID="ID_1333142264" MODIFIED="1462205785978" TEXT="client/compatibility"/>
-<node COLOR="#111111" CREATED="1461863341369" ID="ID_223618661" MODIFIED="1462205785978" TEXT="tests"/>
-</node>
-</node>
-<node COLOR="#00b439" CREATED="1461863601425" FOLDED="true" ID="ID_1548015980" MODIFIED="1462617031231" TEXT="splitting into multiple aps">
-<edge STYLE="bezier" WIDTH="thin"/>
-<cloud/>
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1461863612521" ID="ID_828475598" MODIFIED="1462205785978" TEXT="sharing code">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1461863617369" ID="ID_84635666" MODIFIED="1462205785978" TEXT="sharing data">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1461863620673" ID="ID_194975379" MODIFIED="1462205785979" TEXT="sharing accounts">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
-</node>
 <node COLOR="#0033ff" CREATED="1461874216839" ID="ID_1955163752" MODIFIED="1462372338798" POSITION="right" TEXT="data">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <icon BUILTIN="full-4"/>
-<node COLOR="#00b439" CREATED="1461874230125" FOLDED="true" ID="ID_585527631" MODIFIED="1462829332252" TEXT="collections &amp; schemas">
+<node COLOR="#00b439" CREATED="1461874230125" FOLDED="true" ID="ID_585527631" MODIFIED="1462887371090" TEXT="collections &amp; schemas">
 <edge STYLE="bezier" WIDTH="thin"/>
 <cloud/>
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
@@ -1026,7 +193,7 @@
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1461879384766" ID="ID_1187257330" MODIFIED="1462205785982" TEXT="put code common to multiple collections in one place"/>
 </node>
-<node COLOR="#990000" CREATED="1461925884843" ID="ID_664010628" MODIFIED="1462205785982" TEXT="migrations">
+<node COLOR="#990000" CREATED="1461925884843" ID="ID_664010628" MODIFIED="1462885610944" TEXT="migrations">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1461925894809" ID="ID_1076265082" MODIFIED="1462205785982" TEXT="writing">
 <node COLOR="#111111" CREATED="1461928504468" ID="ID_123311738" LINK="https://atmospherejs.com/percolate/migrations" MODIFIED="1462205785982" TEXT="percolate:migrations">
@@ -1176,7 +343,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1461874239693" FOLDED="true" ID="ID_863857151" MODIFIED="1462661380285" TEXT="publications &amp; data loading">
+<node COLOR="#00b439" CREATED="1461874239693" FOLDED="true" ID="ID_863857151" MODIFIED="1462877542192" TEXT="publications &amp; data loading">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1975,7 +1142,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1461874250509" FOLDED="true" ID="ID_586654330" MODIFIED="1462812168936" TEXT="methods">
+<node COLOR="#00b439" CREATED="1461874250509" FOLDED="true" ID="ID_586654330" MODIFIED="1462877512575" TEXT="methods">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2830,7 +1997,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1461874254021" FOLDED="true" ID="ID_1140560101" MODIFIED="1462624754033" TEXT="users &amp; accounts">
+<node COLOR="#00b439" CREATED="1461874254021" FOLDED="true" ID="ID_1140560101" MODIFIED="1462877499124" TEXT="users &amp; accounts">
 <edge STYLE="bezier" WIDTH="thin"/>
 <cloud/>
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
@@ -5236,8 +4403,7 @@
       };
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node COLOR="#111111" CREATED="1462814822918" ID="ID_1128361620" MODIFIED="1462814829677" TEXT="publications &amp; userId">
@@ -5364,8 +4530,7 @@
       });
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#111111" CREATED="1462825975690" ID="ID_1779574603" LINK="https://atmospherejs.com/reywood/publish-composite" MODIFIED="1462826077759" TEXT="reywood:publish-composite">
 <richcontent TYPE="NOTE"><html>
@@ -5380,8 +4545,7 @@
       changes in publications, see the data loading article.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="password"/>
 </node>
 </node>
@@ -5398,8 +4562,7 @@
       a publication can only restrict the data being requested, rather than extending it.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node COLOR="#111111" CREATED="1462826092488" ID="ID_1615672856" MODIFIED="1462826121420" TEXT="passing a limit">
 <icon BUILTIN="full-1"/>
 <node COLOR="#111111" CREATED="1462826229538" ID="ID_1858732592" MODIFIED="1462826243847" TEXT="when sending a `limit` option"/>
@@ -5592,10 +4755,1080 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1462650902625" ID="ID_1621126059" MODIFIED="1462650930797" TEXT="deployment &amp; monitoring">
+<node COLOR="#00b439" CREATED="1462650902625" FOLDED="true" ID="ID_1621126059" MODIFIED="1462887420306" TEXT="deployment &amp; monitoring">
 <edge STYLE="bezier" WIDTH="thin"/>
 <cloud/>
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1462877014198" ID="ID_652886502" MODIFIED="1462877021646" TEXT="deploying applications">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1462876835726" ID="ID_237336373" MODIFIED="1462877024848" TEXT="deployment environments">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1462876844350" ID="ID_374415465" MODIFIED="1462876859121" TEXT="development">
+<icon BUILTIN="full-1"/>
+<node COLOR="#111111" CREATED="1462876864654" ID="ID_1013780972" MODIFIED="1462876875926" TEXT="you local dev machine"/>
+</node>
+<node COLOR="#111111" CREATED="1462876850574" ID="ID_1623815074" MODIFIED="1462876859672" TEXT="staging">
+<icon BUILTIN="full-2"/>
+<node COLOR="#111111" CREATED="1462876884142" ID="ID_1699134085" MODIFIED="1462876909088" TEXT="a test area environment before releasing"/>
+<node COLOR="#111111" CREATED="1462876953134" ID="ID_981212134" MODIFIED="1462876961033" TEXT="close to final environment"/>
+</node>
+<node COLOR="#111111" CREATED="1462876853390" ID="ID_1430809913" MODIFIED="1462876860472" TEXT="production">
+<icon BUILTIN="full-3"/>
+<node COLOR="#111111" CREATED="1462876912798" ID="ID_1597364768" MODIFIED="1462876921904" TEXT="the real deployment"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1462877029470" ID="ID_356239287" MODIFIED="1462877034200" TEXT="environment variables">
+<node COLOR="#111111" CREATED="1462877051326" ID="ID_226226923" MODIFIED="1462877063808" TEXT="environment variables">
+<icon BUILTIN="full-1"/>
+<node COLOR="#111111" CREATED="1462877108798" ID="ID_733995319" MODIFIED="1462877117221" TEXT="ENV_VARS"/>
+<node COLOR="#111111" CREATED="1462877120854" ID="ID_667421858" MODIFIED="1462877125194" TEXT="set on running process"/>
+</node>
+<node COLOR="#111111" CREATED="1462877058086" ID="ID_1732022229" MODIFIED="1462877064496" TEXT="settings">
+<icon BUILTIN="full-2"/>
+<node COLOR="#111111" CREATED="1462877280062" ID="ID_750421842" MODIFIED="1462877337435" TEXT="JSON object via --settings flag">
+<node COLOR="#111111" CREATED="1462877575518" ID="ID_1175239516" MODIFIED="1462877580206" TEXT="for specific things">
+<node COLOR="#111111" CREATED="1462877583790" ID="ID_1887664356" MODIFIED="1462877593245" TEXT="API keys"/>
+<node COLOR="#111111" CREATED="1462877599470" ID="ID_1143412649" MODIFIED="1462877609155" TEXT="does not change between processes"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1462877424894" ID="ID_1762853003" MODIFIED="1462877436561" TEXT="METEOR_SETTINGS environment variable">
+<node COLOR="#111111" CREATED="1462878147071" ID="ID_724251688" MODIFIED="1462878164907" TEXT="process specific things"/>
+<node COLOR="#111111" CREATED="1462879032485" ID="ID_888267884" MODIFIED="1462879037962" TEXT="e.g. different KADIRA_OPTIONS_HOSTNAME"/>
+</node>
+</node>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1462879046359" ID="ID_1723692988" MODIFIED="1462879050693" TEXT="other considerations">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1462879053847" ID="ID_781788497" MODIFIED="1462879055984" TEXT="domain name"/>
+<node COLOR="#111111" CREATED="1462879056711" ID="ID_838785085" MODIFIED="1462879064490" TEXT="SSL certificate">
+<node COLOR="#111111" CREATED="1462879199223" ID="ID_246886312" LINK="https://letsencrypt.org/" MODIFIED="1462879203251" TEXT="free"/>
+</node>
+<node COLOR="#111111" CREATED="1462879097463" ID="ID_1029987986" MODIFIED="1462879099633" TEXT="CDN">
+<node COLOR="#111111" CREATED="1462879262615" ID="ID_783744037" MODIFIED="1462879269771" TEXT="not strictly required"/>
+<node COLOR="#111111" CREATED="1462879270471" ID="ID_1883465750" MODIFIED="1462879278740" TEXT="can improve page load times"/>
+<node COLOR="#111111" CREATED="1462879328367" ID="ID_532719341" MODIFIED="1462879343872" TEXT="use provider that supports `origin`">
+<node COLOR="#111111" CREATED="1462879345136" ID="ID_634513869" LINK="http://joshowens.me/using-a-cdn-with-your-production-meteor-app/" MODIFIED="1462879359702" TEXT="CloudFront">
+<node COLOR="#111111" CREATED="1462882937112" ID="ID_1090038945" MODIFIED="1462883004794" TEXT="select distribution">
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#111111" CREATED="1462882948440" ID="ID_496929817" MODIFIED="1462883005490" TEXT="behaviour tap">
+<icon BUILTIN="full-2"/>
+</node>
+<node COLOR="#111111" CREATED="1462882952552" ID="ID_107665116" MODIFIED="1462883006146" TEXT="select app origin">
+<icon BUILTIN="full-3"/>
+</node>
+<node COLOR="#111111" CREATED="1462882960768" ID="ID_1333828296" MODIFIED="1462883006738" TEXT="edit button">
+<icon BUILTIN="full-4"/>
+</node>
+<node COLOR="#111111" CREATED="1462882965344" ID="ID_1044307020" MODIFIED="1462883007850" TEXT="whitelist headers">
+<icon BUILTIN="full-5"/>
+<node COLOR="#111111" CREATED="1462882977032" ID="ID_1339031284" MODIFIED="1462882980838" TEXT="select origin"/>
+</node>
+<node COLOR="#111111" CREATED="1462882983392" ID="ID_591786828" MODIFIED="1462883009194" TEXT="`yes edit` button">
+<icon BUILTIN="full-6"/>
+</node>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1462879455991" ID="ID_422525645" MODIFIED="1462879466576" TEXT="for JS &amp; CSS">
+<node COLOR="#111111" CREATED="1462879677637" ID="ID_700382616" MODIFIED="1462879680550" TEXT="on server">
+<node BACKGROUND_COLOR="#fff400" COLOR="#111111" CREATED="1462879474391" ID="ID_686087108" MODIFIED="1462879507935" TEXT="WebAppInternals.setBundledJsCssPrefix(&quot;http://mycdn.com&quot;)">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1462880284367" ID="ID_623430822" MODIFIED="1462880290747" TEXT="for dynamic prefixes">
+<node BACKGROUND_COLOR="#fff400" COLOR="#111111" CREATED="1462880298807" ID="ID_1471271896" MODIFIED="1462880327292" TEXT="WebAppInternals.setBundledJsCssUrlRewriteHook()">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1462880339463" ID="ID_163115515" MODIFIED="1462880755436" TEXT="change ULRs of public/ files to point @ CDN">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Before:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &lt;img src=&quot;http://myapp.com/cats.gif&quot;&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      After:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Template.registerHelper(&quot;assetUrl&quot;, (asset) =&gt; {
+    </p>
+    <p>
+      &#160;&#160;return &quot;http://mycdn.com/&quot; + asset
+    </p>
+    <p>
+      });
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &lt;img src=&quot;{{assetUrl 'cats.gif'}}&quot;&gt;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1462882821464" ID="ID_521864200" MODIFIED="1462882824052" TEXT="webfonts">
+<node COLOR="#111111" CREATED="1462882825624" ID="ID_1650268370" MODIFIED="1462882839369" TEXT="configure headers for font"/>
+<node COLOR="#111111" CREATED="1462882840632" ID="ID_734987426" MODIFIED="1462882855498" TEXT="cross-origin resource sharing">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      import { WebApp } from 'meteor/webapp';
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      WebApp.rawConnectHandlers.use(function(req, res, next) {
+    </p>
+    <p>
+      &#160;&#160;if (req._parsedUrl.pathname.match(/\.(ttf|ttc|otf|eot|woff|font\.css|css)$/) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;res.setHeader('Access-Control-Allow-Origin', /* your hostname, or just '*' */);
+    </p>
+    <p>
+      &#160;&#160;}
+    </p>
+    <p>
+      &#160;&#160;next();
+    </p>
+    <p>
+      });
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1462883018464" ID="ID_589023612" MODIFIED="1462883023096" TEXT="deployment options">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1462883024480" ID="ID_1451748875" LINK="https://www.meteor.com/why-meteor/pricing" MODIFIED="1462883786288" TEXT="galaxy">
+<node COLOR="#111111" CREATED="1462883862745" ID="ID_1981955586" MODIFIED="1462883872381" TEXT="find your own MOngodb provider"/>
+<node COLOR="#111111" CREATED="1462883873057" ID="ID_872683340" LINK="https://mlab.com/" MODIFIED="1462883880934" TEXT="mLab"/>
+</node>
+<node COLOR="#111111" CREATED="1462883027680" ID="ID_153893257" MODIFIED="1462883031162" TEXT="meteor up">
+<node COLOR="#111111" CREATED="1462883931897" ID="ID_231199506" LINK="https://www.youtube.com/watch?v=WLGdXtZMmiI" MODIFIED="1462883940574" TEXT="`mupx`"/>
+</node>
+<node COLOR="#111111" CREATED="1462883031816" ID="ID_324902010" MODIFIED="1462883036486" TEXT="custom development"/>
+</node>
+<node COLOR="#990000" CREATED="1462884273169" ID="ID_1704117426" MODIFIED="1462884276664" TEXT="deployment process">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1462884333553" ID="ID_1014235879" MODIFIED="1462884346336" TEXT="important to have consistent process"/>
+<node COLOR="#111111" CREATED="1462884346873" ID="ID_1658874740" MODIFIED="1462884355601" TEXT="QA important">
+<node COLOR="#111111" CREATED="1462884376529" ID="ID_1984713262" MODIFIED="1462884441347" TEXT="deploy new version to staging server">
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#111111" CREATED="1462884387353" ID="ID_1840585285" MODIFIED="1462884442179" TEXT="QA application on staging server">
+<icon BUILTIN="full-2"/>
+</node>
+<node COLOR="#111111" CREATED="1462884396057" ID="ID_654134181" MODIFIED="1462884442931" TEXT="fix bugs in step 2 &amp; repeat">
+<icon BUILTIN="full-3"/>
+</node>
+<node COLOR="#111111" CREATED="1462884407561" ID="ID_620318531" MODIFIED="1462884443755" TEXT="once ou are satisfied, relese same version production">
+<icon BUILTIN="full-4"/>
+</node>
+<node COLOR="#111111" CREATED="1462884429209" ID="ID_16079260" MODIFIED="1462884444483" TEXT="run final QA on production">
+<icon BUILTIN="full-5"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1462884474497" ID="ID_1039543994" MODIFIED="1462884480498" TEXT="continuous deployment">
+<node COLOR="#111111" CREATED="1462884482465" ID="ID_1292701934" LINK="https://medium.com/@natestrauser/migrating-meteor-apps-from-modulus-to-galaxy-with-continuous-deployment-from-codeship-aed2044cabd9#.lvio4sh4a" MODIFIED="1462884500010" TEXT="e.g. automatic on git push to master"/>
+</node>
+<node COLOR="#111111" CREATED="1462885398281" ID="ID_475889750" MODIFIED="1462885610945" TEXT="rolling deployments &amp; data versions">
+<arrowlink DESTINATION="ID_664010628" ENDARROW="Default" ENDINCLINATION="1623;0;" ID="Arrow_ID_200386197" STARTARROW="None" STARTINCLINATION="1623;0;"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1462885666497" ID="ID_1840422690" MODIFIED="1462885671406" TEXT="analytics">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1462885680241" ID="ID_1372383128" LINK="https://atmospherejs.com/okgrow/analytics" MODIFIED="1462885712027" TEXT="okgrow:analytics">
+<icon BUILTIN="password"/>
+<node COLOR="#111111" CREATED="1462885743857" ID="ID_1981993669" MODIFIED="1462885756605" TEXT="can configure for google analytics"/>
+<node COLOR="#111111" CREATED="1462885762873" ID="ID_1102011077" MODIFIED="1462885779073" TEXT="hooks into Flow Router to record page events"/>
+<node COLOR="#111111" CREATED="1462885782393" ID="ID_271522854" MODIFIED="1462885799221" TEXT="can create custom event tracking"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1462885809977" ID="ID_448653036" MODIFIED="1462885818320" TEXT="monitoring you application">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1462886712873" ID="ID_1135525103" LINK="https://www.pingdom.com/" MODIFIED="1462886727652" TEXT="Pingdom"/>
+<node COLOR="#111111" CREATED="1462886732962" ID="ID_1537227079" MODIFIED="1462886752676" TEXT="Monitoring with Galaxy"/>
+<node COLOR="#111111" CREATED="1462886786986" ID="ID_1186837246" LINK="https://kadira.io/" MODIFIED="1462886795103" TEXT="Kadira">
+<node COLOR="#111111" CREATED="1462886864833" ID="ID_981106168" MODIFIED="1462886878779" TEXT="method &amp; publication latency"/>
+<node COLOR="#111111" CREATED="1462886942954" ID="ID_1175313646" MODIFIED="1462886950550" TEXT="livequery monitoring"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1462887076258" ID="ID_1802767991" MODIFIED="1462887079076" TEXT="SEO">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1462887172274" ID="ID_1304016170" MODIFIED="1462887184454" TEXT="better to SSR your HTML">
+<node COLOR="#111111" CREATED="1462887186066" ID="ID_1694634433" LINK="https://prerender.io/" MODIFIED="1462887358420" TEXT="prerender.io"/>
+<node COLOR="#111111" CREATED="1462887205978" ID="ID_611907877" LINK="https://atmospherejs.com/dfischer/prerenderio" MODIFIED="1462887213797" TEXT="dfischer:prerenderio"/>
+</node>
+<node COLOR="#111111" CREATED="1462887223282" ID="ID_1634590765" MODIFIED="1462887229358" TEXT="via galaxy">
+<node COLOR="#111111" CREATED="1462887233970" ID="ID_1165503952" MODIFIED="1462887358420" TEXT="builting in">
+<arrowlink DESTINATION="ID_1694634433" ENDARROW="Default" ENDINCLINATION="707;64;" ID="Arrow_ID_1572539054" STARTARROW="None" STARTINCLINATION="86;336;"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1462887278370" ID="ID_1288894838" MODIFIED="1462887293373" TEXT="set &lt;title&gt; &amp; &lt;head&gt;">
+<node COLOR="#111111" CREATED="1462887294970" ID="ID_1527846009" LINK="https://atmospherejs.com/kadira/dochead" MODIFIED="1462887316283" TEXT="kadira:dochead"/>
+<node COLOR="#111111" CREATED="1462887326411" ID="ID_820846119" MODIFIED="1462887343842" TEXT="call from onCreated callback @ page level component"/>
+</node>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1461837714354" ID="ID_1255850192" MODIFIED="1462312589951" POSITION="left" TEXT="introduction">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<icon BUILTIN="full-1"/>
+<node COLOR="#00b439" CREATED="1461837837624" FOLDED="true" ID="ID_1853826901" MODIFIED="1462614566607" TEXT="benefits">
+<edge STYLE="bezier" WIDTH="thin"/>
+<cloud COLOR="#f0f0f0"/>
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1461837847248" ID="ID_1759763269" MODIFIED="1462205785969" TEXT="one language">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1461837852968" ID="ID_1868169407" MODIFIED="1462205785970" TEXT="data on the wire">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1461837866008" ID="ID_1844896882" MODIFIED="1462205785970" TEXT="embraces the ecosystem">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1461837874688" ID="ID_4048265" MODIFIED="1462205785970" TEXT="full stack reacivity">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1461837895432" FOLDED="true" ID="ID_1540253830" MODIFIED="1462614601447" TEXT="resources">
+<edge STYLE="bezier" WIDTH="thin"/>
+<cloud/>
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1461837904336" ID="ID_1265927724" LINK="https://www.meteor.com/tutorials/react/creating-an-app" MODIFIED="1462205785970" TEXT="official tutorial">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1461838012584" ID="ID_814543749" LINK="https://stackoverflow.com/questions/tagged/meteor" MODIFIED="1462205785970" TEXT="stackoverflow">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1461837913073" ID="ID_1548115977" LINK="https://forums.meteor.com/" MODIFIED="1462205785970" TEXT="meteor forum">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1461837923776" ID="ID_1107099384" LINK="http://docs.meteor.com/#/full/" MODIFIED="1462205785970" TEXT="meteor docs">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1461837927064" ID="ID_1290217373" LINK="https://atmospherejs.com/" MODIFIED="1462205785970" TEXT="atmosphere">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1461837933136" ID="ID_445279249" LINK="https://www.meteor.com/projects" MODIFIED="1462205785970" TEXT="projects">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1461968399377" ID="ID_1879094973" LINK="https://themeteorchef.com/" MODIFIED="1462205785970" TEXT="themeteorchef">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1461838245392" ID="ID_1604941673" MODIFIED="1462205785971" POSITION="left" TEXT="code style">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<icon BUILTIN="full-2"/>
+<node COLOR="#00b439" CREATED="1461838292472" FOLDED="true" ID="ID_1935250550" MODIFIED="1462614607846" TEXT="benefits">
+<edge STYLE="bezier" WIDTH="thin"/>
+<cloud/>
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1461838299448" ID="ID_143709678" MODIFIED="1462205785971" TEXT="easy to read code">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1461838318104" ID="ID_1406297949" MODIFIED="1462205785971" TEXT="automatic error checking">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1461838380097" ID="ID_1673624093" MODIFIED="1462205785972" TEXT="deeper understanding">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1461838394808" FOLDED="true" ID="ID_170558294" MODIFIED="1462615280088" TEXT="javascript style guide">
+<edge STYLE="bezier" WIDTH="thin"/>
+<cloud/>
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1461838476368" ID="ID_1053299358" MODIFIED="1462205785972" TEXT="use the ecmascript package">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1461838526584" ID="ID_1826248870" MODIFIED="1462205785972" TEXT="included by defaul in 1_3 apps"/>
+<node COLOR="#111111" CREATED="1461838953384" FOLDED="true" ID="ID_1664093544" LINK="https://docs.meteor.com/#/full/ecmascript" MODIFIED="1462615264911" TEXT="full list of features">
+<node COLOR="#111111" CREATED="1461840284401" ID="ID_1177775718" MODIFIED="1462614770164" TEXT="es3.propertyLiterals">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Makes it safe to use reserved keywords like catch as unquoted keys in object literals.
+    </p>
+    <p>
+      For example, { catch: 123 } is translated to { &quot;catch&quot;: 123 }.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node COLOR="#111111" CREATED="1461840302721" ID="ID_528338016" MODIFIED="1462614783146" TEXT="es3.memberExpressionLiterals">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Makes it safe to use reserved keywords as property names. For example,
+    </p>
+    <p>
+      object.catch is translated to object[&quot;catch&quot;].
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node COLOR="#111111" CREATED="1461840336417" ID="ID_826359340" MODIFIED="1462614805680" TEXT="es6.arrowFunctions">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Provides a shorthand for function expressions.
+    </p>
+    <p>
+      For example, [1, 2, 3].map(x =&gt; x + 1) evaluates to [2, 3, 4].
+    </p>
+    <p>
+      If this is used in the body of the arrow function, it will be automatically bound to
+    </p>
+    <p>
+      the value of this in the enclosing scope.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node COLOR="#111111" CREATED="1461840348769" ID="ID_114352054" MODIFIED="1462614837431" TEXT="es6.literals">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Adds support for binary and octal numeric literals. For example,
+    </p>
+    <p>
+      0b111110111 === 503 and 0o767 === 503.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node COLOR="#111111" CREATED="1461840360425" ID="ID_105184988" MODIFIED="1462614855529" TEXT="es6.templateLiterals">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Enables multi-line strings delimited by backticks instead of quotation marks, with
+    </p>
+    <p>
+      variable interpolation: js
+    </p>
+    <p>
+      var name = &quot;Ben&quot;;
+    </p>
+    <p>
+      var message = `My name is:
+    </p>
+    <p>
+      ${name}`;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node COLOR="#111111" CREATED="1461840389657" ID="ID_1041092410" MODIFIED="1462614866724" TEXT="es6.classes">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Enables class syntax:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      class Base {
+    </p>
+    <p>
+      constructor(a, b) {
+    </p>
+    <p>
+      &#160;&#160;this.value = a * b;
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      }&lt;/p&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &lt;p&gt;class Derived extends Base {
+    </p>
+    <p>
+      constructor(a, b) {
+    </p>
+    <p>
+      &#160;&#160;super(a + 1, b + 1);
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      }&lt;/p&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &lt;p&gt;var d = new Derived(2, 3);
+    </p>
+    <p>
+      d.value; // 12
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node COLOR="#111111" CREATED="1461840406913" ID="ID_1004378368" MODIFIED="1462614886541" TEXT="es6.constants">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Allows defining block-scoped variables that are not allowed to be redefined:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      const GOLDEN_RATIO = (1 + Math.sqrt(5)) / 2;&lt;/p&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &lt;p&gt;// This reassignment will be forbidden by the compiler:
+    </p>
+    <p>
+      GOLDEN_RATIO = &quot;new value&quot;;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node COLOR="#111111" CREATED="1461840424921" ID="ID_585054990" MODIFIED="1462614903853" TEXT="es6.blockScoping">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Enables the let and const keywords as alternatives to var. The key difference is
+    </p>
+    <p>
+      that variables defined using let or const are visible only within the block where they
+    </p>
+    <p>
+      are declared, rather than being visible anywhere in the enclosing function.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node COLOR="#111111" CREATED="1461840446153" ID="ID_1015601227" MODIFIED="1462614930388" TEXT="es6.properties.shorthand">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Allows omitting the value of an object literal property when the desired value is
+    </p>
+    <p>
+      held by a variable that has the same name as the property key. For example,
+    </p>
+    <p>
+      instead of writing { x: x, y: y, z: &quot;asdf&quot; } you can just write { x, y, z: &quot;asdf&quot; }.
+    </p>
+    <p>
+      Methods can also be written without the : function property syntax: js
+    </p>
+    <p>
+      var obj = {
+    </p>
+    <p>
+      oldWay: function (a, b) { ... },
+    </p>
+    <p>
+      newWay(a, b) { ... }
+    </p>
+    <p>
+      };
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node COLOR="#111111" CREATED="1461840456145" ID="ID_1260242437" MODIFIED="1462614990433" TEXT="es6.properties.computed">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Allows object literal properties with dynamically computed keys:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      var counter = 0;
+    </p>
+    <p>
+      function getKeyName() {
+    </p>
+    <p>
+      return &quot;key&quot; + counter++;
+    </p>
+    <p>
+      }&lt;/p&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &lt;p&gt;var obj = {
+    </p>
+    <p>
+      [getKeyName()]: &quot;zero&quot;,
+    </p>
+    <p>
+      [getKeyName()]: &quot;one&quot;,
+    </p>
+    <p>
+      };&lt;/p&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &lt;p&gt;obj.key0; // &quot;zero&quot;
+    </p>
+    <p>
+      obj.key1; // &quot;one&quot;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node COLOR="#111111" CREATED="1461840466209" ID="ID_395911569" MODIFIED="1462615090912" TEXT="es6.parameters">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Default expressions for function parameters, evaluated whenever the parameter
+    </p>
+    <p>
+      is undefined, ...rest parameters for capturing remaining arguments without using
+    </p>
+    <p>
+      the arguments object:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      function add(a = 0, ...rest) {
+    </p>
+    <p>
+      rest.forEach(n =&gt; a += n);
+    </p>
+    <p>
+      return a;
+    </p>
+    <p>
+      }&lt;/p&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &lt;p&gt;add(); // 0
+    </p>
+    <p>
+      add(1, 2, 3); // 6
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node COLOR="#111111" CREATED="1461840472049" ID="ID_1586550253" MODIFIED="1462615109853" TEXT="es6.spread">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Allows an array of arguments to be interpolated into a list of arguments to a
+    </p>
+    <p>
+      function call, new expression, or array literal, without using Function.prototype.apply: js
+    </p>
+    <p>
+      add(1, ...[2, 3, 4], 5); // 15
+    </p>
+    <p>
+      new Node(&quot;name&quot;, ...children);
+    </p>
+    <p>
+      [1, ...[2, 3, 4], 5]; // [1, 2, 3, 4, 5]
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node COLOR="#111111" CREATED="1461840478473" ID="ID_1769349646" MODIFIED="1462615116224" TEXT="es6.forOf">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Provides an easy way to iterate over the elements of a collection: js
+    </p>
+    <p>
+      let sum = 0;
+    </p>
+    <p>
+      for (var x of [1, 2, 3]) {
+    </p>
+    <p>
+      sum += x;
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      x; // 6
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node COLOR="#111111" CREATED="1461840483728" ID="ID_571049549" MODIFIED="1462615214873" TEXT="es6.destructuring">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Destructuring is the technique of using an array or object pattern on the left-hand
+    </p>
+    <p>
+      side of an assignment or declaration, in place of the usual variable or parameter,
+    </p>
+    <p>
+      so that certain sub-properties of the value on the right-hand side will be bound to
+    </p>
+    <p>
+      identifiers that appear within the pattern.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node COLOR="#111111" CREATED="1461840491817" ID="ID_400099537" MODIFIED="1462615230601" TEXT="es7.objectRestSpread">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Supports catch-all ...rest properties in object literal declarations and assignments: js
+    </p>
+    <p>
+      let { x, y, ...rest } = { x: 1, y: 2, a: 3, b: 4 };
+    </p>
+    <p>
+      x; // 1
+    </p>
+    <p>
+      y; // 2
+    </p>
+    <p>
+      rest; // { a: 3, b: 4 }
+    </p>
+    <p>
+      Also enables ...spread properties in object literal expressions: js
+    </p>
+    <p>
+      let n = { x, y, ...rest };
+    </p>
+    <p>
+      n; // { x: 1, y: 2, a: 3, b: 4 }
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node COLOR="#111111" CREATED="1461840500913" ID="ID_698447407" MODIFIED="1462615246351" TEXT="es7.trailingFunctionCommas">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Allows the final parameter of a function to be followed by a comma, provided that
+    </p>
+    <p>
+      parameter is not a ...rest parameter.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node COLOR="#111111" CREATED="1461840506913" ID="ID_460544253" MODIFIED="1462615254994" TEXT="flow">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Permits the use of Flow type annotations. These annotations are simply stripped
+    </p>
+    <p>
+      from the code, so they have no effect on the code's behavior, but you can run the
+    </p>
+    <p>
+      flow tool over your code to check the types if desired.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1461840701273" ID="ID_701491320" LINK="http://info.meteor.com/blog/es2015-get-started" MODIFIED="1462205785973" TEXT="ES2015 and meteor"/>
+<node COLOR="#111111" CREATED="1461840717553" ID="ID_243648860" LINK="http://info.meteor.com/blog/set-up-sublime-text-for-meteor-es6-es2015-and-jsx-syntax-and-linting" MODIFIED="1462205785973" TEXT="setup sublime text for ES2015"/>
+</node>
+<node COLOR="#990000" CREATED="1461840817761" ID="ID_1675647432" LINK="https://github.com/airbnb/javascript" MODIFIED="1462205785973" TEXT="use the Airbnb style guide">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1461840859137" ID="ID_1052779234" LINK="https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb" MODIFIED="1462205785973" TEXT="Airbnb eslint configuration"/>
+<node COLOR="#111111" CREATED="1461841274217" ID="ID_1932708143" MODIFIED="1462205785974" TEXT="sublime text packages">
+<node COLOR="#111111" CREATED="1461841282937" ID="ID_1127574223" LINK="https://github.com/babel/babel-sublime#installation" MODIFIED="1462205785974" TEXT="babel"/>
+<node COLOR="#111111" CREATED="1461841290833" ID="ID_1339447602" LINK="http://sublimelinter.readthedocs.org/en/latest/installation.html" MODIFIED="1462205785974" TEXT="sublinter"/>
+<node COLOR="#111111" CREATED="1461841296385" ID="ID_154353959" LINK="https://github.com/roadhump/SublimeLinter-eslint#plugin-installation" MODIFIED="1462205785974" TEXT="sublinter-contrib-eslint"/>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1461841353233" FOLDED="true" ID="ID_1391524057" MODIFIED="1462616103986" TEXT="meteor code style">
+<edge STYLE="bezier" WIDTH="thin"/>
+<cloud/>
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1461841446668" ID="ID_1848788470" MODIFIED="1462205785974" TEXT="collections">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Collections should be named as a plural noun, in PascalCase.
+    </p>
+    <p>
+      The name of the collection in the database (the first argument to the collection constructor)<br />should be the same as the name of the JavaScript symbol.
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1461841674826" ID="ID_950325075" MODIFIED="1462205785974" TEXT="PascalCase names"/>
+<node BACKGROUND_COLOR="#edf00e" COLOR="#111111" CREATED="1461841565266" ID="ID_1187644534" MODIFIED="1462205785974" TEXT="Lists = new Mongo.Collection(&apos;Lists&apos;);">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1461841696802" ID="ID_160741466" MODIFIED="1462205785974" TEXT="camelCased for fields in database"/>
+<node BACKGROUND_COLOR="#edf00e" COLOR="#111111" CREATED="1461841727922" ID="ID_1776431393" MODIFIED="1462205785974" TEXT="Widgets.insert({   myFieldName: &apos;Hello, world!&apos;,   otherFieldName: &apos;Goodbye.&apos; });"/>
+</node>
+<node COLOR="#990000" CREATED="1461841459082" ID="ID_582275509" MODIFIED="1462205785975" TEXT="methods &amp; publications">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1461841791010" ID="ID_730003147" MODIFIED="1462205785975" TEXT="camelCased and namspaced to module"/>
+<node BACKGROUND_COLOR="#edf00e" COLOR="#111111" CREATED="1461841814369" ID="ID_141097685" MODIFIED="1462205785975" TEXT="updateText = new ValidatedMethod({   name: &apos;todos.updateText&apos;,   // ... });"/>
+<node BACKGROUND_COLOR="#edf00e" COLOR="#111111" CREATED="1461841887058" ID="ID_1706284092" MODIFIED="1462205785975" TEXT="Meteor.publish(&apos;lists.public&apos;, function listsPublic() {   // ... });"/>
+</node>
+<node COLOR="#990000" CREATED="1461841466394" ID="ID_1208153414" MODIFIED="1462205785975" TEXT="files, exports, packages">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1461843062578" ID="ID_261520551" MODIFIED="1462205785975" TEXT="use import &amp; export"/>
+<node COLOR="#111111" CREATED="1461843116314" ID="ID_1696665023" MODIFIED="1462615854063" TEXT="one class / UI components / collection per file">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1461843213946" ID="ID_1098213795" MODIFIED="1462205785975" TEXT="name it same as thing it defines"/>
+<node BACKGROUND_COLOR="#edf00e" COLOR="#111111" CREATED="1461843239882" ID="ID_510046837" MODIFIED="1462205785975" TEXT="export default class ClickCounter { ... }"/>
+<node BACKGROUND_COLOR="#edf00e" COLOR="#111111" CREATED="1461843246058" ID="ID_1997012411" MODIFIED="1462205785975" TEXT="import ClickCounter from &apos;./ClickCounter.js&apos;;"/>
+<node COLOR="#111111" CREATED="1461843444482" ID="ID_1479625421" MODIFIED="1462205785975" TEXT="decontruct for pre 1_3 packages">
+<node BACKGROUND_COLOR="#edf00e" COLOR="#111111" CREATED="1461843467314" ID="ID_1055861128" MODIFIED="1462205785975" TEXT="import { Meteor } from &apos;meteor/meteor&apos;;"/>
+</node>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1461841477226" ID="ID_610692514" MODIFIED="1462205785975" TEXT="templates &amp; componenets">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1461843599250" ID="ID_25430103" MODIFIED="1462887436751" POSITION="left" TEXT="application structure">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<icon BUILTIN="full-3"/>
+<node COLOR="#00b439" CREATED="1461844430730" FOLDED="true" ID="ID_787226349" MODIFIED="1462887431085" TEXT="universal JS">
+<edge STYLE="bezier" WIDTH="thin"/>
+<cloud/>
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1461844002996" ID="ID_1075136270" MODIFIED="1462205785977" TEXT="use import to include CSS, HTML and JS files">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      export const listRenderHold = LaunchScreen.hold();&#160;&#160;// named export
+    </p>
+    <p>
+      export { Todos };&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;// named export
+    </p>
+    <p>
+      export default Lists;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;// default export
+    </p>
+    <p>
+      export default new Collection('lists');&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;// default export
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1461844349802" ID="ID_942013283" MODIFIED="1462205785977" TEXT="ok to use &apos;require&apos; in common code ">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      if (Meteor.isClient) {
+    </p>
+    <p>
+      &#160;&#160;require('./client-only-file.js');
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node BACKGROUND_COLOR="#edf00e" COLOR="#990000" CREATED="1461844029320" ID="ID_74511390" MODIFIED="1462205785977" TEXT="import moment from &apos;moment&apos;;          // default import from npm">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node BACKGROUND_COLOR="#edf00e" COLOR="#990000" CREATED="1461844299291" ID="ID_663016000" MODIFIED="1462205785977" TEXT="import { HTTP } from &apos;meteor/http&apos;;   // named import from Atmosphere">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node BACKGROUND_COLOR="#e0f806" COLOR="#990000" CREATED="1461863124945" ID="ID_524998441" MODIFIED="1462205785977" TEXT="import { Meteor } from &apos;meteor/meteor&apos;;">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node BACKGROUND_COLOR="#e0f806" COLOR="#990000" CREATED="1461863134369" ID="ID_280377713" MODIFIED="1462205785977" TEXT="import { EJSON } from &apos;meteor/ejson&apos;;">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1461844465266" FOLDED="true" ID="ID_101396548" MODIFIED="1462887428685" TEXT="file structure">
+<edge STYLE="bezier" WIDTH="thin"/>
+<cloud/>
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1461844501531" ID="ID_457337133" MODIFIED="1462205785977" TEXT="place all code inside /imports directory">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1461844537355" ID="ID_442574400" MODIFIED="1462205785977" TEXT="create clients/main.js &amp; server/main.js for entry points">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1461844616626" ID="ID_1874916145" MODIFIED="1462205785977" TEXT="main.js file should import startup modules">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1461861139068" ID="ID_893141758" MODIFIED="1462616878520" TEXT="example directory layout">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><font color="#0162fe" face="Monospaced">imports</font></b>/
+    </p>
+    <p>
+      &#160;&#160;<b><font color="#ff0000">startup</font></b>/
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;<font color="#1eff04">client</font>/
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;index.js&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<font color="#0b0d22"># import client startup&#160;through a single index entry point</font>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;routes.js&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# set up all routes in the app
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;useraccounts-configuration.js # configure login templates
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;<font color="#3cf909">server</font>/
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;fixtures.js&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# fill the DB with example data on startup
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;index.js&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# import server startup through a single index entry point
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;<b><font color="#ff0000">api</font></b>/
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;<font color="#0df90f">lists</font>/&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# a unit of domain logic
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;server/
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;publications.js&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# all list-related publications
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;publications.tests.js&#160;&#160;# tests for the list publications
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;lists.js&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# definition of the Lists collection
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;lists.tests.js&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# tests for the behavior of that collection
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;methods.js&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# methods related to lists
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;methods.tests.js&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# tests for those methods
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;<b><font color="#ff0000">ui</font>/</b>
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;<font color="#08eb0e">components</font>/&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# all reusable components in the application
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# can be split by domain if there are many, include html,css, js for each component
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;layouts/&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# wrapper components for behaviour and visuals
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;pages/&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# entry points for rendering used by the router
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b><font color="#0431f7" face="Monospaced">client</font></b>/
+    </p>
+    <p>
+      &#160;&#160;<b><font color="#ff0000">main.js</font></b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# client entry point, imports all client code
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b><font color="#0321f5" face="Monospaced">server</font></b>/
+    </p>
+    <p>
+      &#160;&#160;<b><font color="#fe0101">main.js</font></b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# server entry point, imports all server code
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1461863199001" FOLDED="true" ID="ID_1128994904" MODIFIED="1462887427005" TEXT="default file load order">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      
+    </p>
+    <ol>
+      <li>
+        &#160;&#160;&#160;&#160;HTML template files are always loaded before everything else
+      </li>
+      <li>
+        &#160;&#160;&#160;&#160;Files beginning with main. are loaded last
+      </li>
+      <li>
+        &#160;&#160;&#160;&#160;Files inside any lib/ directory are loaded next
+      </li>
+      <li>
+        &#160;&#160;&#160;&#160;Files with deeper paths are loaded next
+      </li>
+      <li>
+        &#160;&#160;&#160;&#160;Files are then loaded in alphabetical order of the entire path
+      </li>
+    </ol>
+  </body>
+</html></richcontent>
+<edge STYLE="bezier" WIDTH="thin"/>
+<cloud/>
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1461863268233" ID="ID_1853335563" MODIFIED="1462205785978" TEXT="special directories">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1461863280817" ID="ID_1547058398" MODIFIED="1462205785978" TEXT="imports"/>
+<node COLOR="#111111" CREATED="1461863300880" ID="ID_1853550561" MODIFIED="1462205785978" TEXT="node_modules"/>
+<node COLOR="#111111" CREATED="1461863307945" ID="ID_1671298158" MODIFIED="1462205785978" TEXT="client"/>
+<node COLOR="#111111" CREATED="1461863311129" ID="ID_161760457" MODIFIED="1462205785978" TEXT="server"/>
+<node COLOR="#111111" CREATED="1461863319041" ID="ID_1301267977" MODIFIED="1462205785978" TEXT="public"/>
+<node COLOR="#111111" CREATED="1461863522049" ID="ID_871761774" MODIFIED="1462205785978" TEXT="private">
+<node COLOR="#111111" CREATED="1461863534585" ID="ID_1764146825" LINK="http://docs.meteor.com/#/full/assets_getText" MODIFIED="1462205785978" TEXT="Assets API"/>
+</node>
+<node COLOR="#111111" CREATED="1461863321201" ID="ID_1333142264" MODIFIED="1462205785978" TEXT="client/compatibility"/>
+<node COLOR="#111111" CREATED="1461863341369" ID="ID_223618661" MODIFIED="1462205785978" TEXT="tests"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1461863601425" FOLDED="true" ID="ID_1548015980" MODIFIED="1462887425228" TEXT="splitting into multiple aps">
+<edge STYLE="bezier" WIDTH="thin"/>
+<cloud/>
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1461863612521" ID="ID_828475598" MODIFIED="1462205785978" TEXT="sharing code">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1461863617369" ID="ID_84635666" MODIFIED="1462205785978" TEXT="sharing data">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1461863620673" ID="ID_194975379" MODIFIED="1462205785979" TEXT="sharing accounts">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
 </node>
 </node>
 </node>
