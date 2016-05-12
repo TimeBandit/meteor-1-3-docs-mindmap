@@ -7,7 +7,7 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <icon BUILTIN="full-4"/>
-<node COLOR="#00b439" CREATED="1461874230125" FOLDED="true" ID="ID_585527631" MODIFIED="1462887371090" TEXT="collections &amp; schemas">
+<node COLOR="#00b439" CREATED="1461874230125" FOLDED="true" ID="ID_585527631" MODIFIED="1463007671430" TEXT="collections &amp; schemas">
 <edge STYLE="bezier" WIDTH="thin"/>
 <cloud/>
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
@@ -193,7 +193,7 @@
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1461879384766" ID="ID_1187257330" MODIFIED="1462205785982" TEXT="put code common to multiple collections in one place"/>
 </node>
-<node COLOR="#990000" CREATED="1461925884843" ID="ID_664010628" MODIFIED="1462885610944" TEXT="migrations">
+<node COLOR="#990000" CREATED="1461925884843" ID="ID_664010628" MODIFIED="1463007662927" TEXT="migrations">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1461925894809" ID="ID_1076265082" MODIFIED="1462205785982" TEXT="writing">
 <node COLOR="#111111" CREATED="1461928504468" ID="ID_123311738" LINK="https://atmospherejs.com/percolate/migrations" MODIFIED="1462205785982" TEXT="percolate:migrations">
@@ -343,7 +343,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1461874239693" FOLDED="true" ID="ID_863857151" MODIFIED="1462877542192" TEXT="publications &amp; data loading">
+<node COLOR="#00b439" CREATED="1461874239693" FOLDED="true" ID="ID_863857151" MODIFIED="1463055336223" TEXT="publications &amp; data loading">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -380,8 +380,12 @@
 </node>
 <node COLOR="#990000" CREATED="1462182730199" ID="ID_1409515494" MODIFIED="1462205785983" TEXT="client initiates subscription to connect to publication and recieves data">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1462182789663" ID="ID_1946293576" MODIFIED="1462205785984" TEXT="first batch"/>
-<node COLOR="#111111" CREATED="1462182796846" ID="ID_1582330611" MODIFIED="1462205785984" TEXT="then incremental updates"/>
+<node COLOR="#111111" CREATED="1462182789663" ID="ID_1946293576" MODIFIED="1463007690574" TEXT="first batch">
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#111111" CREATED="1462182796846" ID="ID_1582330611" MODIFIED="1463007693205" TEXT="then incremental updates">
+<icon BUILTIN="full-2"/>
+</node>
 </node>
 <node COLOR="#990000" CREATED="1462182879063" ID="ID_1321246062" MODIFIED="1462207097853" TEXT="subscription connects mini mongo collection to the server side db">
 <font NAME="SansSerif" SIZE="14"/>
@@ -482,7 +486,7 @@
   </body>
 </html></richcontent>
 </node>
-<node COLOR="#111111" CREATED="1462184001097" ID="ID_1484896010" MODIFIED="1462205785984" TEXT="put publication in same module ot folder as its view"/>
+<node COLOR="#111111" CREATED="1462184001097" ID="ID_1484896010" MODIFIED="1463007743451" TEXT="put publication in same module folder as its view"/>
 </node>
 <node COLOR="#990000" CREATED="1462184408601" ID="ID_823245147" MODIFIED="1462617993721" TEXT="subscribing">
 <richcontent TYPE="NOTE"><html>
@@ -620,7 +624,7 @@
 <node COLOR="#111111" CREATED="1462187889963" ID="ID_1126275385" MODIFIED="1462618057785" TEXT="if subscription args are the same, use old subs">
 <icon BUILTIN="full-4"/>
 </node>
-<node COLOR="#111111" CREATED="1462187923723" ID="ID_1553984514" MODIFIED="1462618073077" TEXT="if new args, create new subsscription and connect">
+<node COLOR="#111111" CREATED="1462187923723" ID="ID_1553984514" MODIFIED="1463053353516" TEXT="if new args, create new subscription and connect">
 <icon BUILTIN="full-5"/>
 </node>
 <node COLOR="#111111" CREATED="1462187954315" ID="ID_1995955675" MODIFIED="1462618082813" TEXT="old subscription shut down if not used">
@@ -1124,25 +1128,26 @@
 </html></richcontent>
 </node>
 <node COLOR="#111111" CREATED="1462203851457" ID="ID_98458482" MODIFIED="1462205785988" TEXT="creating a REST endpoint">
-<node COLOR="#111111" CREATED="1462204818162" ID="ID_560774993" LINK="https://atmospherejs.com/simple/rest" MODIFIED="1462205785988" TEXT=" simple:rest">
+<node COLOR="#111111" CREATED="1462204818162" ID="ID_560774993" LINK="https://atmospherejs.com/simple/rest" MODIFIED="1463055336017" TEXT=" simple:rest">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      If the data we want to publish is the same as what we already publish via a publication, then we can use the simple:rest package to do this really easily.
+      If the data we want to publish is the same as what we already publish via a
     </p>
     <p>
-      
+      publication, then we can use the simple:rest package to do this really easily.
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1461874250509" FOLDED="true" ID="ID_586654330" MODIFIED="1462877512575" TEXT="methods">
+<node COLOR="#00b439" CREATED="1461874250509" FOLDED="true" ID="ID_586654330" MODIFIED="1463056475599" TEXT="methods">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1279,8 +1284,9 @@
   </body>
 </html></richcontent>
 </node>
-<node COLOR="#111111" CREATED="1462286287130" ID="ID_563510648" MODIFIED="1462286858581" TEXT="boilerplate">
+<node COLOR="#111111" CREATED="1462286287130" ID="ID_563510648" MODIFIED="1463056015041" TEXT="boilerplate">
 <icon BUILTIN="idea"/>
+<icon BUILTIN="button_ok"/>
 <node COLOR="#111111" CREATED="1462286318434" ID="ID_1775333256" LINK="https://atmospherejs.com/mdg/validated-method" MODIFIED="1462288714954" TEXT="mdg:validated-method">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -1294,7 +1300,7 @@
 </html></richcontent>
 <icon BUILTIN="password"/>
 </node>
-<node COLOR="#111111" CREATED="1462286845554" ID="ID_437598330" MODIFIED="1462286861572" TEXT="declaring">
+<node COLOR="#111111" CREATED="1462286845554" ID="ID_437598330" MODIFIED="1463056010001" TEXT="declaring">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1360,7 +1366,7 @@
   </body>
 </html></richcontent>
 </node>
-<node COLOR="#111111" CREATED="1462286848361" ID="ID_261043528" MODIFIED="1462286853510" TEXT="calling">
+<node COLOR="#111111" CREATED="1462286848361" ID="ID_261043528" MODIFIED="1463056012593" TEXT="calling">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1581,7 +1587,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#990000" CREATED="1462205599530" ID="ID_438968064" MODIFIED="1462307593841" TEXT="calling method from form">
+<node COLOR="#990000" CREATED="1462205599530" ID="ID_438968064" MODIFIED="1463056353175" TEXT="calling method from form">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1595,6 +1601,9 @@
     </p>
     <p>
       // validation in one place.
+    </p>
+    <p>
+      
     </p>
     <p>
       export const insert = new ValidatedMethod({
@@ -1870,7 +1879,8 @@
       });
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 <node COLOR="#990000" CREATED="1462205608106" ID="ID_1428063372" MODIFIED="1462205785988" TEXT="loading data with methods">
@@ -1997,7 +2007,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1461874254021" FOLDED="true" ID="ID_1140560101" MODIFIED="1462877499124" TEXT="users &amp; accounts">
+<node COLOR="#00b439" CREATED="1461874254021" FOLDED="true" ID="ID_1140560101" MODIFIED="1463060027010" TEXT="users &amp; accounts">
 <edge STYLE="bezier" WIDTH="thin"/>
 <cloud/>
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
@@ -2731,7 +2741,7 @@
 </node>
 <node COLOR="#111111" CREATED="1462379812643" ID="ID_570501619" MODIFIED="1462624691447" TEXT="don&apos;t use profile">
 <node COLOR="#111111" CREATED="1462381982108" ID="ID_70626693" MODIFIED="1462382884171" TEXT="historical mistake"/>
-<node COLOR="#111111" CREATED="1462381997861" ID="ID_1403637243" MODIFIED="1462382884171" TEXT="deny all writes from the client">
+<node COLOR="#111111" CREATED="1462381997861" ID="ID_1403637243" MODIFIED="1463060015866" TEXT="deny all writes from the client">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2751,6 +2761,7 @@
     </p>
   </body>
 </html></richcontent>
+<icon BUILTIN="yes"/>
 </node>
 <node COLOR="#111111" CREATED="1462382444605" ID="ID_1524749078" MODIFIED="1462382884171" TEXT="beware">
 <richcontent TYPE="NOTE"><html>
@@ -2952,7 +2963,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1461874259717" FOLDED="true" ID="ID_728577062" MODIFIED="1462460081821" STYLE="fork" TEXT="testing">
+<node COLOR="#00b439" CREATED="1461874259717" FOLDED="true" ID="ID_728577062" MODIFIED="1463062076052" STYLE="fork" TEXT="testing">
 <edge STYLE="bezier" WIDTH="thin"/>
 <cloud/>
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
@@ -2965,24 +2976,31 @@
 </node>
 <node COLOR="#990000" CREATED="1462450716153" ID="ID_1215241400" MODIFIED="1462450718330" TEXT="types">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1462450724097" ID="ID_287372127" MODIFIED="1462450727257" TEXT="unit">
+<node COLOR="#111111" CREATED="1462450724097" ID="ID_287372127" MODIFIED="1463061158309" TEXT="unit">
+<arrowlink DESTINATION="ID_833303290" ENDARROW="Default" ENDINCLINATION="917;0;" ID="Arrow_ID_1556458516" STARTARROW="None" STARTINCLINATION="917;0;"/>
+<icon BUILTIN="full-1"/>
 <node COLOR="#111111" CREATED="1462450766801" ID="ID_303862044" MODIFIED="1462450773071" TEXT="module level test"/>
 </node>
-<node COLOR="#111111" CREATED="1462450727960" ID="ID_1434130589" MODIFIED="1462451777868" TEXT="integration">
+<node COLOR="#111111" CREATED="1462450727960" ID="ID_1434130589" MODIFIED="1463061273683" TEXT="integration">
+<arrowlink DESTINATION="ID_1761007868" ENDARROW="Default" ENDINCLINATION="1097;0;" ID="Arrow_ID_1532910973" STARTARROW="None" STARTINCLINATION="1097;0;"/>
+<icon BUILTIN="full-2"/>
 <node COLOR="#111111" CREATED="1462450784889" HGAP="27" ID="ID_1447305610" MODIFIED="1462451803003" TEXT="testing that multiple modules work in concert" VSHIFT="20"/>
 </node>
-<node COLOR="#111111" CREATED="1462450731113" ID="ID_1576156990" MODIFIED="1462450733130" TEXT="acceptance">
+<node COLOR="#111111" CREATED="1462450731113" ID="ID_1576156990" MODIFIED="1463061203031" TEXT="acceptance">
+<arrowlink DESTINATION="ID_119130232" ENDARROW="Default" ENDINCLINATION="1074;0;" ID="Arrow_ID_360800859" STARTARROW="None" STARTINCLINATION="1074;0;"/>
+<icon BUILTIN="full-3"/>
 <node COLOR="#111111" CREATED="1462450807271" ID="ID_940688500" MODIFIED="1462450838928" TEXT="run against any version of app"/>
 <node COLOR="#111111" CREATED="1462450839737" ID="ID_1337417191" MODIFIED="1462450871371" TEXT="testing at the browser level"/>
 </node>
-<node COLOR="#111111" CREATED="1462450737608" ID="ID_876166318" MODIFIED="1462450741283" TEXT="load test">
+<node COLOR="#111111" CREATED="1462450737608" ID="ID_876166318" MODIFIED="1463060992858" TEXT="load test">
+<icon BUILTIN="full-4"/>
 <node COLOR="#111111" CREATED="1462450882809" ID="ID_1116712043" MODIFIED="1462450896412" TEXT="how much load app takes before a crash"/>
 </node>
 </node>
 <node COLOR="#990000" CREATED="1462451678272" ID="ID_462818932" MODIFIED="1462451681402" TEXT="challenges">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1462451683121" ID="ID_42252918" MODIFIED="1462451689614" TEXT="client/server data"/>
-<node COLOR="#111111" CREATED="1462451700057" ID="ID_247649694" MODIFIED="1462451777867" TEXT="easy in full app test mode">
+<node COLOR="#111111" CREATED="1462451700057" ID="ID_247649694" MODIFIED="1463061273683" TEXT="easy in full app test mode">
 <arrowlink DESTINATION="ID_1434130589" ENDARROW="Default" ENDINCLINATION="481;0;" ID="Arrow_ID_112760028" STARTARROW="None" STARTINCLINATION="486;-22;"/>
 </node>
 <node COLOR="#111111" CREATED="1462451842489" ID="ID_830136648" MODIFIED="1462451864828" TEXT="reactivity can alter test data">
@@ -3282,7 +3300,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#990000" CREATED="1462457155432" ID="ID_833303290" MODIFIED="1462457169386" TEXT="unit testing">
+<node COLOR="#990000" CREATED="1462457155432" ID="ID_833303290" MODIFIED="1463061158307" TEXT="unit testing">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 <node COLOR="#111111" CREATED="1462457199848" ID="ID_1707160932" MODIFIED="1462457208714" TEXT="testing isolated sections of code"/>
@@ -3320,7 +3338,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#990000" CREATED="1462457092488" ID="ID_1761007868" MODIFIED="1462457170418" TEXT="integration testing">
+<node COLOR="#990000" CREATED="1462457092488" ID="ID_1761007868" MODIFIED="1463061175263" TEXT="integration testing">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-2"/>
 <node COLOR="#111111" CREATED="1462457948128" ID="ID_843901987" MODIFIED="1462457954527" TEXT="crosses module boundaries">
@@ -3333,7 +3351,7 @@
 </node>
 <node COLOR="#111111" CREATED="1462458133632" ID="ID_963624791" MODIFIED="1462458139482" TEXT="better for smart components"/>
 </node>
-<node COLOR="#990000" CREATED="1462457105993" ID="ID_119130232" MODIFIED="1462457171082" TEXT="acceptance testing">
+<node COLOR="#990000" CREATED="1462457105993" ID="ID_119130232" MODIFIED="1463061203031" TEXT="acceptance testing">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-3"/>
 </node>
@@ -3347,7 +3365,7 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <icon BUILTIN="full-5"/>
-<node COLOR="#00b439" CREATED="1462460113761" FOLDED="true" ID="ID_1396453637" MODIFIED="1462629673170" TEXT="URLs &amp; routing">
+<node COLOR="#00b439" CREATED="1462460113761" FOLDED="true" ID="ID_1396453637" MODIFIED="1463063597191" TEXT="URLs &amp; routing">
 <edge STYLE="bezier" WIDTH="thin"/>
 <cloud/>
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
@@ -3693,7 +3711,7 @@
 <icon BUILTIN="full-4"/>
 </node>
 </node>
-<node COLOR="#111111" CREATED="1462487028410" ID="ID_1906964108" MODIFIED="1462661516828" TEXT="event handling">
+<node COLOR="#111111" CREATED="1462487028410" ID="ID_1906964108" MODIFIED="1463064787317" TEXT="event handling">
 <arrowlink DESTINATION="ID_990004730" ENDARROW="Default" ENDINCLINATION="953;0;" ID="Arrow_ID_651778445" STARTARROW="None" STARTINCLINATION="953;0;"/>
 <node COLOR="#111111" CREATED="1462487102506" FOLDED="true" ID="ID_742753747" MODIFIED="1462661506567" TEXT="slowing rate of db writes">
 <node COLOR="#111111" CREATED="1462487171825" ID="ID_1440645655" LINK="http://underscorejs.org/#throttle" MODIFIED="1462487337755" TEXT=".throttle()"/>
@@ -3887,7 +3905,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1462460126161" FOLDED="true" ID="ID_507744727" MODIFIED="1462650866974" TEXT="react">
+<node COLOR="#00b439" CREATED="1462460126161" FOLDED="true" ID="ID_507744727" MODIFIED="1463063732079" TEXT="react">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -3981,7 +3999,7 @@
 </node>
 <node COLOR="#990000" CREATED="1462629783873" ID="ID_929986142" MODIFIED="1462629788442" TEXT="meteors data system">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1462638269627" ID="ID_799416090" MODIFIED="1462638290934" TEXT="react-meteor-data">
+<node COLOR="#111111" CREATED="1462638269627" ID="ID_799416090" LINK="https://atmospherejs.com/meteor/react-meteor-data" MODIFIED="1463063692025" TEXT="react-meteor-data">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -3994,10 +4012,13 @@
       reactivity system.
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <icon BUILTIN="password"/>
+<node COLOR="#111111" CREATED="1462638304306" ID="ID_435852514" MODIFIED="1462638306187" TEXT="meteor add react-meteor-data">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#111111" CREATED="1462638323940" ID="ID_1526343862" MODIFIED="1462638359774" TEXT="createContainer">
+<node COLOR="#111111" CREATED="1462638323940" ID="ID_1526343862" MODIFIED="1463063690981" TEXT="createContainer">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -4011,15 +4032,13 @@
     </p>
   </body>
 </html></richcontent>
-<node COLOR="#111111" CREATED="1462638304306" ID="ID_435852514" MODIFIED="1462638306187" TEXT="meteor add react-meteor-data">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-</node>
 <node COLOR="#111111" CREATED="1462641331453" ID="ID_1465867843" MODIFIED="1462641347466" TEXT="parameters passedin via router / props">
 <node COLOR="#111111" CREATED="1462641400237" ID="ID_1085316224" MODIFIED="1462641415670" TEXT="then passed to presentational componenets"/>
 <node COLOR="#111111" CREATED="1462641427892" ID="ID_1467444072" MODIFIED="1462641459494" TEXT="control re-renders">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#111111" CREATED="1462641462285" ID="ID_1176664320" MODIFIED="1462641465493" TEXT="shouldComponentUpdate ">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+</node>
 </node>
 </node>
 </node>
@@ -4113,7 +4132,7 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <icon BUILTIN="full-6"/>
-<node COLOR="#00b439" CREATED="1462650886666" FOLDED="true" ID="ID_1105824598" MODIFIED="1462829603908" TEXT="security">
+<node COLOR="#00b439" CREATED="1462650886666" FOLDED="true" ID="ID_1105824598" MODIFIED="1463065388612" TEXT="security">
 <edge STYLE="bezier" WIDTH="thin"/>
 <cloud/>
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
@@ -4142,12 +4161,12 @@
 <arrowlink DESTINATION="ID_1062278932" ENDARROW="Default" ENDINCLINATION="350;0;" ID="Arrow_ID_1104933845" STARTARROW="None" STARTINCLINATION="350;0;"/>
 <icon BUILTIN="full-2"/>
 <node COLOR="#111111" CREATED="1462651335121" ID="ID_131285986" MODIFIED="1462651379257" TEXT="validate data coming in through publication arguments"/>
-<node COLOR="#111111" CREATED="1462651385433" ID="ID_262744434" MODIFIED="1462651406338" TEXT="pblications returns only what user is allowed to see"/>
+<node COLOR="#111111" CREATED="1462651385433" ID="ID_262744434" MODIFIED="1463064749693" TEXT="publications returns only what user is allowed to see"/>
 </node>
 <node COLOR="#111111" CREATED="1462651222617" ID="ID_1203409541" MODIFIED="1462659886138" TEXT="served files">
 <arrowlink DESTINATION="ID_1015288729" ENDARROW="Default" ENDINCLINATION="341;0;" ID="Arrow_ID_1108389534" STARTARROW="None" STARTINCLINATION="341;0;"/>
 <icon BUILTIN="full-3"/>
-<node COLOR="#111111" CREATED="1462651411041" ID="ID_1572169370" MODIFIED="1462651445339" TEXT="no source nor confiduration files served to client have secret data"/>
+<node COLOR="#111111" CREATED="1462651411041" ID="ID_1572169370" MODIFIED="1463064760467" TEXT="no source nor configuration files served to client have secret data"/>
 </node>
 <node COLOR="#111111" CREATED="1462651495673" ID="ID_1103791883" MODIFIED="1462657827222" TEXT="avoid allow/deny">
 <richcontent TYPE="NOTE"><html>
@@ -4217,7 +4236,7 @@
 <node COLOR="#111111" CREATED="1462659800828" ID="ID_839970663" MODIFIED="1462659818841" TEXT="many methods having same security checks"/>
 <node COLOR="#111111" CREATED="1462659823485" ID="ID_175574397" MODIFIED="1462659831548" TEXT="factor out into a seperate module"/>
 </node>
-<node COLOR="#111111" CREATED="1462659936276" ID="ID_990004730" MODIFIED="1462661516827" TEXT="rate limiting">
+<node COLOR="#111111" CREATED="1462659936276" ID="ID_990004730" MODIFIED="1463064787318" TEXT="rate limiting">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -4409,7 +4428,7 @@
 <node COLOR="#111111" CREATED="1462814822918" ID="ID_1128361620" MODIFIED="1462814829677" TEXT="publications &amp; userId">
 <node COLOR="#111111" CREATED="1462815584718" ID="ID_349244493" MODIFIED="1462815590288" TEXT="publications not reactive"/>
 <node COLOR="#111111" CREATED="1462815693190" ID="ID_1336905112" MODIFIED="1462815700870" TEXT="can end up sending data to wrong users"/>
-<node COLOR="#111111" CREATED="1462815701460" ID="ID_1541672278" MODIFIED="1462825974460" TEXT="user the userId in the returnd query cursor">
+<node COLOR="#111111" CREATED="1462815701460" ID="ID_1541672278" MODIFIED="1463065102111" TEXT="user the userId in the returned query cursor">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -4577,7 +4596,7 @@
 <node COLOR="#111111" CREATED="1462826107898" ID="ID_1149612235" MODIFIED="1462826123316" TEXT="passing in fields">
 <icon BUILTIN="full-3"/>
 <node COLOR="#111111" CREATED="1462826452314" ID="ID_1214965945" MODIFIED="1462826465466" TEXT="client can decide which field they can see"/>
-<node COLOR="#111111" CREATED="1462826467458" ID="ID_1611169445" MODIFIED="1462826482984" TEXT="on server insect with fields client is allowed to see"/>
+<node COLOR="#111111" CREATED="1462826467458" ID="ID_1611169445" MODIFIED="1463065226840" TEXT="on server insersect with fields client is allowed to see"/>
 </node>
 </node>
 </node>
@@ -4755,7 +4774,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1462650902625" FOLDED="true" ID="ID_1621126059" MODIFIED="1462887420306" TEXT="deployment &amp; monitoring">
+<node COLOR="#00b439" CREATED="1462650902625" FOLDED="true" ID="ID_1621126059" MODIFIED="1463065573781" TEXT="deployment &amp; monitoring">
 <edge STYLE="bezier" WIDTH="thin"/>
 <cloud/>
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
@@ -4880,8 +4899,7 @@
       &lt;img src=&quot;{{assetUrl 'cats.gif'}}&quot;&gt;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -4918,8 +4936,7 @@
       });
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -4948,7 +4965,7 @@
 <node COLOR="#111111" CREATED="1462884396057" ID="ID_654134181" MODIFIED="1462884442931" TEXT="fix bugs in step 2 &amp; repeat">
 <icon BUILTIN="full-3"/>
 </node>
-<node COLOR="#111111" CREATED="1462884407561" ID="ID_620318531" MODIFIED="1462884443755" TEXT="once ou are satisfied, relese same version production">
+<node COLOR="#111111" CREATED="1462884407561" ID="ID_620318531" MODIFIED="1463065546035" TEXT="once ou are satisfied, relese same version to production">
 <icon BUILTIN="full-4"/>
 </node>
 <node COLOR="#111111" CREATED="1462884429209" ID="ID_16079260" MODIFIED="1462884444483" TEXT="run final QA on production">
@@ -4958,7 +4975,7 @@
 <node COLOR="#111111" CREATED="1462884474497" ID="ID_1039543994" MODIFIED="1462884480498" TEXT="continuous deployment">
 <node COLOR="#111111" CREATED="1462884482465" ID="ID_1292701934" LINK="https://medium.com/@natestrauser/migrating-meteor-apps-from-modulus-to-galaxy-with-continuous-deployment-from-codeship-aed2044cabd9#.lvio4sh4a" MODIFIED="1462884500010" TEXT="e.g. automatic on git push to master"/>
 </node>
-<node COLOR="#111111" CREATED="1462885398281" ID="ID_475889750" MODIFIED="1462885610945" TEXT="rolling deployments &amp; data versions">
+<node COLOR="#111111" CREATED="1462885398281" ID="ID_475889750" MODIFIED="1463007662926" TEXT="rolling deployments &amp; data versions">
 <arrowlink DESTINATION="ID_664010628" ENDARROW="Default" ENDINCLINATION="1623;0;" ID="Arrow_ID_200386197" STARTARROW="None" STARTINCLINATION="1623;0;"/>
 </node>
 </node>
@@ -5002,7 +5019,7 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <icon BUILTIN="full-1"/>
-<node COLOR="#00b439" CREATED="1461837837624" FOLDED="true" ID="ID_1853826901" MODIFIED="1462614566607" TEXT="benefits">
+<node COLOR="#00b439" CREATED="1461837837624" FOLDED="true" ID="ID_1853826901" MODIFIED="1463006693119" TEXT="benefits">
 <edge STYLE="bezier" WIDTH="thin"/>
 <cloud COLOR="#f0f0f0"/>
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
@@ -5019,7 +5036,7 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1461837895432" FOLDED="true" ID="ID_1540253830" MODIFIED="1462614601447" TEXT="resources">
+<node COLOR="#00b439" CREATED="1461837895432" FOLDED="true" ID="ID_1540253830" MODIFIED="1463006703159" TEXT="resources">
 <edge STYLE="bezier" WIDTH="thin"/>
 <cloud/>
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
@@ -5050,7 +5067,7 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <icon BUILTIN="full-2"/>
-<node COLOR="#00b439" CREATED="1461838292472" FOLDED="true" ID="ID_1935250550" MODIFIED="1462614607846" TEXT="benefits">
+<node COLOR="#00b439" CREATED="1461838292472" FOLDED="true" ID="ID_1935250550" MODIFIED="1463006707950" TEXT="benefits">
 <edge STYLE="bezier" WIDTH="thin"/>
 <cloud/>
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
@@ -5064,7 +5081,7 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1461838394808" FOLDED="true" ID="ID_170558294" MODIFIED="1462615280088" TEXT="javascript style guide">
+<node COLOR="#00b439" CREATED="1461838394808" FOLDED="true" ID="ID_170558294" MODIFIED="1463006717472" TEXT="javascript style guide">
 <edge STYLE="bezier" WIDTH="thin"/>
 <cloud/>
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
@@ -5542,7 +5559,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1461841353233" FOLDED="true" ID="ID_1391524057" MODIFIED="1462616103986" TEXT="meteor code style">
+<node COLOR="#00b439" CREATED="1461841353233" FOLDED="true" ID="ID_1391524057" MODIFIED="1463007441967" TEXT="meteor code style">
 <edge STYLE="bezier" WIDTH="thin"/>
 <cloud/>
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
@@ -5576,7 +5593,7 @@
 </node>
 <node COLOR="#990000" CREATED="1461841466394" ID="ID_1208153414" MODIFIED="1462205785975" TEXT="files, exports, packages">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1461843062578" ID="ID_261520551" MODIFIED="1462205785975" TEXT="use import &amp; export"/>
+<node COLOR="#111111" CREATED="1461843062578" HGAP="129" ID="ID_261520551" MODIFIED="1463006788022" TEXT="use import &amp; export" VSHIFT="24"/>
 <node COLOR="#111111" CREATED="1461843116314" ID="ID_1696665023" MODIFIED="1462615854063" TEXT="one class / UI components / collection per file">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#111111" CREATED="1461843213946" ID="ID_1098213795" MODIFIED="1462205785975" TEXT="name it same as thing it defines"/>
@@ -5596,7 +5613,7 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <icon BUILTIN="full-3"/>
-<node COLOR="#00b439" CREATED="1461844430730" FOLDED="true" ID="ID_787226349" MODIFIED="1462887431085" TEXT="universal JS">
+<node COLOR="#00b439" CREATED="1461844430730" FOLDED="true" ID="ID_787226349" MODIFIED="1463007476391" TEXT="universal JS">
 <edge STYLE="bezier" WIDTH="thin"/>
 <cloud/>
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
@@ -5654,7 +5671,7 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1461844465266" FOLDED="true" ID="ID_101396548" MODIFIED="1462887428685" TEXT="file structure">
+<node COLOR="#00b439" CREATED="1461844465266" FOLDED="true" ID="ID_101396548" MODIFIED="1463007541838" TEXT="file structure">
 <edge STYLE="bezier" WIDTH="thin"/>
 <cloud/>
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
@@ -5816,7 +5833,7 @@
 <node COLOR="#111111" CREATED="1461863341369" ID="ID_223618661" MODIFIED="1462205785978" TEXT="tests"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1461863601425" FOLDED="true" ID="ID_1548015980" MODIFIED="1462887425228" TEXT="splitting into multiple aps">
+<node COLOR="#00b439" CREATED="1461863601425" FOLDED="true" ID="ID_1548015980" MODIFIED="1463007545078" TEXT="splitting into multiple aps">
 <edge STYLE="bezier" WIDTH="thin"/>
 <cloud/>
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
