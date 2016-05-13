@@ -1141,8 +1141,7 @@
       publication, then we can use the simple:rest package to do this really easily.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1879,8 +1878,7 @@
       });
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 <node COLOR="#990000" CREATED="1462205608106" ID="ID_1428063372" MODIFIED="1462205785988" TEXT="loading data with methods">
@@ -3905,7 +3903,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1462460126161" FOLDED="true" ID="ID_507744727" MODIFIED="1463063732079" TEXT="react">
+<node COLOR="#00b439" CREATED="1462460126161" FOLDED="true" ID="ID_507744727" MODIFIED="1463073913525" TEXT="react">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -4012,8 +4010,7 @@
       reactivity system.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="password"/>
 <node COLOR="#111111" CREATED="1462638304306" ID="ID_435852514" MODIFIED="1462638306187" TEXT="meteor add react-meteor-data">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
@@ -4128,7 +4125,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1462650874497" ID="ID_1558632357" MODIFIED="1462650881243" POSITION="right" TEXT="production">
+<node COLOR="#0033ff" CREATED="1462650874497" FOLDED="true" ID="ID_1558632357" MODIFIED="1463135939836" POSITION="right" TEXT="production">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <icon BUILTIN="full-6"/>
@@ -4774,7 +4771,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1462650902625" FOLDED="true" ID="ID_1621126059" MODIFIED="1463065573781" TEXT="deployment &amp; monitoring">
+<node COLOR="#00b439" CREATED="1462650902625" ID="ID_1621126059" MODIFIED="1463135920077" TEXT="deployment &amp; monitoring">
 <edge STYLE="bezier" WIDTH="thin"/>
 <cloud/>
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
@@ -5036,7 +5033,7 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1461837895432" FOLDED="true" ID="ID_1540253830" MODIFIED="1463006703159" TEXT="resources">
+<node COLOR="#00b439" CREATED="1461837895432" FOLDED="true" ID="ID_1540253830" MODIFIED="1463090915063" TEXT="resources">
 <edge STYLE="bezier" WIDTH="thin"/>
 <cloud/>
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
@@ -5671,7 +5668,7 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1461844465266" FOLDED="true" ID="ID_101396548" MODIFIED="1463007541838" TEXT="file structure">
+<node COLOR="#00b439" CREATED="1461844465266" ID="ID_101396548" MODIFIED="1463150165625" TEXT="file structure">
 <edge STYLE="bezier" WIDTH="thin"/>
 <cloud/>
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
@@ -5684,14 +5681,14 @@
 <node COLOR="#990000" CREATED="1461844616626" ID="ID_1874916145" MODIFIED="1462205785977" TEXT="main.js file should import startup modules">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#990000" CREATED="1461861139068" ID="ID_893141758" MODIFIED="1462616878520" TEXT="example directory layout">
+<node COLOR="#990000" CREATED="1461861139068" ID="ID_893141758" MODIFIED="1463150342300" TEXT="example directory layout">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <b><font color="#0162fe" face="Monospaced">imports</font></b>/
+      <b><font face="Monospaced" color="#0162fe">imports</font></b>/
     </p>
     <p>
       &#160;&#160;<b><font color="#ff0000">startup</font></b>/
@@ -5724,7 +5721,7 @@
       &#160;&#160;<b><font color="#ff0000">api</font></b>/
     </p>
     <p>
-      &#160;&#160;&#160;&#160;<font color="#0df90f">lists</font>/&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# a unit of domain logic
+      &#160;&#160;&#160;&#160;<font color="#0df90f">lists</font>/&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# a unit of domain logic, make a folder for each Mongo db table
     </p>
     <p>
       &#160;&#160;&#160;&#160;&#160;&#160;server/
@@ -5769,22 +5766,23 @@
       
     </p>
     <p>
-      <b><font color="#0431f7" face="Monospaced">client</font></b>/
+      <b><font face="Monospaced" color="#0431f7">client</font></b>/
     </p>
     <p>
-      &#160;&#160;<b><font color="#ff0000">main.js</font></b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# client entry point, imports all client code
+      &#160;&#160;<b><font color="#ff0000">main.js</font></b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# client entry point, imports all client code, calls the startup code withing imports/startup/client
     </p>
     <p>
       
     </p>
     <p>
-      <b><font color="#0321f5" face="Monospaced">server</font></b>/
+      <b><font face="Monospaced" color="#0321f5">server</font></b>/
     </p>
     <p>
-      &#160;&#160;<b><font color="#fe0101">main.js</font></b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# server entry point, imports all server code
+      &#160;&#160;<b><font color="#fe0101">main.js</font></b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# server entry point, imports all server code, calles the startup code within imports/startup/server
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
@@ -5833,7 +5831,7 @@
 <node COLOR="#111111" CREATED="1461863341369" ID="ID_223618661" MODIFIED="1462205785978" TEXT="tests"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1461863601425" FOLDED="true" ID="ID_1548015980" MODIFIED="1463007545078" TEXT="splitting into multiple aps">
+<node COLOR="#00b439" CREATED="1461863601425" FOLDED="true" ID="ID_1548015980" MODIFIED="1463135918861" TEXT="splitting into multiple aps">
 <edge STYLE="bezier" WIDTH="thin"/>
 <cloud/>
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
