@@ -5668,7 +5668,7 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1461844465266" ID="ID_101396548" MODIFIED="1463150165625" TEXT="file structure">
+<node COLOR="#00b439" CREATED="1461844465266" FOLDED="true" ID="ID_101396548" MODIFIED="1463263352761" TEXT="file structure">
 <edge STYLE="bezier" WIDTH="thin"/>
 <cloud/>
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
@@ -5781,8 +5781,7 @@
       &#160;&#160;<b><font color="#fe0101">main.js</font></b>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;# server entry point, imports all server code, calles the startup code within imports/startup/server
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
