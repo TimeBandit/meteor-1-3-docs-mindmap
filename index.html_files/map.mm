@@ -7,7 +7,7 @@
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <icon BUILTIN="full-4"/>
-<node COLOR="#00b439" CREATED="1461874230125" FOLDED="true" ID="ID_585527631" MODIFIED="1463007671430" TEXT="collections &amp; schemas">
+<node COLOR="#00b439" CREATED="1461874230125" FOLDED="true" ID="ID_585527631" MODIFIED="1464001609276" TEXT="collections &amp; schemas">
 <edge STYLE="bezier" WIDTH="thin"/>
 <cloud/>
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
@@ -255,7 +255,7 @@
 <node COLOR="#111111" CREATED="1461925906341" ID="ID_462929114" MODIFIED="1462205785983" TEXT="breaking changes"/>
 <node COLOR="#111111" CREATED="1461925914324" ID="ID_1386062758" MODIFIED="1462205785983" TEXT="caveats"/>
 </node>
-<node COLOR="#990000" CREATED="1461971277774" ID="ID_875598323" MODIFIED="1462205785983" TEXT="associations between collections">
+<node COLOR="#990000" CREATED="1461971277774" ID="ID_875598323" MODIFIED="1464001591769" TEXT="associations between collections">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1461971303591" ID="ID_914099773" MODIFIED="1462205785983" TEXT="collection helpers">
 <node COLOR="#111111" CREATED="1461971328103" ID="ID_1434289967" LINK="https://atmospherejs.com/dburles/collection-helpers" MODIFIED="1462205785983" TEXT="dburles:collection-helpers">
@@ -343,7 +343,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1461874239693" FOLDED="true" ID="ID_863857151" MODIFIED="1463055336223" TEXT="publications &amp; data loading">
+<node COLOR="#00b439" CREATED="1461874239693" FOLDED="true" ID="ID_863857151" MODIFIED="1464043146938" TEXT="publications &amp; data loading">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -879,7 +879,7 @@
 <node COLOR="#990000" CREATED="1462199682760" ID="ID_551083177" MODIFIED="1462205785986" TEXT="advanced publications">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1462199694175" ID="ID_1821418555" MODIFIED="1462205785986" TEXT="publishing relational data">
-<node COLOR="#111111" CREATED="1462199996256" ID="ID_1819505566" LINK="https://atmospherejs.com/reywood/publish-composite" MODIFIED="1462205785986" TEXT="reywood:publish-composite">
+<node COLOR="#111111" CREATED="1462199996256" ID="ID_1819505566" LINK="https://atmospherejs.com/reywood/publish-composite" MODIFIED="1464001515802" TEXT="reywood:publish-composite">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -905,6 +905,9 @@
 <icon BUILTIN="password"/>
 </node>
 <node COLOR="#111111" CREATED="1462202265737" ID="ID_498969403" MODIFIED="1462205785987" TEXT="queries spanning multiple collections"/>
+<node COLOR="#111111" CREATED="1464001538905" ID="ID_1075195590" MODIFIED="1464001591770" TEXT="good for many-to-many relationships">
+<arrowlink DESTINATION="ID_875598323" ENDARROW="Default" ENDINCLINATION="1145;0;" ID="Arrow_ID_1979503698" STARTARROW="None" STARTINCLINATION="1145;0;"/>
+</node>
 </node>
 <node COLOR="#111111" CREATED="1462199704248" ID="ID_901184917" MODIFIED="1462205785987" TEXT="complex authorization"/>
 <node COLOR="#111111" CREATED="1462199714160" ID="ID_123955747" MODIFIED="1462207279303" TEXT="custom publications with low level API">
@@ -5078,7 +5081,7 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1461838394808" FOLDED="true" ID="ID_170558294" MODIFIED="1463006717472" TEXT="javascript style guide">
+<node COLOR="#00b439" CREATED="1461838394808" FOLDED="true" ID="ID_170558294" MODIFIED="1463996721122" TEXT="javascript style guide">
 <edge STYLE="bezier" WIDTH="thin"/>
 <cloud/>
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
@@ -5552,6 +5555,7 @@
 <node COLOR="#111111" CREATED="1461841274217" ID="ID_1932708143" MODIFIED="1462205785974" TEXT="sublime text packages">
 <node COLOR="#111111" CREATED="1461841282937" ID="ID_1127574223" LINK="https://github.com/babel/babel-sublime#installation" MODIFIED="1462205785974" TEXT="babel"/>
 <node COLOR="#111111" CREATED="1461841290833" ID="ID_1339447602" LINK="http://sublimelinter.readthedocs.org/en/latest/installation.html" MODIFIED="1462205785974" TEXT="sublinter"/>
+<node COLOR="#111111" CREATED="1463996688706" ID="ID_1216898117" LINK="https://github.com/Slava/tern-meteor-sublime" MODIFIED="1463996712970" TEXT="sublime tern.js"/>
 <node COLOR="#111111" CREATED="1461841296385" ID="ID_154353959" LINK="https://github.com/roadhump/SublimeLinter-eslint#plugin-installation" MODIFIED="1462205785974" TEXT="sublinter-contrib-eslint"/>
 </node>
 </node>
